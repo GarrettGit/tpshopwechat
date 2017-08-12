@@ -1,0 +1,441 @@
+[ 2017-08-06T07:29:11+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-08-06T07:29:15+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-08-06T07:29:15+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-08-06T07:29:15+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-08-06T07:29:15+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-08-06T07:29:34+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-08-06T07:29:34+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-08-06T07:29:34+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-08-06T07:29:34+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-08-06T07:31:01+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-08-06T07:31:01+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-08-06T07:31:01+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-08-06T07:31:01+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-08-06T07:40:46+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-08-06T07:40:46+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-08-06T07:40:46+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-08-06T07:40:46+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-08-06T07:40:56+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-08-06T07:40:56+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-08-06T07:40:56+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-08-06T07:40:56+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-08-06T07:41:09+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-08-06T07:41:09+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-08-06T07:41:09+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+
+[ 2017-08-06T07:41:09+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-08-06T07:45:43+08:00 ] 127.0.0.1 //index.php/WeChat/wechatApi/CustomizeMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-08-06T10:05:14+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+
+[ 2017-08-06T10:05:14+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+
+[ 2017-08-06T10:05:14+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-08-06T10:05:14+08:00 ] 127.0.0.1 /index.php/WeChat/WechatManagementPlat/a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+
+[ 2017-08-06T10:05:19+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/CustomizeMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ wechat_msgType ] --START--
+INFO: Run WeChat\Behaviors\MsgTypeBehavior [ RunTime:0.005557s ]
+INFO: [ wechat_msgType ] --END-- [ RunTime:0.005723s ]
+
+[ 2017-08-06T10:05:54+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/CustomizeMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ wechat_msgType ] --START--
+INFO: Run WeChat\Behaviors\MsgTypeBehavior [ RunTime:0.001482s ]
+INFO: [ wechat_msgType ] --END-- [ RunTime:0.001614s ]
+
+[ 2017-08-06T10:06:33+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/CustomizeMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+INFO: [ wechat_msgType ] --START--
+INFO: Run WeChat\Behaviors\MsgTypeBehavior [ RunTime:0.002023s ]
+INFO: [ wechat_msgType ] --END-- [ RunTime:0.002157s ]
+
+[ 2017-08-06T15:27:13+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tpshop.sp_wechat_users' doesn't exist
+
+[ 2017-08-06T15:27:32+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-08-06T15:29:25+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-08-06T15:42:07+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+
+[ 2017-08-06T15:42:24+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-08-06T15:42:37+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-08-06T15:47:19+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+ERR: syntax error, unexpected '{'
+
+[ 2017-08-06T15:47:37+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-08-06T15:48:02+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-08-06T15:50:50+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-08-06T15:51:49+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+
+[ 2017-08-06T15:54:43+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-08-06T15:55:11+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-08-06T15:56:15+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+ERR: syntax error, unexpected ')'
+
+[ 2017-08-06T15:56:36+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-08-06T15:58:33+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+
+[ 2017-08-06T15:58:57+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+
+[ 2017-08-06T15:59:17+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-08-06T15:59:54+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-08-06T16:00:07+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+
+[ 2017-08-06T16:10:37+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005538s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC)
+
+[ 2017-08-06T16:10:51+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-08-06T16:11:14+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+
+[ 2017-08-06T16:11:21+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+
+[ 2017-08-06T16:11:55+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC)
+
+[ 2017-08-06T16:12:08+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-08-06T16:12:32+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+
+[ 2017-08-06T16:13:03+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-08-06T16:14:50+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+
+[ 2017-08-06T16:14:54+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+
+[ 2017-08-06T16:15:35+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+
+[ 2017-08-06T16:16:15+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-08-06T16:16:42+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-08-06T16:16:59+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-08-06T16:17:17+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-08-06T16:23:15+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC)
+
+[ 2017-08-06T16:23:23+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-08-06T16:23:57+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-08-06T16:24:22+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-08-06T16:24:32+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-08-06T16:25:10+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-08-06T16:26:05+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-08-06T16:26:14+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-08-06T16:26:28+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-08-06T16:28:34+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-08-06T16:29:45+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/getWechatUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2017-08-06T22:28:40+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2017-08-06T22:28:53+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+
+[ 2017-08-06T22:29:12+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-08-06T22:32:46+08:00 ] 127.0.0.1 /index.php/WeChat/wechatApi/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+

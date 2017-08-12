@@ -1,0 +1,525 @@
+[ 2017-07-27T09:31:21+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-07-27T09:31:21+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-07-27T09:31:22+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-07-27T09:31:30+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-07-27T09:31:31+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-07-27T09:31:33+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-07-27T09:31:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-07-27T09:31:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+
+[ 2017-07-27T09:31:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-07-27T09:31:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-07-27T09:31:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-07-27T09:32:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-07-27T09:32:29+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-07-27T09:32:29+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-07-27T09:32:56+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-07-27T09:33:00+08:00 ] 127.0.0.1 /index.php/Admin/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-07-27T09:37:05+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-07-27T09:37:05+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-07-27T09:37:36+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-07-27T09:37:40+08:00 ] 127.0.0.1 /index.php/Admin/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-07-27T10:23:34+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-07-27T10:23:35+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-07-27T10:23:35+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-07-27T10:23:59+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-07-27T10:24:03+08:00 ] 127.0.0.1 /index.php/Admin/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-07-27T10:24:13+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-07-27T10:24:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-07-27T10:24:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-07-27T10:24:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-07-27T10:24:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-07-27T10:24:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2017-07-27T10:25:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-07-27T10:25:02+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-07-27T10:25:02+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-07-27T10:25:27+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-07-27T10:25:31+08:00 ] 127.0.0.1 /index.php/Admin/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-07-27T10:44:48+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2017-07-27T10:44:48+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-07-27T10:44:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-07-27T10:46:40+08:00 ] 127.0.0.1 /index.php/Admin/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载控制器:Shop
+
+[ 2017-07-27T15:38:28+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-07-27T15:38:29+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+
+[ 2017-07-27T15:38:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-07-27T15:38:38+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-07-27T15:38:39+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-07-27T15:38:40+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-07-27T15:38:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-07-27T15:38:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-07-27T15:38:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+
+[ 2017-07-27T15:38:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-07-27T15:38:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-07-27T15:38:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-07-27T15:39:09+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-07-27T15:39:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-07-27T15:39:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-07-27T15:39:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-07-27T15:39:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-07-27T15:39:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-07-27T15:39:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-07-27T15:39:39+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-07-27T15:40:01+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-07-27T15:40:01+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-07-27T15:40:02+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-07-27T15:40:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2017-07-27T15:40:21+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-07-27T15:40:21+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001991s ]
+
+[ 2017-07-27T15:40:22+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-07-27T15:43:33+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-07-27T15:43:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-07-27T15:43:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002407s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002917s ]
+
+[ 2017-07-27T15:43:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-07-27T15:43:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-07-27T15:43:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-07-27T15:43:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-07-27T15:43:42+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-07-27T15:43:42+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-07-27T15:43:43+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-07-27T15:44:23+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-07-27T15:44:27+08:00 ] 127.0.0.1 /index.php/Admin/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-07-27T15:44:57+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-07-27T15:44:57+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-07-27T15:44:58+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-07-27T15:45:19+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-07-27T15:45:23+08:00 ] 127.0.0.1 /index.php/Admin/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-07-27T16:20:46+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-07-27T16:20:46+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-07-27T16:20:46+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-07-27T16:20:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-07-27T16:20:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-07-27T16:20:55+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+
+[ 2017-07-27T16:20:56+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-07-27T16:20:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-07-27T16:20:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-07-27T16:20:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-07-27T16:21:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-07-27T16:21:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+
+[ 2017-07-27T16:21:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-07-27T16:21:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+
+[ 2017-07-27T16:21:11+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-07-27T16:21:11+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-07-27T16:21:12+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-07-27T16:22:24+08:00 ] 127.0.0.1 /index.php/Admin/seckill/addseckill/goods_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-07-27T16:22:29+08:00 ] 127.0.0.1 /index.php/Admin/goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+

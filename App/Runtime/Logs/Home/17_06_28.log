@@ -1,0 +1,947 @@
+[ 2017-06-28T09:02:02+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-06-28T09:02:08+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-06-28T09:02:11+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-06-28T09:02:14+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-28T09:02:16+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-06-28T09:02:18+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-06-28T09:02:18+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-06-28T09:02:27+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-06-28T09:02:28+08:00 ] 127.0.0.1 /index.php/Home/Shop/GoodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-06-28T09:02:32+08:00 ] 127.0.0.1 /index.php/Home/Shop/GoodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-06-28T09:02:36+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-06-28T09:52:07+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-06-28T10:12:15+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-06-28T10:12:19+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-06-28T10:12:19+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2017-06-28T10:12:21+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-06-28T10:12:24+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=D4E45C071E2404080D3B396168EFEB3E&state=c879ada2701a6450d1a30ffc42050ffd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-06-28T10:13:17+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-06-28T10:13:20+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=6DA00B4187AD6C62C419599E9E55504F&state=ac2df8d3fc3a1e225537426891d4e0a6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-06-28T10:14:25+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-06-28T10:14:46+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=C701C704D3410727AC4C08FC6964920E&state=f28de4a5dd71a03a96c0d93ff1f17d70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-06-28T10:15:12+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-06-28T10:15:14+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=023C73501EA7DB30E95A731819C91A54&state=61be9aaff288dfd08157afa7a7433fa0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: Class 'Home\Controller\QC' not found
+
+[ 2017-06-28T10:15:36+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-06-28T10:15:38+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=69DD0A6771527E05F75905212087950C&state=44f067f433dfebc675a888dbe82414a6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-06-28T10:16:27+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002020s ]
+
+[ 2017-06-28T10:16:30+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=207F52B48C434107BBC8B8C1BFB55489&state=d4c9fc9130e926bf12dd6cab6459066a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-06-28T10:17:49+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-06-28T10:17:51+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-06-28T10:17:57+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=36113012CA2104C42D263128BDCFA654&state=4d6dfb5f440e26e52099384489666511
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-06-28T10:19:04+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: syntax error, unexpected '}'
+
+[ 2017-06-28T10:19:32+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-06-28T10:19:35+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=AE54DE11540A110F7DF4E83CFD6351E4&state=18328742c90e07d47041281b5a3b246c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-06-28T10:19:49+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-06-28T10:19:52+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=D391BFD99F2593882E8F74FBA028E12A&state=91718052f306b0734095c5ebb674db00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-06-28T10:22:09+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-06-28T10:22:12+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=21C23C810078246E47D0D2C5373F3051&state=c21b9c1ce6577ac026e47082d3892f4e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-06-28T10:22:29+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-06-28T10:22:32+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=1C8FC72106DB86977C8FFA0E5606AC65&state=e5112e5e741ca1ba0a56ae31a5afce7d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-06-28T10:37:09+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-06-28T10:37:13+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=3D2067B716497AC718AAF4CF8A291C7C&state=1eb8271c8126e75c1f70c287194c3f50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-06-28T10:37:15+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-06-28T10:37:25+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-28T15:27:43+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+
+[ 2017-06-28T15:27:46+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-06-28T15:27:48+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-06-28T15:28:08+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=9CAD66306294C9086A03C849E857BBC4&state=c954df58f861c16affd1de1910738793
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-06-28T15:28:10+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-06-28T15:28:47+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-06-28T15:28:47+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-06-28T15:28:50+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-06-28T15:28:54+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=BEA28D68ACA5E93E3ECA021A57019642&state=08207a2369a819cf95f6c45cb44f7455
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-06-28T15:28:56+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-06-28T15:40:25+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+
+[ 2017-06-28T15:40:29+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=0F0BB7E54392DBADA63914B7124BA3EE&state=04f2638f255f9ba2e6ef0a1e7b83dbb6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-06-28T15:40:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-06-28T15:41:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-06-28T15:41:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-06-28T15:41:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-06-28T15:41:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-06-28T15:41:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-06-28T15:41:56+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-06-28T15:41:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-06-28T15:42:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-06-28T15:52:01+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-06-28T15:52:17+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-06-28T15:52:18+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-28T15:52:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-06-28T15:52:41+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-06-28T15:52:41+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-06-28T16:12:50+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-06-28T16:12:52+08:00 ] 127.0.0.1 /index.php/Home/User/NAN.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+ERR: 非法操作:NAN
+
+[ 2017-06-28T16:13:19+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-06-28T16:13:24+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-06-28T16:13:27+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-28T17:03:18+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-06-28T17:03:19+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-06-28T17:03:22+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-06-28T17:05:08+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2017-06-28T17:05:16+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-06-28T17:06:12+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-06-28T17:06:21+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-06-28T17:06:39+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-06-28T18:46:13+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+
+[ 2017-06-28T18:46:15+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-06-28T18:46:16+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2017-06-28T19:49:02+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+ERR: Class 'Home\Controller\oAuth' not found
+
+[ 2017-06-28T19:50:01+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: Class 'Common\Common\Common\oAuth' not found
+
+[ 2017-06-28T19:50:20+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-06-28T19:51:47+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-06-28T19:52:23+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-06-28T19:52:25+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-06-28T19:52:25+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-06-28T19:52:25+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-06-28T19:52:26+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-06-28T19:55:07+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-28T19:55:10+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-06-28T19:56:24+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-06-28T19:56:26+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-06-28T19:57:55+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-28T19:58:00+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-06-28T19:58:02+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-06-28T19:58:39+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-06-28T19:58:41+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-06-28T19:59:29+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-06-28T19:59:31+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-06-28T20:00:23+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-06-28T20:05:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-06-28T20:05:25+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-06-28T20:05:28+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-06-28T20:08:43+08:00 ] 127.0.0.1 /index.php/home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-06-28T20:08:45+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-06-28T20:34:28+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-06-28T20:34:59+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=0e6c264ef3eba5de646a27ae1ae08e5e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+ERR: get access token failed.redirect_uri_mismatch
+
+[ 2017-06-28T20:35:30+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-06-28T20:36:28+08:00 ] 127.0.0.1 /index.php/home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-06-28T20:36:30+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-06-28T20:36:53+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-06-28T20:37:10+08:00 ] 127.0.0.1 /index.php/home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-06-28T20:37:12+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-06-28T20:39:51+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-06-28T20:40:46+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-06-28T20:41:38+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-06-28T20:41:54+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-06-28T20:44:14+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=396eadc5195558163da399e2cab85f6f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-06-28T20:58:45+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2017-06-28T20:58:48+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-06-28T20:58:50+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-06-28T20:59:02+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=a8a7ca86605f1fe86975500588a8e2fd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-06-28T20:59:26+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=a8a7ca86605f1fe86975500588a8e2fd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: get access token failed.invalid_grant
+
+[ 2017-06-28T20:59:32+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-06-28T20:59:37+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=0e714a8ea0ba7ff5ab082d63198da0f2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-06-28T20:59:56+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=0e714a8ea0ba7ff5ab082d63198da0f2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: get access token failed.invalid_grant
+
+[ 2017-06-28T21:00:04+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=9b61ca50ba2e001d0f68178ab319d069
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-06-28T21:01:57+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=ab47337f7a692743796194ad86b40a62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-06-28T21:04:40+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=ab47337f7a692743796194ad86b40a62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: get access token failed.invalid_grant
+
+[ 2017-06-28T21:04:45+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=fce78c5ede928f3ddd57cc55d0cee125
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: Call to undefined method Common\Common\oAuth::home_timeline()
+
+[ 2017-06-28T21:06:57+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=d22738d1bfbc6bd37b99c7c3b3898112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: Call to undefined method Common\Common\oAuth::get_uid()
+
+[ 2017-06-28T21:08:07+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=ef3dcefedfbca2c1256196d56a0419a5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+ERR: Class 'Home\Controller\SaeTClientV2' not found
+
+[ 2017-06-28T21:08:29+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=ef3dcefedfbca2c1256196d56a0419a5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+ERR: get access token failed.invalid_grant
+
+[ 2017-06-28T21:08:42+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=4f6d2603a7f1d46b414faec728f59468
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+ERR: Class 'Common\Common\SaeTOAuthV2' not found
+
+[ 2017-06-28T21:11:21+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=e8542b079a4bde2f46cd893b2899fd4e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-06-28T21:12:24+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=f572bfb7e27316622a9db32d6f6ea4f7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-06-28T21:16:21+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+
+[ 2017-06-28T21:16:34+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-06-28T21:16:36+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-06-28T21:16:38+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=a62a8cde2141ca73f50633d3d24181e2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-06-28T21:17:50+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-06-28T21:17:55+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=282e87316bbb087c244bb1a153779d35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+
+[ 2017-06-28T21:18:35+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=282e87316bbb087c244bb1a153779d35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: get access token failed.invalid_grant
+
+[ 2017-06-28T21:20:23+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-06-28T21:20:24+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=2c7fd659ac19244cb408629b180f31a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-06-28T21:22:05+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-06-28T21:22:07+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-06-28T21:22:08+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=b03cb293127059fad1b2ca405df3378f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+
+[ 2017-06-28T21:36:26+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC)
+
+[ 2017-06-28T21:36:52+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-06-28T21:36:55+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=3bc0cb0b636da6e7e508e07031d29e2d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-06-28T21:37:00+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=3bc0cb0b636da6e7e508e07031d29e2d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: get access token failed.invalid_grant
+
+[ 2017-06-28T21:37:13+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=3bc0cb0b636da6e7e508e07031d29e2d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+ERR: get access token failed.invalid_grant
+
+[ 2017-06-28T21:37:33+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-06-28T21:37:35+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=dd58401fafa74df2402102afcb9be0cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-06-28T22:28:59+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=dd58401fafa74df2402102afcb9be0cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: get access token failed.invalid_grant
+
+[ 2017-06-28T22:29:05+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=dd58401fafa74df2402102afcb9be0cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: get access token failed.invalid_grant
+
+[ 2017-06-28T22:29:08+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-06-28T22:29:10+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=065d622a85e7cbb19abf506e37f5d32b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+ERR: Call to a member function add() on null
+
+[ 2017-06-28T22:29:37+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-06-28T22:29:39+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=d9ded84a0697128e319952e4a853364a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-06-28T22:29:42+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-06-28T22:42:12+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-06-28T22:42:12+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-06-28T22:42:14+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-06-28T22:42:17+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=b1dcee00cd7e5509fc356247eb0e02f6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-06-28T22:42:19+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-06-28T22:48:23+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-06-28T22:48:23+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-06-28T22:48:25+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-06-28T22:48:29+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=af61ad5fdcc6696aa73c16b32b11fc0b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-06-28T22:48:31+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-06-28T22:48:49+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-06-28T22:48:49+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-06-28T22:48:51+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-28T22:48:56+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=885634a5112506d62f39ac5cba26c727
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-06-28T22:48:58+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+

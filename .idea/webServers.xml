@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="34428054-9b74-4039-a255-1121cdacc0b5" name="tpshop" url="http://www.tpshop.com">
+        <fileTransfer port="0" mountedRoot="D:\web\tpshop" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

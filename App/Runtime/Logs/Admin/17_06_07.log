@@ -1,0 +1,399 @@
+[ 2017-06-07T19:33:07+08:00 ] 127.0.0.1 /index.php/Admin/Type/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-06-07T19:33:07+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-06-07T19:33:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-06-07T19:33:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-06-07T19:33:18+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-06-07T19:33:19+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-06-07T19:33:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-06-07T19:33:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-06-07T19:33:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-06-07T19:33:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-06-07T19:33:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-06-07T19:33:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+
+[ 2017-06-07T19:33:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-06-07T21:19:45+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-06-07T21:19:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-06-07T21:19:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-06-07T21:19:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-06-07T21:19:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-06-07T21:19:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-06-07T21:19:54+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载控制器:Order
+
+[ 2017-06-07T21:22:24+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-06-07T21:22:26+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-06-07T21:22:27+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+ERR: 非法操作:dayin
+
+[ 2017-06-07T21:22:28+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 非法操作:dayin
+
+[ 2017-06-07T21:22:29+08:00 ] 127.0.0.1 /index.php/Admin/Order/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 非法操作:tianjia
+
+[ 2017-06-07T21:22:32+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+ERR: 非法操作:dayin
+
+[ 2017-06-07T21:22:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-06-07T21:22:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-06-07T21:22:57+08:00 ] 127.0.0.1 /index.php/Admin/Manager/addManager.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-06-07T21:22:57+08:00 ] 127.0.0.1 /index.php/Admin/Manager/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-06-07T21:22:57+08:00 ] 127.0.0.1 /index.php/Admin/Manager/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-06-07T21:23:04+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-06-07T21:23:06+08:00 ] 127.0.0.1 /index.php/Admin/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+
+[ 2017-06-07T21:29:49+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-06-07T21:29:51+08:00 ] 127.0.0.1 /index.php/Admin/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+
+[ 2017-06-07T21:29:53+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+
+[ 2017-06-07T21:29:58+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0214s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0155s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 123 [ RunTime:0.0058s ]
+
+[ 2017-06-07T21:29:59+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-06-07T21:30:03+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0362s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0162s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 122 [ RunTime:0.0038s ]
+
+[ 2017-06-07T21:30:04+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-06-07T21:30:05+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0202s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0204s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 122 [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\web\tpshop\App\Admin\Controller\RoleController.class.php 第 80 行.
+
+[ 2017-06-07T21:30:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-07T21:30:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-06-07T21:42:26+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-06-07T21:42:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-06-07T21:42:28+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-06-07T21:42:34+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-06-07T21:42:37+08:00 ] 127.0.0.1 /index.php/Admin/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-06-07T21:42:40+08:00 ] 127.0.0.1 /index.php/Admin/Auth/addAuth.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2017-06-07T21:42:40+08:00 ] 127.0.0.1 /index.php/Admin/Auth/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-06-07T21:42:40+08:00 ] 127.0.0.1 /index.php/Admin/Auth/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-06-07T21:42:43+08:00 ] 127.0.0.1 /index.php/Admin/Auth/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-06-07T21:42:45+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-06-07T21:42:48+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-06-07T21:42:48+08:00 ] 127.0.0.1 /index.php/Admin/Role/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-06-07T21:42:55+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0346s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0245s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('老师') [ RunTime:0.0086s ]
+
+[ 2017-06-07T21:42:59+08:00 ] 127.0.0.1 /index.php/Admin/Role/redirectUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-06-07T21:43:00+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/role_id/124.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-06-07T21:43:10+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.1401s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 124 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.5986s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > 0 AND `auth_id` IN ('101','104','102','107')  [ RunTime:0.0006s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107',`role_auth_ac`='Goods-showlist,Order-showlist' WHERE `role_id` = 124 [ RunTime:0.0040s ]
+
+[ 2017-06-07T21:43:14+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-06-07T21:43:22+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-06-07T21:43:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001828s ]
+
+[ 2017-06-07T21:57:02+08:00 ] 127.0.0.1 /index.php/Admin/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-06-07T21:57:05+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-06-07T21:57:09+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0339s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0172s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 124 [ RunTime:0.0037s ]
+
+[ 2017-06-07T21:57:10+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+

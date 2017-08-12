@@ -1,0 +1,3190 @@
+[ 2017-06-09T15:03:30+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-06-09T15:03:33+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-06-09T15:03:39+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION)
+
+[ 2017-06-09T15:05:13+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-06-09T15:05:31+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-06-09T15:05:39+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-06-09T15:05:50+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2017-06-09T15:29:23+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+
+[ 2017-06-09T15:33:15+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-06-09T15:33:17+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-06-09T15:33:19+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-06-09T15:33:40+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-06-09T15:33:45+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-06-09T15:33:52+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-06-09T15:33:55+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2017-06-09T15:34:01+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-06-09T15:36:14+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-09T15:36:39+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-06-09T15:37:15+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-06-09T15:37:46+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-06-09T15:38:44+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-06-09T15:38:47+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 非法操作:register
+
+[ 2017-06-09T15:39:16+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 模板不存在:./App/Home/View/User/register.html
+
+[ 2017-06-09T15:39:34+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-06-09T15:39:34+08:00 ] 127.0.0.1 /index.php/Home/user/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-06-09T15:39:35+08:00 ] 127.0.0.1 /index.php/Home/user/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-06-09T15:41:14+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-06-09T15:41:14+08:00 ] 127.0.0.1 /index.php/Home/user/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-06-09T15:41:15+08:00 ] 127.0.0.1 /index.php/Home/user/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-06-09T15:42:30+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-06-09T15:42:30+08:00 ] 127.0.0.1 /index.php/Home/user/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-06-09T15:42:30+08:00 ] 127.0.0.1 /index.php/Home/user/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-06-09T15:42:44+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-06-09T15:42:45+08:00 ] 127.0.0.1 /index.php/Home/user/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+
+[ 2017-06-09T15:42:45+08:00 ] 127.0.0.1 /index.php/Home/user/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-06-09T15:47:50+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-06-09T15:47:50+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-06-09T15:49:20+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-06-09T15:49:20+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+
+[ 2017-06-09T15:49:21+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.048576034730998474
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-06-09T15:49:22+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.43218900043242603
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-06-09T15:49:23+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.9673052367738839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-06-09T15:49:23+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.01907389223535838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-06-09T15:49:23+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.2735302201174721
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2017-06-09T15:49:24+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.6887929484839648
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-06-09T15:49:24+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.876296567445052
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-06-09T15:49:25+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.3302965257317765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-06-09T15:49:25+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.6379381603710863
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+
+[ 2017-06-09T15:49:25+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.18761901168478978
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-06-09T15:49:26+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.7126900063900528
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-06-09T15:49:26+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.49225681483311057
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-06-09T15:49:26+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.7724087248240126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+
+[ 2017-06-09T15:49:26+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.8512454537257312
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2017-06-09T15:49:27+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.036476169116642865
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+
+[ 2017-06-09T15:49:27+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg/0.49445718923155524
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2017-06-09T15:49:57+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-06-09T15:49:57+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-06-09T15:51:04+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-06-09T15:51:04+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-06-09T15:51:44+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-09T15:51:44+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-06-09T15:53:20+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-06-09T15:53:20+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+
+[ 2017-06-09T15:53:51+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-06-09T15:53:51+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-06-09T15:54:23+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-06-09T15:54:39+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-06-09T16:06:12+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-06-09T16:07:16+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-06-09T16:09:51+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-06-09T16:12:18+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-09T16:12:22+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-06-09T16:12:22+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-06-09T16:33:28+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+
+[ 2017-06-09T16:33:28+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-06-09T16:35:06+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-06-09T16:35:06+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-06-09T16:35:10+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-06-09T16:35:10+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-06-09T16:36:01+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: syntax error, unexpected '}'
+
+[ 2017-06-09T16:36:09+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-06-09T16:36:09+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-06-09T16:36:11+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-06-09T16:36:11+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+
+[ 2017-06-09T16:36:15+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-06-09T16:36:15+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-06-09T16:36:16+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2017-06-09T16:36:16+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002770s ]
+
+[ 2017-06-09T16:36:27+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-06-09T16:36:27+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-06-09T16:36:30+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-06-09T16:36:30+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-06-09T16:36:50+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-06-09T16:36:50+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-06-09T16:39:31+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-06-09T16:39:31+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-06-09T16:39:33+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-06-09T16:39:33+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-06-09T16:40:16+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-06-09T16:40:16+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-06-09T16:40:18+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-06-09T16:40:18+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-06-09T16:45:18+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-06-09T16:45:18+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-06-09T16:45:21+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-06-09T16:45:21+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-06-09T16:45:29+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-06-09T16:45:29+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-06-09T16:45:33+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-06-09T16:45:33+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004809s ]
+
+[ 2017-06-09T16:46:02+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-06-09T16:46:02+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-06-09T16:46:03+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-06-09T16:46:03+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-06-09T16:46:05+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-06-09T16:46:05+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-06-09T16:46:14+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-06-09T16:46:14+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-06-09T16:49:04+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-06-09T16:49:04+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-06-09T16:49:32+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-06-09T16:49:32+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-06-09T16:49:47+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-06-09T16:49:47+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-06-09T16:49:52+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-06-09T16:49:52+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-06-09T16:49:58+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-06-09T16:49:58+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-06-09T16:50:02+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-06-09T16:50:02+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-06-09T16:50:04+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-06-09T16:50:04+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+
+[ 2017-06-09T16:50:10+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-06-09T16:50:10+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-06-09T16:51:17+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-06-09T16:51:17+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-06-09T16:51:24+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-06-09T16:51:24+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-06-09T16:52:20+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+
+[ 2017-06-09T16:52:20+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-06-09T16:52:27+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-06-09T16:52:27+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-06-09T16:54:30+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-06-09T16:54:30+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-06-09T16:54:39+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-06-09T16:54:39+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-06-09T16:55:06+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-06-09T16:55:06+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-06-09T17:00:21+08:00 ] 127.0.0.1 /index.php/Home/user/pel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 非法操作:pel_register
+
+[ 2017-06-09T17:12:30+08:00 ] 127.0.0.1 /index.php/Home/user/pel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-06-09T17:18:02+08:00 ] 127.0.0.1 /index.php/Home/user/pel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 模板不存在:./App/Home/View/User/pel_register.html
+
+[ 2017-06-09T17:19:30+08:00 ] 127.0.0.1 /index.php/Home/user/pel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 非法操作:pel_register
+
+[ 2017-06-09T17:19:34+08:00 ] 127.0.0.1 /index.php/Home/user/pel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+ERR: 非法操作:pel_register
+
+[ 2017-06-09T17:19:57+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-06-09T17:19:57+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-06-09T17:19:58+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-06-09T17:21:57+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-06-09T17:22:40+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-06-09T17:22:50+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-06-09T17:22:51+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-06-09T17:23:12+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-06-09T17:23:13+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-06-09T17:26:32+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-06-09T17:26:47+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-06-09T17:26:56+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-06-09T17:30:57+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-06-09T17:30:59+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-06-09T17:31:06+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-06-09T17:31:16+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-06-09T17:32:51+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-06-09T17:32:56+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2017-06-09T17:32:59+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-06-09T17:33:01+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-06-09T17:34:28+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-06-09T17:35:19+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-06-09T17:35:30+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-06-09T17:36:40+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-06-09T17:37:01+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-06-09T18:50:13+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-06-09T18:50:18+08:00 ] 127.0.0.1 /index.php/Home/user/%7B[$smarty.const./index.php/Home/User]%7D/sendCheckCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+ERR: 非法操作:{[$smarty.const
+
+[ 2017-06-09T18:50:44+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-06-09T18:50:49+08:00 ] 127.0.0.1 /index.php/Home/user/%7B[$smarty.const./index.php/Home/User]%7D/sendCheckCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+ERR: 非法操作:{[$smarty.const
+
+[ 2017-06-09T18:51:35+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-06-09T18:51:40+08:00 ] 127.0.0.1 /index.php/Home/user/%7B[$smarty.const./index.php/Home/User]%7D/sendCheckCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+ERR: 非法操作:{[$smarty.const
+
+[ 2017-06-09T18:51:48+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-06-09T18:52:45+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-06-09T18:52:51+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-06-09T18:53:32+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-09T18:54:04+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-06-09T18:54:09+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-06-09T18:54:21+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-06-09T18:54:35+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2017-06-09T18:56:31+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-06-09T18:56:37+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2017-06-09T18:58:36+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-06-09T18:58:50+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2017-06-09T18:59:28+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-06-09T19:00:05+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-06-09T19:00:10+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-06-09T19:00:39+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-06-09T19:00:46+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-06-09T19:03:44+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-06-09T19:04:01+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: res D:\web\tpshop\App\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-06-09T19:04:03+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: res D:\web\tpshop\App\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-09T19:04:03+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Undefined variable: res D:\web\tpshop\App\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-06-09T19:04:09+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-06-09T19:04:26+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-06-09T19:07:03+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-06-09T19:10:59+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-06-09T19:11:38+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-06-09T19:12:26+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-06-09T19:12:31+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2017-06-09T19:14:20+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-06-09T19:14:25+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-06-09T19:15:31+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-06-09T19:15:33+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2017-06-09T19:15:37+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2017-06-09T19:16:56+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-06-09T19:16:57+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-06-09T19:16:58+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-06-09T19:17:02+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-06-09T19:17:09+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-06-09T19:17:11+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-06-09T19:17:36+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-06-09T19:17:40+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-06-09T19:29:08+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-06-09T19:29:13+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-06-09T19:29:25+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0047s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`) VALUES ('15966329880','67de24198a1cb79d53ac45a0866d59f7') [ RunTime:0.0052s ]
+
+[ 2017-06-09T19:29:32+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-06-09T19:48:15+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-06-09T19:48:22+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-06-09T19:48:25+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-09T19:48:38+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+ERR: Call to undefined function Home\Controller\userTelRegiste()
+
+[ 2017-06-09T19:48:42+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+ERR: Call to undefined function Home\Controller\userTelRegiste()
+
+[ 2017-06-09T19:49:00+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+ERR: syntax error, unexpected ','
+
+[ 2017-06-09T19:49:28+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+ERR: syntax error, unexpected '}'
+
+[ 2017-06-09T19:49:44+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+ERR: syntax error, unexpected ']'
+
+[ 2017-06-09T19:50:02+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0057s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('15966329880','67de24198a1cb79d53ac45a0866d59f7','激活','45e506-092988') [ RunTime:0.0039s ]
+
+[ 2017-06-09T19:50:05+08:00 ] 127.0.0.1 /index.php/Home/user/msg.backUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 非法操作:msg.backUrl
+
+[ 2017-06-09T19:50:57+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0154s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('15966329880','67de24198a1cb79d53ac45a0866d59f7','激活','645e06-092988') [ RunTime:0.0039s ]
+
+[ 2017-06-09T19:51:00+08:00 ] 127.0.0.1 /index.php/Home/user/msg.backUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 非法操作:msg.backUrl
+
+[ 2017-06-09T19:52:23+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0067s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('15966329880','67de24198a1cb79d53ac45a0866d59f7','激活','dfae06-092988') [ RunTime:0.0039s ]
+
+[ 2017-06-09T19:52:26+08:00 ] 127.0.0.1 /index.php/Home/user/msg.backUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 非法操作:msg.backUrl
+
+[ 2017-06-09T19:53:15+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0140s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('15966329880','67de24198a1cb79d53ac45a0866d59f7','激活','7b4a06-092988') [ RunTime:0.0038s ]
+
+[ 2017-06-09T19:53:18+08:00 ] 127.0.0.1 /index.php/Home/user/msg.backUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 非法操作:msg.backUrl
+
+[ 2017-06-09T19:53:28+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-06-09T19:53:34+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0121s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('15966329880','67de24198a1cb79d53ac45a0866d59f7','激活','616e06-092988') [ RunTime:0.0035s ]
+
+[ 2017-06-09T19:54:15+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-06-09T19:54:23+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0129s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('15966329880','67de24198a1cb79d53ac45a0866d59f7','激活','0d7f06-092988') [ RunTime:0.0039s ]
+
+[ 2017-06-09T19:54:23+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-06-09T19:54:42+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-06-09T19:55:23+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-06-09T19:55:36+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-06-09T19:56:10+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-06-09T19:56:19+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0075s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('15966329880','67de24198a1cb79d53ac45a0866d59f7','激活','04d91706092988') [ RunTime:0.0039s ]
+
+[ 2017-06-09T19:56:19+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-06-09T19:56:53+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-06-09T19:57:20+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-06-09T19:57:23+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-06-09T19:57:28+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0118s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('15966329880','67de24198a1cb79d53ac45a0866d59f7','激活','9b641706092988') [ RunTime:0.0042s ]
+
+[ 2017-06-09T19:57:28+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-06-09T19:57:35+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2017-06-09T19:57:35+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-06-09T19:58:49+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-06-09T19:58:49+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-06-09T19:59:18+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2017-06-09T20:00:47+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2017-06-09T20:01:01+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-06-09T20:01:07+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2017-06-09T20:01:22+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-06-09T20:01:31+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-06-09T20:01:33+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-06-09T20:01:36+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0129s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('','d41d8cd98f00b204e9800998ecf8427e','激活','214c170609') [ RunTime:0.0045s ]
+
+[ 2017-06-09T20:01:39+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-06-09T20:01:44+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0111s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('','d41d8cd98f00b204e9800998ecf8427e','激活','f360170609') [ RunTime:0.0040s ]
+
+[ 2017-06-09T20:01:47+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-06-09T20:03:24+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-06-09T20:03:27+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-06-09T20:03:29+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-06-09T20:03:30+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-06-09T20:03:31+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-06-09T20:03:31+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-06-09T20:03:31+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-06-09T20:03:32+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-06-09T20:03:32+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-06-09T20:03:32+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2017-06-09T20:03:32+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-06-09T20:03:35+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-06-09T20:04:54+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-06-09T20:04:57+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-06-09T20:05:01+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-06-09T20:05:08+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-06-09T20:05:11+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-06-09T20:05:21+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-06-09T20:05:24+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-06-09T20:05:37+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0078s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('15966329880','67de24198a1cb79d53ac45a0866d59f7','激活','3d661706092988') [ RunTime:0.0037s ]
+
+[ 2017-06-09T20:06:12+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-06-09T20:06:16+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: userName D:\web\tpshop\App\Runtime\Cache\Home\7d7c23c443d588e02416046021971cd9.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-06-09T20:06:35+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-06-09T20:06:39+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-06-09T20:06:51+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0112s ]
+SQL: INSERT INTO `sp_user` (`user_tel`,`password`,`is_active`,`username`) VALUES ('15966329880','67de24198a1cb79d53ac45a0866d59f7','激活','5afe1706092988') [ RunTime:0.0043s ]
+
+[ 2017-06-09T20:06:54+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-06-09T20:07:08+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-09T20:07:08+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-06-09T20:14:56+08:00 ] 127.0.0.1 /index.php/Home/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 非法操作:center
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/style/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/style/global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/style/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/style/home.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/style/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-1.8.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/style/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/style/global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/style/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/style/home.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/js/home.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/images/xin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/images/kexin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/images/police.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-06-09T20:15:03+08:00 ] 127.0.0.1 /index.php/Home/user/images/beian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/style/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-1.8.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/js/home.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001497s ]
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/style/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-1.8.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001489s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/js/home.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-06-09T20:18:19+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/style/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-1.8.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/js/home.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/style/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-1.8.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/js/home.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-06-09T20:18:51+08:00 ] 127.0.0.1 /index.php/Home/user/images/view_list3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/style/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-1.8.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/js/home.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/style/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 非法操作:style
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/js/jquery-1.8.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:19:20+08:00 ] 127.0.0.1 /index.php/Home/user/js/home.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001617s ]
+ERR: 非法操作:js
+
+[ 2017-06-09T20:19:48+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-06-09T20:22:54+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-06-09T20:23:09+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-06-09T20:23:11+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2017-06-09T20:23:22+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-06-09T20:23:22+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-06-09T20:23:31+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-06-09T20:26:01+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-06-09T20:26:05+08:00 ] 127.0.0.1 /index.php/Home/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 非法操作:center
+
+[ 2017-06-09T20:26:52+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-06-09T20:26:54+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-06-09T20:26:55+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-06-09T20:26:55+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-06-09T20:26:58+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-06-09T20:33:21+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-06-09T20:33:24+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-06-09T20:33:25+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-06-09T20:34:34+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-06-09T20:37:05+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-06-09T20:37:33+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-06-09T20:38:49+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2017-06-09T20:56:23+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: syntax error, unexpected '>'
+
+[ 2017-06-09T20:56:52+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: syntax error, unexpected '>'
+
+[ 2017-06-09T20:57:24+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: syntax error, unexpected '>'
+
+[ 2017-06-09T20:57:39+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-06-09T20:57:42+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2017-06-09T20:58:32+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-06-09T20:58:37+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-06-09T20:58:41+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-06-09T20:58:42+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-06-09T20:58:49+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-06-09T20:58:53+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-06-09T21:00:07+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-06-09T21:01:17+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-06-09T21:01:19+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+
+[ 2017-06-09T21:01:33+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-06-09T21:01:37+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-06-09T21:01:44+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-06-09T21:23:20+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-06-09T21:23:25+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-06-09T21:24:33+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+
+[ 2017-06-09T21:24:35+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+
+[ 2017-06-09T21:24:37+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-06-09T21:25:12+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-06-09T21:25:27+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-06-09T21:25:30+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-06-09T21:25:34+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-06-09T21:31:04+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-06-09T21:31:06+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-06-09T21:31:07+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-06-09T21:34:51+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2017-06-09T21:35:02+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-06-09T21:35:16+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-06-09T21:35:19+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-06-09T21:39:33+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-06-09T21:39:52+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-06-09T21:41:32+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-06-09T21:45:34+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-06-09T21:45:56+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-06-09T21:46:21+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-06-09T21:46:34+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-06-09T21:49:30+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-06-09T21:51:11+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-06-09T21:51:46+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-06-09T21:54:27+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+
+[ 2017-06-09T21:55:15+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-06-09T21:58:25+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-06-09T21:59:27+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-06-09T21:59:35+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-06-09T22:00:37+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-06-09T22:00:41+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-06-09T22:00:42+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-06-09T22:00:53+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-06-09T22:01:51+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2017-06-09T22:02:02+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-06-09T22:02:04+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+
+[ 2017-06-09T22:02:07+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-06-09T22:02:12+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2017-06-09T22:02:14+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-06-09T22:02:14+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2017-06-09T22:02:18+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2017-06-09T22:02:26+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-06-09T22:02:32+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 64 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-06-09T22:02:45+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+

@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/App/Admin/Controller/RoleController.class.php" line="88" mnemonic="7" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25d44f72-8f79-490b-a3ed-291d06b63fcb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libweibo" afterPath="$PROJECT_DIR$/libweibo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/Controller/RoleController.class.php" afterPath="$PROJECT_DIR$/App/Admin/Controller/RoleController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/View/Role/addRole.html" afterPath="$PROJECT_DIR$/App/Admin/View/Role/addRole.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/f2edc7aa27608bb82db18f625a35ced1.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Admin/f2edc7aa27608bb82db18f625a35ced1.php" />
+    </list>
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>D:\sortware\composer\composer.phar</pharPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="D:\web\tpshop" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="tpshop@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="tpshop" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="addAuth.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Admin/View/Auth/addAuth.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="745">
+              <caret line="178" column="12" lean-forward="true" selection-start-line="178" selection-start-column="12" selection-end-line="178" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addRole.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Admin/View/Role/addRole.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="862">
+              <caret line="144" column="45" lean-forward="true" selection-start-line="144" selection-start-column="45" selection-end-line="144" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Admin/Controller/RoleController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="745">
+              <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>未发货</find>
+      <find>商品id</find>
+      <find>getCartDatagetCartData</find>
+      <find>getUserOrder</find>
+      <find>getorderDeatil</find>
+      <find>createOrder</find>
+      <find>parameter</find>
+      <find>SaeTClientV2</find>
+      <find>ajaxRtuen</find>
+      <find>getOneData</find>
+      <find>.html</find>
+      <find>goods_id</find>
+      <find>memberPrice</find>
+      <find>testtest</find>
+      <find>团</find>
+      <find>add_num</find>
+      <find>add_cart</find>
+      <find>jquery-ui</find>
+      <find>jquery-ui`</find>
+      <find>$sendInfo</find>
+      <find>getSetInfo</find>
+      <find>timebox</find>
+      <find>MsgType</find>
+      <find>Tables</find>
+      <find>{:C('JS_URL')}</find>
+      <find>&lt;xml&gt;</find>
+      <find>`</find>
+      <find>self</find>
+      <find>slef::base_wechat_url.</find>
+      <find>send_message_url</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>images/</replace>
+      <replace>/images/</replace>
+      <replace>__PUBLIC__/resources/home/</replace>
+      <replace>__PUBLIC__/resources/home/style/</replace>
+      <replace>__PUBLIC__/resources/home/images`/</replace>
+      <replace>__PUBLIC__/resources/admin/images`/</replace>
+      <replace>__PUBLIC__/resources/admin/css/</replace>
+      <replace>__PUBLIC__/resources/admin/js/</replace>
+      <replace>角色</replace>
+      <replace>home</replace>
+      <replace>__PUBLIC__/resources/home/images</replace>
+      <replace>__PUBLIC__/resources/home/images/</replace>
+      <replace>style</replace>
+      <replace>__PUBLIC__/resources/home /images/</replace>
+      <replace>attr</replace>
+      <replace>'</replace>
+      <replace>&quot;);</replace>
+      <replace>$this-&gt;redis</replace>
+      <replace>__PUBLIC__/resources/admin/images/</replace>
+      <replace>ajaxReturn</replace>
+      <replace>__PUBLIC__/resources/wechat/js/</replace>
+      <replace>slef</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\web\tpshop\App\WeChat\vendor</dir>
+    </dirStrings>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="git  commit -m &quot;ceshi &quot;" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/App/Common/Common/function.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php" />
+        <option value="$PROJECT_DIR$/App/Admin/Controller/TestController.class.php" />
+        <option value="$PROJECT_DIR$/App/Admin/Controller/AuthController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/App/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/View/layout.html" />
+        <option value="$PROJECT_DIR$/App/Admin/View/Goods/showlist.html" />
+        <option value="$PROJECT_DIR$/App/Admin/View/Seckill/addseckill.html" />
+        <option value="$PROJECT_DIR$/App/Admin/Controller/ExtensionController.class.php" />
+        <option value="$PROJECT_DIR$/App/Admin/View/Seckill/addSeckill.html" />
+        <option value="$PROJECT_DIR$/App/Admin/Controller/SeckillController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/GoodsController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/View/Seckill/seckillList.html" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/ShopController.class.php" />
+        <option value="$PROJECT_DIR$/App/Home/Controller/SeckillController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/msgTypeController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/MsgTypeController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/View/Wechat/login.html" />
+        <option value="$PROJECT_DIR$/App/Admin/Controller/ManagerController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/View/View/navi.html" />
+        <option value="$PROJECT_DIR$/App/WeChat/View/Wechat/index.html" />
+        <option value="$PROJECT_DIR$/App/WeChat/View/WechatSeckill/showlist.html" />
+        <option value="$PROJECT_DIR$/App/WeChat/View/WechatSeckill/addSeckill.html" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/WechatController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/vendor/composer/autoload_real.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/vendor/autoload.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Vendor/autoload.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Vendor/WechatToolsController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Model/WechatSeckillModel.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/WechatBaseController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/WechatCommonController.class.php_" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/CommonPlatformController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/WechatManagementPlatformController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/WechatNewGoodsController.class.php" />
+        <option value="$PROJECT_DIR$/App/Admin/Conf/config.php" />
+        <option value="$PROJECT_DIR$/App/Admin/Common/AdminController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/WechatSeckillController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/WechatCommonController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/WechatManagementPlatController.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/View/WechatManagementPlat/index.html" />
+        <option value="$PROJECT_DIR$/App/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/WechatBaseApiController.class.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Behaviors/MsgTypeBehavior.class.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/View/WechatApi/wechatOauthCallback.html" />
+        <option value="$PROJECT_DIR$/App/WeChat/Conf/config.php" />
+        <option value="$PROJECT_DIR$/App/Common/Common/function.php" />
+        <option value="$PROJECT_DIR$/App/WeChat/Controller/WechatApiController.class.php" />
+        <option value="$PROJECT_DIR$/App/Admin/View/Role/addRole.html" />
+        <option value="$PROJECT_DIR$/App/Admin/Controller/RoleController.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="www.tpshop.com" id="345efbd6-4dcc-424c-9b74-48f051ab81a8" name="tpshop" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1">
+    <include_path>
+      <path value="" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="2586" />
+    <option name="height" value="1566" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Role" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auth" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/sortware/git/Git/bin/git.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\tpshop\App\WeChat\Model" />
+      <recent name="D:\web\tpshop\App\Admin\View\Seckill" />
+      <recent name="D:\web\tpshop\App\Home\View\Seckill" />
+      <recent name="D:\web\tpshop\App\Admin\Controller" />
+      <recent name="D:\web\tpshop\App\Admin\View\Goods" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web\tpshop\App\WeChat\View\WechatManagementPlat" />
+      <recent name="D:\web\tpshop\App\WeChat\View\Wechat" />
+      <recent name="D:\web\tpshop\App\WeChat\Behaviors" />
+      <recent name="D:\web\tpshop\App\Admin\Controller" />
+      <recent name="D:\web\tpshop" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.Conf">
+    <configuration default="false" name="showlist.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/tpshop/App/Admin/View/Role/showlist.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="OrderController.class.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/App/Home/Controller/OrderController.class.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="Conf" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/App/WeChat/Conf" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="tpshop">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.showlist.html" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.OrderController.class.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.Conf" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.Conf" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.showlist.html" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.OrderController.class.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25d44f72-8f79-490b-a3ed-291d06b63fcb" name="Default" comment="" />
+      <created>1493025747731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1493025747731</updated>
+      <workItem from="1493025753507" duration="4056000" />
+      <workItem from="1493084529965" duration="7026000" />
+      <workItem from="1493100042898" duration="12600000" />
+      <workItem from="1493171440358" duration="26049000" />
+      <workItem from="1493205180135" duration="88000" />
+      <workItem from="1493257377082" duration="25430000" />
+      <workItem from="1493344944498" duration="24416000" />
+      <workItem from="1493393511784" duration="33000" />
+      <workItem from="1493393569349" duration="6949000" />
+      <workItem from="1493906387618" duration="668000" />
+      <workItem from="1494030848271" duration="932000" />
+      <workItem from="1495538839836" duration="31000" />
+      <workItem from="1495538904967" duration="1446000" />
+      <workItem from="1495609407527" duration="3203000" />
+      <workItem from="1495676712294" duration="10583000" />
+      <workItem from="1495712748199" duration="7746000" />
+      <workItem from="1495760607939" duration="18247000" />
+      <workItem from="1495801743812" duration="723000" />
+      <workItem from="1495872759787" duration="24919000" />
+      <workItem from="1496367275060" duration="11267000" />
+      <workItem from="1496480746791" duration="9771000" />
+      <workItem from="1496562837319" duration="5469000" />
+      <workItem from="1496713990395" duration="9787000" />
+      <workItem from="1496738963451" duration="10578000" />
+      <workItem from="1496800238941" duration="594000" />
+      <workItem from="1496820270026" duration="15536000" />
+      <workItem from="1496886823584" duration="7992000" />
+      <workItem from="1496911222772" duration="2010000" />
+      <workItem from="1496971244021" duration="5563000" />
+      <workItem from="1496993364541" duration="19313000" />
+      <workItem from="1497079829825" duration="18204000" />
+      <workItem from="1497252660091" duration="1211000" />
+      <workItem from="1497338517633" duration="2876000" />
+      <workItem from="1497513630059" duration="734000" />
+      <workItem from="1497857301233" duration="12459000" />
+      <workItem from="1497924290929" duration="9413000" />
+      <workItem from="1498127800733" duration="4729000" />
+      <workItem from="1498463927141" duration="3766000" />
+      <workItem from="1498549224550" duration="2350000" />
+      <workItem from="1498610182682" duration="4840000" />
+      <workItem from="1498634690256" duration="4166000" />
+      <workItem from="1498646568836" duration="9225000" />
+      <workItem from="1498697605357" duration="20577000" />
+      <workItem from="1498779503215" duration="12467000" />
+      <workItem from="1498807362489" duration="10029000" />
+      <workItem from="1498821359853" duration="85000" />
+      <workItem from="1498821467585" duration="1507000" />
+      <workItem from="1498824478509" duration="871000" />
+      <workItem from="1498901062786" duration="616000" />
+      <workItem from="1498948019467" duration="3456000" />
+      <workItem from="1498954141380" duration="1169000" />
+      <workItem from="1498956785972" duration="503000" />
+      <workItem from="1498959868570" duration="9178000" />
+      <workItem from="1498991367348" duration="3857000" />
+      <workItem from="1499001826835" duration="1719000" />
+      <workItem from="1499035509168" duration="1982000" />
+      <workItem from="1499045062413" duration="3054000" />
+      <workItem from="1499054470275" duration="704000" />
+      <workItem from="1499060301597" duration="11781000" />
+      <workItem from="1499134384916" duration="9455000" />
+      <workItem from="1499167243222" duration="253000" />
+      <workItem from="1499169546918" duration="4407000" />
+      <workItem from="1499206121879" duration="7049000" />
+      <workItem from="1499219096503" duration="4365000" />
+      <workItem from="1499234000599" duration="9199000" />
+      <workItem from="1499263255140" duration="881000" />
+      <workItem from="1499271927460" duration="1309000" />
+      <workItem from="1499296838041" duration="374000" />
+      <workItem from="1499301995110" duration="11215000" />
+      <workItem from="1499386871772" duration="15798000" />
+      <workItem from="1499408465151" duration="13255000" />
+      <workItem from="1499471117778" duration="669000" />
+      <workItem from="1499474775729" duration="12539000" />
+      <workItem from="1499524401454" duration="974000" />
+      <workItem from="1499525463321" duration="1329000" />
+      <workItem from="1499551595413" duration="4163000" />
+      <workItem from="1499562052069" duration="6092000" />
+      <workItem from="1499572604034" duration="3029000" />
+      <workItem from="1499579915608" duration="4761000" />
+      <workItem from="1499587618817" duration="6521000" />
+      <workItem from="1499643914601" duration="16729000" />
+      <workItem from="1499671452547" duration="1065000" />
+      <workItem from="1499672690726" duration="896000" />
+      <workItem from="1499689182548" duration="7880000" />
+      <workItem from="1499729228026" duration="2531000" />
+      <workItem from="1499734016293" duration="12878000" />
+      <workItem from="1499782852563" duration="1359000" />
+      <workItem from="1499813200397" duration="3294000" />
+      <workItem from="1499820447049" duration="12324000" />
+      <workItem from="1499863934402" duration="1111000" />
+      <workItem from="1499910243814" duration="1910000" />
+      <workItem from="1499983499019" duration="2026000" />
+      <workItem from="1499999258176" duration="8629000" />
+      <workItem from="1500070451177" duration="2578000" />
+      <workItem from="1500080249453" duration="16239000" />
+      <workItem from="1500253494364" duration="1184000" />
+      <workItem from="1500273955238" duration="6193000" />
+      <workItem from="1500286193589" duration="9320000" />
+      <workItem from="1500602862051" duration="747000" />
+      <workItem from="1500681147405" duration="914000" />
+      <workItem from="1500690046842" duration="714000" />
+      <workItem from="1500723025835" duration="714000" />
+      <workItem from="1500902593810" duration="847000" />
+      <workItem from="1500935148560" duration="2548000" />
+      <workItem from="1500964577849" duration="11880000" />
+      <workItem from="1500988342714" duration="158000" />
+      <workItem from="1500989998298" duration="8301000" />
+      <workItem from="1501023126066" duration="2648000" />
+      <workItem from="1501035177178" duration="8971000" />
+      <workItem from="1501080824411" duration="2388000" />
+      <workItem from="1501111242804" duration="11868000" />
+      <workItem from="1501140521847" duration="1591000" />
+      <workItem from="1501278020765" duration="111000" />
+      <workItem from="1501633528118" duration="16434000" />
+      <workItem from="1501658164130" duration="7103000" />
+      <workItem from="1501759784138" duration="664000" />
+      <workItem from="1501829273425" duration="13741000" />
+      <workItem from="1501853219481" duration="1124000" />
+      <workItem from="1501856902667" duration="13101000" />
+      <workItem from="1501894444796" duration="17965000" />
+      <workItem from="1501973457435" duration="3876000" />
+      <workItem from="1501980819699" duration="17629000" />
+      <workItem from="1502029572716" duration="12340000" />
+      <workItem from="1502066896681" duration="6786000" />
+      <workItem from="1502085381595" duration="8085000" />
+      <workItem from="1502319974369" duration="26000" />
+      <workItem from="1502506950895" duration="2381000" />
+    </task>
+    <task id="LOCAL-00327" summary="sendmessage">
+      <created>1502061521270</created>
+      <option name="number" value="00327" />
+      <option name="presentableId" value="LOCAL-00327" />
+      <option name="project" value="LOCAL" />
+      <updated>1502061521270</updated>
+    </task>
+    <task id="LOCAL-00328" summary="sendmessage">
+      <created>1502061694819</created>
+      <option name="number" value="00328" />
+      <option name="presentableId" value="LOCAL-00328" />
+      <option name="project" value="LOCAL" />
+      <updated>1502061694819</updated>
+    </task>
+    <task id="LOCAL-00329" summary="sendmessage">
+      <created>1502067387939</created>
+      <option name="number" value="00329" />
+      <option name="presentableId" value="LOCAL-00329" />
+      <option name="project" value="LOCAL" />
+      <updated>1502067387940</updated>
+    </task>
+    <task id="LOCAL-00330" summary="sendmessage">
+      <created>1502067496957</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1502067496958</updated>
+    </task>
+    <task id="LOCAL-00331" summary="sendmessage">
+      <created>1502067667722</created>
+      <option name="number" value="00331" />
+      <option name="presentableId" value="LOCAL-00331" />
+      <option name="project" value="LOCAL" />
+      <updated>1502067667722</updated>
+    </task>
+    <task id="LOCAL-00332" summary="sendmessage">
+      <created>1502070367722</created>
+      <option name="number" value="00332" />
+      <option name="presentableId" value="LOCAL-00332" />
+      <option name="project" value="LOCAL" />
+      <updated>1502070367723</updated>
+    </task>
+    <task id="LOCAL-00333" summary="sendmessage">
+      <created>1502070554194</created>
+      <option name="number" value="00333" />
+      <option name="presentableId" value="LOCAL-00333" />
+      <option name="project" value="LOCAL" />
+      <updated>1502070554194</updated>
+    </task>
+    <task id="LOCAL-00334" summary="sendmessage">
+      <created>1502071169278</created>
+      <option name="number" value="00334" />
+      <option name="presentableId" value="LOCAL-00334" />
+      <option name="project" value="LOCAL" />
+      <updated>1502071169295</updated>
+    </task>
+    <task id="LOCAL-00335" summary="sendmessage">
+      <created>1502071207653</created>
+      <option name="number" value="00335" />
+      <option name="presentableId" value="LOCAL-00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1502071207654</updated>
+    </task>
+    <task id="LOCAL-00336" summary="sendmessage">
+      <created>1502071358151</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1502071358152</updated>
+    </task>
+    <task id="LOCAL-00337" summary="sendmessage">
+      <created>1502071748798</created>
+      <option name="number" value="00337" />
+      <option name="presentableId" value="LOCAL-00337" />
+      <option name="project" value="LOCAL" />
+      <updated>1502071748798</updated>
+    </task>
+    <task id="LOCAL-00338" summary="sendmessage">
+      <created>1502071817570</created>
+      <option name="number" value="00338" />
+      <option name="presentableId" value="LOCAL-00338" />
+      <option name="project" value="LOCAL" />
+      <updated>1502071817570</updated>
+    </task>
+    <task id="LOCAL-00339" summary="sendmessage">
+      <created>1502071867555</created>
+      <option name="number" value="00339" />
+      <option name="presentableId" value="LOCAL-00339" />
+      <option name="project" value="LOCAL" />
+      <updated>1502071867555</updated>
+    </task>
+    <task id="LOCAL-00340" summary="sendmessage">
+      <created>1502071985210</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1502071985210</updated>
+    </task>
+    <task id="LOCAL-00341" summary="sendmessage">
+      <created>1502072169564</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1502072169564</updated>
+    </task>
+    <task id="LOCAL-00342" summary="sendmessage">
+      <created>1502072240333</created>
+      <option name="number" value="00342" />
+      <option name="presentableId" value="LOCAL-00342" />
+      <option name="project" value="LOCAL" />
+      <updated>1502072240333</updated>
+    </task>
+    <task id="LOCAL-00343" summary="sendmessage">
+      <created>1502072519912</created>
+      <option name="number" value="00343" />
+      <option name="presentableId" value="LOCAL-00343" />
+      <option name="project" value="LOCAL" />
+      <updated>1502072519912</updated>
+    </task>
+    <task id="LOCAL-00344" summary="sendmessage">
+      <created>1502072538383</created>
+      <option name="number" value="00344" />
+      <option name="presentableId" value="LOCAL-00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1502072538383</updated>
+    </task>
+    <task id="LOCAL-00345" summary="sendmessage">
+      <created>1502074857313</created>
+      <option name="number" value="00345" />
+      <option name="presentableId" value="LOCAL-00345" />
+      <option name="project" value="LOCAL" />
+      <updated>1502074857313</updated>
+    </task>
+    <task id="LOCAL-00346" summary="sendmessage">
+      <created>1502074986851</created>
+      <option name="number" value="00346" />
+      <option name="presentableId" value="LOCAL-00346" />
+      <option name="project" value="LOCAL" />
+      <updated>1502074986851</updated>
+    </task>
+    <task id="LOCAL-00347" summary="sendmessage">
+      <created>1502075081326</created>
+      <option name="number" value="00347" />
+      <option name="presentableId" value="LOCAL-00347" />
+      <option name="project" value="LOCAL" />
+      <updated>1502075081326</updated>
+    </task>
+    <task id="LOCAL-00348" summary="sendmessage">
+      <created>1502075233619</created>
+      <option name="number" value="00348" />
+      <option name="presentableId" value="LOCAL-00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1502075233619</updated>
+    </task>
+    <task id="LOCAL-00349" summary="sendmessage">
+      <created>1502075304358</created>
+      <option name="number" value="00349" />
+      <option name="presentableId" value="LOCAL-00349" />
+      <option name="project" value="LOCAL" />
+      <updated>1502075304358</updated>
+    </task>
+    <task id="LOCAL-00350" summary="sendmessage">
+      <created>1502075356922</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1502075356922</updated>
+    </task>
+    <task id="LOCAL-00351" summary="sendmessage">
+      <created>1502075395561</created>
+      <option name="number" value="00351" />
+      <option name="presentableId" value="LOCAL-00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1502075395561</updated>
+    </task>
+    <task id="LOCAL-00352" summary="sendmessage">
+      <created>1502075550759</created>
+      <option name="number" value="00352" />
+      <option name="presentableId" value="LOCAL-00352" />
+      <option name="project" value="LOCAL" />
+      <updated>1502075550759</updated>
+    </task>
+    <task id="LOCAL-00353" summary="sendmessage">
+      <created>1502075650882</created>
+      <option name="number" value="00353" />
+      <option name="presentableId" value="LOCAL-00353" />
+      <option name="project" value="LOCAL" />
+      <updated>1502075650882</updated>
+    </task>
+    <task id="LOCAL-00354" summary="sendmessage">
+      <created>1502075765215</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1502075765215</updated>
+    </task>
+    <task id="LOCAL-00355" summary="sendmessage">
+      <created>1502075848371</created>
+      <option name="number" value="00355" />
+      <option name="presentableId" value="LOCAL-00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1502075848371</updated>
+    </task>
+    <task id="LOCAL-00356" summary="sendmessage">
+      <created>1502075913158</created>
+      <option name="number" value="00356" />
+      <option name="presentableId" value="LOCAL-00356" />
+      <option name="project" value="LOCAL" />
+      <updated>1502075913158</updated>
+    </task>
+    <task id="LOCAL-00357" summary="sendmessage">
+      <created>1502076010562</created>
+      <option name="number" value="00357" />
+      <option name="presentableId" value="LOCAL-00357" />
+      <option name="project" value="LOCAL" />
+      <updated>1502076010562</updated>
+    </task>
+    <task id="LOCAL-00358" summary="sendmessage">
+      <created>1502076040356</created>
+      <option name="number" value="00358" />
+      <option name="presentableId" value="LOCAL-00358" />
+      <option name="project" value="LOCAL" />
+      <updated>1502076040356</updated>
+    </task>
+    <task id="LOCAL-00359" summary="sendmessage">
+      <created>1502076110377</created>
+      <option name="number" value="00359" />
+      <option name="presentableId" value="LOCAL-00359" />
+      <option name="project" value="LOCAL" />
+      <updated>1502076110377</updated>
+    </task>
+    <task id="LOCAL-00360" summary="sendmessage">
+      <created>1502085398325</created>
+      <option name="number" value="00360" />
+      <option name="presentableId" value="LOCAL-00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1502085398325</updated>
+    </task>
+    <task id="LOCAL-00361" summary="sendmessage">
+      <created>1502085621821</created>
+      <option name="number" value="00361" />
+      <option name="presentableId" value="LOCAL-00361" />
+      <option name="project" value="LOCAL" />
+      <updated>1502085621821</updated>
+    </task>
+    <task id="LOCAL-00362" summary="sendmessage">
+      <created>1502089477636</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1502089477637</updated>
+    </task>
+    <task id="LOCAL-00363" summary="sendmessage">
+      <created>1502089531328</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1502089531328</updated>
+    </task>
+    <task id="LOCAL-00364" summary="sendmessage">
+      <created>1502094293865</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1502094293865</updated>
+    </task>
+    <task id="LOCAL-00365" summary="sendmessage">
+      <created>1502095709123</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1502095709123</updated>
+    </task>
+    <task id="LOCAL-00366" summary="sendmessage">
+      <created>1502095763634</created>
+      <option name="number" value="00366" />
+      <option name="presentableId" value="LOCAL-00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1502095763634</updated>
+    </task>
+    <task id="LOCAL-00367" summary="sendmessage">
+      <created>1502095847979</created>
+      <option name="number" value="00367" />
+      <option name="presentableId" value="LOCAL-00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1502095847979</updated>
+    </task>
+    <task id="LOCAL-00368" summary="sendmessage">
+      <created>1502095933108</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1502095933108</updated>
+    </task>
+    <task id="LOCAL-00369" summary="sendmessage">
+      <created>1502095968229</created>
+      <option name="number" value="00369" />
+      <option name="presentableId" value="LOCAL-00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1502095968229</updated>
+    </task>
+    <task id="LOCAL-00370" summary="sendmessage">
+      <created>1502099174603</created>
+      <option name="number" value="00370" />
+      <option name="presentableId" value="LOCAL-00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1502099174603</updated>
+    </task>
+    <task id="LOCAL-00371" summary="sendmessage">
+      <created>1502099610731</created>
+      <option name="number" value="00371" />
+      <option name="presentableId" value="LOCAL-00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1502099610731</updated>
+    </task>
+    <task id="LOCAL-00372" summary="sendmessage">
+      <created>1502099652339</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1502099652339</updated>
+    </task>
+    <task id="LOCAL-00373" summary="sendmessage">
+      <created>1502099699738</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1502099699738</updated>
+    </task>
+    <task id="LOCAL-00374" summary="sendmessage">
+      <created>1502099747280</created>
+      <option name="number" value="00374" />
+      <option name="presentableId" value="LOCAL-00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1502099747280</updated>
+    </task>
+    <task id="LOCAL-00375" summary="sendmessage">
+      <created>1502099883481</created>
+      <option name="number" value="00375" />
+      <option name="presentableId" value="LOCAL-00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1502099883481</updated>
+    </task>
+    <option name="localTasksCounter" value="376" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="831991000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-13" y="-13" width="2586" height="1566" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17744543" sideWeight="0.4973262" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39801374" sideWeight="0.5032336" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.91138273" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.111156024" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14510913" sideWeight="0.5026738" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849503" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849503" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925898" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39801374" sideWeight="0.49676636" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="home-&gt;index-&gt;staticpage" />
+    <MESSAGE value="20170426" />
+    <MESSAGE value="20170428 test" />
+    <MESSAGE value="20170427 --&gt;manager --&gt;role" />
+    <MESSAGE value="后台" />
+    <MESSAGE value="后台attribute" />
+    <MESSAGE value="goodsOrder" />
+    <MESSAGE value="用户手机快速注册" />
+    <MESSAGE value="用户导出" />
+    <MESSAGE value="phpmailer" />
+    <MESSAGE value="QQapi" />
+    <MESSAGE value="weiboOAuth" />
+    <MESSAGE value="终板" />
+    <MESSAGE value="crontab test" />
+    <MESSAGE value="seckill" />
+    <MESSAGE value="wechat" />
+    <MESSAGE value="Config" />
+    <MESSAGE value="wechat_music" />
+    <MESSAGE value="wechat_server_connect" />
+    <MESSAGE value="自定义菜单创建" />
+    <MESSAGE value="模板优化" />
+    <MESSAGE value="微信商品秒杀推荐" />
+    <MESSAGE value="``" />
+    <MESSAGE value="suerList" />
+    <MESSAGE value="sendmessage" />
+    <option name="LAST_COMMIT_MESSAGE" value="sendmessage" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="19" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/App/Home/View/Order/OrderDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/View/Goods/showlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/ShopController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3939">
+          <caret line="102" column="118" lean-forward="false" selection-start-line="102" selection-start-column="118" selection-end-line="102" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Model/OrderModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/OrderController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/GoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/SeckillController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/SeckillController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="38" column="54" lean-forward="false" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/View/Seckill/seckillList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23244">
+          <caret line="596" column="29" lean-forward="false" selection-start-line="596" selection-start-column="29" selection-end-line="596" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/IndexController.class_memcache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Model/ManagerModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/View/View/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/View/View/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1872">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/View/View/navi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/View/Auth/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2691">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/View/WechatManagementPlat/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="158" column="9" lean-forward="true" selection-start-line="140" selection-start-column="6" selection-end-line="158" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Model/UserModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4446">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Model/ExtensionModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2453">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/View/WechatSeckill/showlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2028">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/D:/web/tpshop/App/WeChat/vendor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/App/WeChat/vendor</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/App/WeChat/vendor/symfony</node>
+            <node x="" y="">$PROJECT_DIR$/App/WeChat/vendor/composer</node>
+            <node x="" y="">$PROJECT_DIR$/App/WeChat/vendor/doctrine</node>
+            <node x="" y="">$PROJECT_DIR$/App/WeChat/vendor/overtrue</node>
+            <node x="" y="">$PROJECT_DIR$/App/WeChat/vendor/psr</node>
+            <node x="" y="">$PROJECT_DIR$/App/WeChat/vendor/pimple</node>
+            <node x="" y="">$PROJECT_DIR$/App/WeChat/vendor/guzzlehttp</node>
+            <node x="" y="">$PROJECT_DIR$/App/WeChat/vendor/monolog</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="202.0" y="180.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Vendor/composer/autoload_psr4.php" />
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Vendor/composer/autoload_real.php" />
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Vendor/autoload.php" />
+    <entry file="file://$PROJECT_DIR$/App/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Controller/wechat.log" />
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Model/WechatSeckillModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Controller/WechatCommonController.class.php_" />
+    <entry file="file://$PROJECT_DIR$/App/Admin/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/ManagerController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Common/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Controller/WechatManagementPlatController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Controller/WechatCommonController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/View/WechatManagementPlat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="215" column="13" lean-forward="true" selection-start-line="215" selection-start-column="13" selection-end-line="215" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Controller/WechatNewGoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Controller/WechatSeckillController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/View/WechatSeckill/addSeckill.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/View/WechatApi/wechatOauthCallback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Controller/WechatBaseApiController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Behaviors/MsgTypeBehavior.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5148">
+          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding>
+            <element signature="e#2046#2207#0#PHP" expanded="false" />
+            <element signature="e#5736#6121#0#PHP" expanded="false" />
+            <element signature="e#6128#6207#0#PHP" expanded="false" />
+            <element signature="e#6213#6932#0#PHP" expanded="false" />
+            <element signature="e#6939#7102#0#PHP" expanded="false" />
+            <element signature="e#7107#7747#0#PHP" expanded="false" />
+            <marker date="1502034753185" expanded="false" signature="2536:2955" ph="..." />
+            <marker date="1502034753185" expanded="false" signature="2986:3403" ph="..." />
+            <marker date="1502034753185" expanded="true" signature="6485:6511" ph="..." />
+            <marker date="1502034753185" expanded="true" signature="6485:6735" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4719">
+          <caret line="121" column="26" lean-forward="false" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Controller/WechatApiController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1135">
+          <caret line="229" column="110" lean-forward="false" selection-start-line="229" selection-start-column="105" selection-end-line="229" selection-end-column="110" />
+          <folding>
+            <element signature="e#35#59#0#PHP" expanded="false" />
+            <element signature="e#1263#1345#0#PHP" expanded="false" />
+            <element signature="e#1350#1564#0#PHP" expanded="false" />
+            <element signature="e#1652#2151#0#PHP" expanded="false" />
+            <element signature="e#2158#2236#0#PHP" expanded="false" />
+            <element signature="e#2241#4105#0#PHP" expanded="false" />
+            <element signature="e#4115#4204#0#PHP" expanded="false" />
+            <element signature="e#4209#4752#0#PHP" expanded="false" />
+            <element signature="e#4758#4854#0#PHP" expanded="false" />
+            <element signature="e#4859#5993#0#PHP" expanded="false" />
+            <element signature="e#5999#6149#0#PHP" expanded="false" />
+            <element signature="e#6154#6918#0#PHP" expanded="false" />
+            <element signature="e#7007#8019#0#PHP" expanded="false" />
+            <element signature="e#8025#8114#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/WeChat/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/View/Auth/addAuth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="178" column="12" lean-forward="true" selection-start-line="178" selection-start-column="12" selection-end-line="178" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/View/Role/addRole.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="144" column="45" lean-forward="true" selection-start-line="144" selection-start-column="45" selection-end-line="144" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/RoleController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

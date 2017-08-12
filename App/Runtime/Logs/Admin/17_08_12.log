@@ -1,0 +1,2189 @@
+[ 2017-08-12T11:12:28+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002567s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002671s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Common\AdminController.class.php:24) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Common\AdminController.class.php:24) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Common\AdminController.class.php:24) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2017-08-12T11:12:29+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-08-12T11:12:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-08-12T11:12:33+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2017-08-12T11:12:33+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-08-12T11:12:37+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-08-12T11:12:37+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0616s ]
+SQL: SELECT * FROM `sp_manager` WHERE `mg_name` = 'admin' LIMIT 1   [ RunTime:0.0521s ]
+
+[ 2017-08-12T11:12:37+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0397s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2017-08-12T11:12:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0526s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-08-12T11:12:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0421s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2017-08-12T11:12:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0831s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2017-08-12T11:12:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0419s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0379s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0504s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-08-12T11:12:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0582s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: think D:\web\tpshop\App\Runtime\Cache\Admin\1e8edb2834280460332adaccac6a4fce.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2017-08-12T11:13:10+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0387s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0382s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-08-12T11:13:14+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0553s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.2838s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0385s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 129 [ RunTime:0.0542s ]
+
+[ 2017-08-12T11:13:14+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0381s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0370s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2017-08-12T11:13:18+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0510s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.3086s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0460s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 128 [ RunTime:0.0928s ]
+
+[ 2017-08-12T11:13:18+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0388s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0589s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-08-12T11:13:19+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0379s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0580s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-08-12T11:13:20+08:00 ] 127.0.0.1 /index.php/Admin/Role/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-08-12T11:13:24+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0358s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0348s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0355s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('123') [ RunTime:0.0484s ]
+
+[ 2017-08-12T11:13:27+08:00 ] 127.0.0.1 /index.php/Admin/Role/redirectUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0520s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0750s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant distribute - assumed 'distribute' D:\web\tpshop\App\Admin\Controller\RoleController.class.php 第 77 行.
+
+[ 2017-08-12T11:13:28+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/role_id/130.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0382s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0377s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 130 LIMIT 1   [ RunTime:0.0384s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-08-12T11:17:32+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.3274s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0437s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-08-12T11:17:35+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0731s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0611s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0420s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('1234') [ RunTime:0.0830s ]
+
+[ 2017-08-12T11:17:39+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/role_id/%2Bmessage.role_id%2B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0386s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0386s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0458s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0534s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.2796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-08-12T11:18:27+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0368s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2017-08-12T11:18:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0474s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-08-12T11:18:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0394s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2017-08-12T11:18:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002665s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0446s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2017-08-12T11:18:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0417s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.2780s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2017-08-12T11:18:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0400s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: think D:\web\tpshop\App\Runtime\Cache\Admin\1e8edb2834280460332adaccac6a4fce.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-08-12T11:18:34+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0642s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0426s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SELECT man.mg_id,man.mg_name,role.role_name FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE ( flag=1 )  [ RunTime:0.2805s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Use of undefined constant manager_id - assumed 'manager_id' D:\web\tpshop\App\Runtime\Cache\Admin\9a53d8edad512912b23f346d526e25e9.php 第 80 行.
+NOTIC: [8] Use of undefined constant manager_id - assumed 'manager_id' D:\web\tpshop\App\Runtime\Cache\Admin\9a53d8edad512912b23f346d526e25e9.php 第 80 行.
+NOTIC: [8] Use of undefined constant manager_id - assumed 'manager_id' D:\web\tpshop\App\Runtime\Cache\Admin\9a53d8edad512912b23f346d526e25e9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2017-08-12T11:18:35+08:00 ] 127.0.0.1 /index.php/Admin/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0367s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0374s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+NOTIC: [8] Use of undefined constant auth_id - assumed 'auth_id' D:\web\tpshop\App\Runtime\Cache\Admin\eae019a1c2b4311fec0262ca6501b544.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-08-12T11:18:35+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0402s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0554s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2017-08-12T11:18:37+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0398s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0392s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2017-08-12T11:19:14+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0376s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0378s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-08-12T11:19:14+08:00 ] 127.0.0.1 /index.php/Admin/Role/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-08-12T11:19:21+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0594s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0421s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.2824s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('fewgw') [ RunTime:0.5430s ]
+
+[ 2017-08-12T11:19:25+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/roleId/%2Bmessage.role_id%2B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0755s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.2883s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0622s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0668s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-08-12T11:20:17+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0498s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0708s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2017-08-12T11:20:20+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0380s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0349s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0352s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('fewgwl') [ RunTime:0.0656s ]
+
+[ 2017-08-12T11:20:24+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/roleId/%2Bmsg.role_id%2B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0404s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0455s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0473s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2017-08-12T13:40:52+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-08-12T13:41:17+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-08-12T13:41:38+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-08-12T13:41:59+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-08-12T13:42:20+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-08-12T13:42:41+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-08-12T13:43:02+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-08-12T13:43:11+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0398s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0503s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0673s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2017-08-12T13:43:12+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0433s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0541s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 140 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-08-12T13:43:12+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0422s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0491s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2017-08-12T13:43:13+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0728s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0503s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 140 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002187s ]
+
+[ 2017-08-12T13:43:13+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0401s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0447s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.2853s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2017-08-12T13:43:14+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0585s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0541s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 140 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-08-12T13:43:14+08:00 ] 127.0.0.1 /index.php/Admin/Role/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2017-08-12T13:43:17+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0572s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.2956s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 140 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-08-12T13:43:17+08:00 ] 127.0.0.1 /index.php/Admin/Role/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-08-12T13:43:20+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.2830s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0653s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0583s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-08-12T13:43:24+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0615s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0543s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0478s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 130 [ RunTime:0.0914s ]
+
+[ 2017-08-12T13:43:25+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0502s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0431s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-08-12T13:43:28+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0549s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0358s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0985s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 131 [ RunTime:0.0632s ]
+
+[ 2017-08-12T13:43:29+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0485s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0367s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.2872s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-08-12T13:43:31+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0401s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0488s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0520s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 132 [ RunTime:0.0857s ]
+
+[ 2017-08-12T13:43:32+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0512s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.2755s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0416s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2017-08-12T13:43:35+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0373s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0404s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0361s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 133 [ RunTime:0.0635s ]
+
+[ 2017-08-12T13:43:36+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0564s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0444s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-08-12T13:43:38+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0419s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0402s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 140 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-08-12T13:43:38+08:00 ] 127.0.0.1 /index.php/Admin/Role/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-08-12T13:43:43+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0410s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0395s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0409s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('bdfbd') [ RunTime:0.0577s ]
+
+[ 2017-08-12T13:43:47+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/roleId/msgrole_id.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0447s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0424s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0530s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2017-08-12T13:45:55+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0411s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0393s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 141 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\f2edc7aa27608bb82db18f625a35ced1.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2017-08-12T13:46:03+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.2824s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0397s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0406s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('bdfbdk') [ RunTime:0.0559s ]
+
+[ 2017-08-12T13:46:54+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0404s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0380s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0379s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('bdfbdkl') [ RunTime:0.0516s ]
+
+[ 2017-08-12T13:47:05+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0492s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0409s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-08-12T13:47:05+08:00 ] 127.0.0.1 /index.php/Admin/Role/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-08-12T13:47:09+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.2985s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0406s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0420s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('hk,gj') [ RunTime:0.0573s ]
+
+[ 2017-08-12T13:47:12+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/roleId/%2Bmsg.role_id%2B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0387s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0427s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0559s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0462s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.2857s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2017-08-12T13:48:22+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0408s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0405s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2017-08-12T13:48:26+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0406s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0646s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0433s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('hk,gjk') [ RunTime:0.0847s ]
+
+[ 2017-08-12T13:48:30+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/roleId/138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0392s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0381s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0393s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0512s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-08-12T13:49:11+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/roleId/138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.5676s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0544s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.2954s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2017-08-12T13:49:57+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/roleId/138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.2754s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0379s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0551s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Controller\RoleController.class.php:35) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Controller\RoleController.class.php:35) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Controller\RoleController.class.php:35) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-08-12T13:50:08+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/roleId/138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0729s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0602s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0527s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0533s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0456s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Controller\RoleController.class.php:35) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Controller\RoleController.class.php:35) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Controller\RoleController.class.php:35) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-08-12T13:50:15+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/role_id/138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.3222s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0393s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 138 LIMIT 1   [ RunTime:0.0399s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0427s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Controller\RoleController.class.php:35) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Controller\RoleController.class.php:35) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Controller\RoleController.class.php:35) D:\web\tpshop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-08-12T13:50:31+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/role_id/138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0395s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0445s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 138 LIMIT 1   [ RunTime:0.0606s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-08-12T13:50:37+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/roleId/138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0402s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0389s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `sp_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0495s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `sp_auth` WHERE `falg` = 1  [ RunTime:0.0432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2017-08-12T13:50:39+08:00 ] 127.0.0.1 /index.php/Admin/Role/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0395s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0375s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-08-12T13:50:42+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.5238s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0380s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-08-12T13:50:48+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.9822s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0378s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0370s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 134 [ RunTime:0.0603s ]
+
+[ 2017-08-12T13:50:48+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0392s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0393s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0389s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 134 [ RunTime:0.0374s ]
+NOTIC: [8] Array to string conversion D:\web\tpshop\App\Admin\Controller\RoleController.class.php 第 93 行.
+
+[ 2017-08-12T13:50:49+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0399s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0406s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2017-08-12T13:50:49+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0393s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0386s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0379s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 134 [ RunTime:0.2860s ]
+NOTIC: [8] Array to string conversion D:\web\tpshop\App\Admin\Controller\RoleController.class.php 第 93 行.
+
+[ 2017-08-12T13:50:51+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0375s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0357s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.2721s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 137 [ RunTime:0.0498s ]
+
+[ 2017-08-12T13:50:52+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0367s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0368s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.2719s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-08-12T13:50:53+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0405s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0404s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0413s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 137 [ RunTime:0.0426s ]
+NOTIC: [8] Array to string conversion D:\web\tpshop\App\Admin\Controller\RoleController.class.php 第 93 行.
+
+[ 2017-08-12T13:50:56+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0406s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0406s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0412s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 138 [ RunTime:0.0818s ]
+
+[ 2017-08-12T13:50:57+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0395s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0391s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2017-08-12T13:50:59+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0379s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0352s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0356s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 136 [ RunTime:0.0577s ]
+
+[ 2017-08-12T13:51:01+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:1.4799s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0352s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-08-12T13:51:05+08:00 ] 127.0.0.1 /index.php/Admin/Role/delRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0380s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0452s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.2980s ]
+SQL: DELETE FROM `sp_role` WHERE `role_id` = 135 [ RunTime:0.0769s ]
+
+[ 2017-08-12T13:51:05+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0412s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 29 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0525s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `sp_role`  [ RunTime:0.0408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+NOTIC: [8] Use of undefined constant role_id - assumed 'role_id' D:\web\tpshop\App\Runtime\Cache\Admin\09d1947ca78e76c88575effa0ca466ca.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+

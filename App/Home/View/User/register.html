@@ -1,0 +1,107 @@
+{__NOLAYOUT__}
+<layout name="Pub/layout2" />
+
+<!-- 登录主体部分start -->
+<div class="login w990 bc mt10 regist">
+	<div class="login_hd">
+		<h2>用户注册</h2>
+		<b></b>
+	</div>
+	<div class="login_bd">
+		<div class="login_form fl">
+			<form action="" method="post">
+				<ul>
+					<li>
+						<label for="">用户名：</label>
+						<input type="text" class="txt" name="username" />
+						<p>3-20位字符，可由中文、字母、数字和下划线组成</p>
+						 <span style="color:red;">{$errorinfo.username}</span>
+					</li>
+					<li>
+						<label for="">邮箱：</label>
+						<input type="text" class="txt" name="user_email" />
+						<p>3-20位字符,支持主流邮箱</p>
+						 <span style="color:red;">{$errorinfo.user_email}</span>
+					</li>
+					<li>
+						<label for="">密码：</label>
+						<input type="password" class="txt" name="password" />
+						<p>6-20位字符，可使用字母、数字和符号的组合，不建议使用纯数字、纯字母、纯符号</p>
+						 <span style="color:red;">{$errorinfo.password}</span>
+					</li>
+					<li>
+						<label for="">确认密码：</label>
+						<input type="password" class="txt" name="pwd" />
+						<p> <span>请再次输入密码</p>
+						<span style="color:red;">{$errorinfo.pwd}</span>
+					</li>
+					<li class="checkcode">
+						<label for="">验证码：</label>
+						<input type="text"  name="checkCode"  id="checkCode"/>
+						<img src="{:U('Admin/manager/verifyImg')}" alt="看不清？点击换一张"  style="vertical-align: middle" id='verifyImg'/>
+						<p style="color:red;" id="VefifyErrorInfo"></p>
+					</li>
+					<li>
+						<label for="">&nbsp;</label>
+						<input type="checkbox" class="chb" checked="checked" /> 我已阅读并同意《用户注册协议》
+					</li>
+					<li>
+						<label for="">&nbsp;</label>
+						<input type="submit" value="" class="login_btn"  id="login_btn" disabled="disabled" />
+					</li>
+				</ul>
+			</form>
+
+			
+		</div>
+		
+		<div class="mobile fl">
+			<h3>手机快速注册</h3>			
+			<p>
+			<a href="{:U('user/tel_register')}" class="reg_btn">手机快速登录 >></a></p>
+		</div>
+
+	</div>
+</div>
+<!-- 登录主体部分end -->
+
+<div style="clear:both;"></div>
+<script type="text/javascript">
+$(function () {
+    $('#verifyImg').click(function () {
+        var src="{:U('Admin/manager/verifyImg')}";
+        $('#verifyImg').attr('src',src);
+    });
+	//校验验证码
+    $('#checkCode').blur(function () {
+        var checkCode = $('#checkCode').val();
+        $.ajax({
+            url:"{:U('Admin/manager/checkVerifyCode')}",
+            type:'post',
+            data:{'manager_code':checkCode},
+            dataType:"json",
+            success:function(msg) {
+                if(msg.status == 200){
+                    $('#VefifyErrorInfo').html('');
+                    $("#login_btn").prop("disabled",false);
+                }else if(msg.status == 202){
+                    $('#VefifyErrorInfo').html('验证码错误');
+                    $("#login_btn").prop("disabled",true);
+                    $('#verifyImg').attr('src',"{:U('Admin/manager/verifyImg')}");
+                }
+            }
+            
+
+        })
+
+    })
+	//验证码必须填写
+    $('#login_btn').click(function () {
+        var checkCode = $('#checkCode').val();
+		if(checkCode !=''){
+			$("#login_btn").prop("disabled",false);
+		}
+    })
+})
+
+</script>

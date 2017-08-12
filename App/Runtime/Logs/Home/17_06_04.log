@@ -1,0 +1,618 @@
+[ 2017-06-04T15:52:35+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008321s ]
+
+[ 2017-06-04T15:53:17+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0273s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_small_logo` FROM `sp_goods` ORDER BY goods_id desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-06-04T15:53:21+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0136s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-06-04T15:56:59+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016879s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0112s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: attrInfo D:\web\tpshop\App\Home\Model\GoodsModel.class.php 第 29 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\web\tpshop\App\Home\Model\GoodsModel.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007557s ]
+
+[ 2017-06-04T16:02:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0105s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: attr_values D:\web\tpshop\App\Home\Model\GoodsModel.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2017-06-04T16:03:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0117s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-06-04T16:09:15+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0138s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-06-04T16:17:42+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0133s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+ERR: syntax error, unexpected 'else' (T_ELSE)
+
+[ 2017-06-04T16:18:32+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0118s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined index: attrinfo D:\web\tpshop\App\Runtime\Cache\Home\d7ce7c37daad1d3e356d97433c4331e1.php 第 663 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-06-04T16:18:44+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0081s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: attrinfo D:\web\tpshop\App\Runtime\Cache\Home\d7ce7c37daad1d3e356d97433c4331e1.php 第 663 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-06-04T16:21:58+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0105s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: arrt D:\web\tpshop\App\Runtime\Cache\Home\d7ce7c37daad1d3e356d97433c4331e1.php 第 665 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-06-04T16:22:47+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0165s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-06-04T16:23:34+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0106s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-06-04T16:24:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-06-04T16:25:27+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0108s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-06-04T16:25:39+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0108s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-06-04T16:25:44+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0111s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-06-04T16:26:06+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0121s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '27' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+
+[ 2017-06-04T16:28:28+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0115s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_small_logo` FROM `sp_goods` ORDER BY goods_id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2017-06-04T16:28:31+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0108s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '28' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+
+[ 2017-06-04T16:28:36+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0090s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '28' AND attri.attr_sel = 'only'  [ RunTime:0.0006s ]
+
+[ 2017-06-04T16:32:04+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0109s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '28' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-06-04T16:32:07+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0075s ]
+SQL: SELECT attri.attr_id,attri.attr_name,attr.attr_value,group_concat(attr.attr_value) attr_values FROM sp_goods_attr attr INNER JOIN sp_attribute as attri  on attr.attr_id = attri.attr_id  WHERE attr.goods_id = '28' AND attri.attr_sel = 'only'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-06-04T16:32:37+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-06-04T16:39:21+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-06-04T16:46:27+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-06-04T16:49:12+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-06-04T16:49:24+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-04T16:49:37+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-06-04T16:50:42+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-06-04T16:51:23+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-06-04T16:53:56+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-06-04T16:54:48+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-06-04T16:55:25+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-06-04T16:55:38+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-06-04T17:01:27+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-06-04T17:02:24+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-06-04T17:03:16+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-06-04T17:05:16+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-06-04T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-06-04T17:05:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-06-04T17:05:30+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-06-04T17:06:35+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-06-04T17:15:24+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-06-04T17:22:14+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-06-04T17:22:33+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+

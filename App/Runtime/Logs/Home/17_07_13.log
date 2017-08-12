@@ -1,0 +1,61 @@
+[ 2017-07-13T11:00:13+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-07-13T16:40:29+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-07-13T16:42:42+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-07-13T16:42:44+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-07-13T16:42:45+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-07-13T16:42:46+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-07-13T23:13:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002054s ]
+
+[ 2017-07-13T23:13:54+08:00 ] 127.0.0.1 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-07-13T23:15:10+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-07-13T23:15:23+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 66 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+

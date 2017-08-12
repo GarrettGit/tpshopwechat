@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Tables</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Novus Admin Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    }
+    </script>
+    <!-- Bootstrap Core CSS -->
+    <link href="{:C('CSS_URL')}bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- Custom CSS -->
+    <link href="{:C('CSS_URL')}style.css" rel='stylesheet' type='text/css' />
+    <!-- font CSS -->
+    <!-- font-awesome icons -->
+    <link href="{:C('CSS_URL')}font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+    <!-- js-->
+    <script src="{:C('JS_URL')}jquery-1.11.1.min.js"></script>
+    <script src="{:C('JS_URL')}modernizr.custom.js"></script>
+    <!--webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet'
+        type='text/css'>
+    <!--//webfonts-->
+    <!--animate-->
+    <link href="{:C('CSS_URL')}animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="{:C('JS_URL')}wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--//end-animate-->
+    <!-- Metis Menu -->
+    <script src="{:C('JS_URL')}metisMenu.min.js"></script>
+    <script src="{:C('JS_URL')}custom.js"></script>
+    <link href="{:C('CSS_URL')}custom.css" rel="stylesheet">
+    <!--//Metis Menu -->
+</head>
+
+<body class="cbp-spmenu-push">
+    <div class="main-content">
+        <!--left-fixed -navigation-->
+        <include file="./Application/Admin/View/View/navi.html" />
+        <!--left-fixed -navigation-->
+        <!-- header-starts -->
+        <include file="./Application/Admin/View/View/header.html" />
+        <!-- //header-ends -->
+        <!-- main content start-->
+        <div id="page-wrapper">
+            <div class="main-page">
+                <div class="tables">
+                    <h3 class="title1">添加一个商品属性</h3>
+                    <div class="panel-body widget-shadow">
+                        <form class="form-horizontal" action="" id="attr_form" onsubmit="return false">
+                            <input type="hidden" name="mg_id" value="{$info['mg_id']}">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>键</th>
+                                        <th>值</th>
+                                        <th>备注</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">属性名称</th>
+                                        <td><input type="text" required class="form-control1" id="focusedinput1" name="attr_name"
+                                                value="{$info.mg_name}"> </td>
+                                        <td id="focusedinput_td">该属性的名称，例如CPU/屏幕大小等等</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">所属商品类型</th>
+                                        <td><select id="type_id" class="form-control1"> 
+                                            <foreach name="info" item="v"> 
+										    <option value="{$v['type_id']}" >{$v.type_name}</option>
+                                            </foreach>          
+									</select></td>
+                                        <td>选择一个类型，例如CPU可以属于电脑类商品</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">属性类别</th>
+                                        <td><select name="attr_sel" id="selector1" class="form-control1">  
+										    <option value="only" >唯一属性</option>          
+										    <option value="many"  >可选属性</option>         
+									</select></td>
+                                        <td>是唯一属性还是可选属性,例如手机品牌是唯一的，而颜色是可选的</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">录入方式</th>
+                                        <td><select name="attr_write" id="selector2" disabled class="form-control1">  
+										    <option value="manual" id="only">手工录入</option>          
+										    <option value="list" id="many">列表选择</option>          
+									</select></td>
+                                        <td>不可更改，由属性类别决定</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">属性值</th>
+                                        <td><input type="text" class="form-control1"   disabled id="focusedinput" name="attr_vals">                                            </td>
+                                        <td id="focusedinput_td">如果是可选属性请写出所有的属性并使用"|"分开</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <button type="submit" class="btn btn-large btn-block btn-default">提交</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <include file="./Application/Admin/View/View/footer.html" />
+        <!--//footer-->
+    </div>
+    <!-- Classie -->
+    <script src="{:C('JS_URL')}classie.js"></script>
+    <script>
+        var menuLeft = document.getElementById('cbp-spmenu-s1'),
+            showLeftPush = document.getElementById('showLeftPush'),
+            body = document.body;
+
+        showLeftPush.onclick = function () {
+            classie.toggle(this, 'active');
+            classie.toggle(body, 'cbp-spmenu-push-toright');
+            classie.toggle(menuLeft, 'cbp-spmenu-open');
+            disableOther('showLeftPush');
+        };
+
+        function disableOther(button) {
+            if (button !== 'showLeftPush') {
+                classie.toggle(showLeftPush, 'disabled');
+            }
+        }
+    </script>
+    <!--scrolling js-->
+    <script src="{:C('JS_URL')}jquery.nicescroll.js"></script>
+    <script src="{:C('JS_URL')}scripts.js"></script>
+    <!--//scrolling js-->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{:C('JS_URL')}bootstrap.js"></script>
+</body>
+
+</html>
+
+
+<script>
+        $("#selector1").change(function (e) {
+            e.preventDefault();
+            var sel = $("#selector1").val();
+            if (sel == "only") {
+                $("#only").attr("selected", true);
+                $("#many").attr("selected", false);
+                $("#focusedinput").attr("disabled", true);
+            } else {
+                $("#only").attr("selected", false);
+                $("#many").attr("selected", true);
+                $("#focusedinput").attr("disabled", false);
+            }
+        });
+
+        $("#attr_form").submit(function (e) {
+            e.preventDefault();
+
+            var index = layer.load(0, { shade: false }); //0代表加载的风格，支持0-2
+    
+            attr_name = $("#focusedinput1").val();
+            type_id    = $("#type_id").val();
+            attr_sel   = $("#selector1").val();
+            attr_write = $("#selector2").val();
+            attr_vals  = $("#focusedinput").val();
+
+
+            $.ajax({
+                type: "post",
+                url: "{:U('add')}",
+                data: "attr_name="+attr_name+"&attr_sel="+attr_sel+"&type_id="+type_id+"&attr_write="+attr_write+"&attr_vals="+attr_vals,
+                dataType: "json",
+                success: function (msg) {
+                    if (msg["status"]=="200") {
+                        layer.closeAll("loading");
+                        layer.confirm(" 属性添加成功，是否继续添加属性", {
+                            btn: ['继续添加', '不，添加完成'] //按钮
+                        }, function () {
+                            layer.msg('可以继续执行添加操作');
+                        }, function () {
+                            window.location.href = "{:U('showlist')}";
+                        });
+                    }
+                }
+            });
+        });
+
+</script>

@@ -1,0 +1,135 @@
+{__NOLAYOUT__}
+<layout name="Pub/layout2"/>
+	<link rel="stylesheet" href="__PUBLIC__/resources/home/style/cart.css" type="text/css"/>
+
+	<!-- 主体部分 start -->
+	<div class="mycart w990 mt10 bc">
+		<h2><span>我的购物车</span></h2>
+		<table>
+			<thead>
+				<tr>
+					<th class="col1">商品名称</th>
+					<th class="col2">商品信息</th>
+					<th class="col3">数量</th>
+					<th class="col4">单价</th>
+					<th class="col5">小计</th>
+					<th class="col6">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+			<foreach name="cartInfo" item="info">
+				<tr>
+					<td class="col1"><a href=""><img src="{$info.logo}" alt="" /></a>  <strong><a href="">{$info.goods_name}</a></strong></td>
+					
+					<td class="col3">￥<span>{$info.goods_price}</span></td>
+					<td class="col4"> 
+						<a href="javascript:;" class="reduce_num" onclick="modify_number('red',{$info.goods_id})"></a>
+						<input type="text" name="amount" value="{$info.goods_buy_number}" class="amount" id="goods_number_{$info.goods_id}" onchange="modify_number('mod',{$info.goods_id})"/>
+						<a href="javascript:;" class="add_num" onclick="modify_number('add',{$info.goods_id})"></a>
+					</td>
+					<td class="col5">￥<span id="goods_xiaoji_{$info.goods_id}">{$info.goods_total_price}</span></td>
+					<td class="col6"><a href=" javascript:if(confirm('确定要删除该商品吗?')){del_goods({$info.goods_id})}">删除</a></td>
+				</tr>
+			</foreach>
+				<!--<tr>-->
+					<!--<td class="col1"><a href=""><img src="__PUBLIC__/resources/home/images/cart_goods2.jpg" alt="" /></a> <strong><a href="">九牧王王正品新款时尚休闲中长款茄克EK01357200</a></strong></td>-->
+					<!--<td class="col2"> <p>颜色：淡蓝色</p> <p>尺码：165/88</p></td>-->
+					<!--<td class="col3">￥<span>1102.00</span></td>-->
+					<!--<td class="col4"> -->
+						<!--<a href="javascript:;" class="reduce_num"></a>-->
+						<!--<input type="text" name="amount" value="1" class="amount"/>-->
+						<!--<a href="javascript:;" class="add_num"></a>-->
+					<!--</td>-->
+					<!--<td class="col5">￥<span>1102.00</span></td>-->
+					<!--<td class="col6"><a href="">删除</a></td>-->
+				<!--</tr>-->
+				<!--<tr>-->
+					<!--<td class="col1"><a href=""><img src="__PUBLIC__/resources/home/images/cart_goods3.jpg" alt="" /></a> <strong><a href="">【1111购物狂欢节】捷王纯手工缝制休闲男鞋大头皮鞋 头层牛</a></strong></td>-->
+					<!--<td class="col2"> <p>颜色：0922红棕现货</p> <p>尺码：40现货</p></td>-->
+					<!--<td class="col3">￥<span>269.00</span></td>-->
+					<!--<td class="col4"> -->
+						<!--<a href="javascript:;" class="reduce_num"></a>-->
+						<!--<input type="text" name="amount" value="1" class="amount"/>-->
+						<!--<a href="javascript:;" class="add_num"></a>-->
+					<!--</td>-->
+					<!--<td class="col5">￥<span>269.00</span></td>-->
+					<!--<td class="col6"><a href="">删除</a></td>-->
+				<!--</tr>-->
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="6">购物金额总计： <strong>￥ <span id="total">{$number_price.price}</span></strong></td>
+				</tr>
+			</tfoot>
+		</table>
+		<div class="cart_btn w990 bc mt10">
+			<a href="{:U('Goods/showlist')}" class="continue">继续购物</a>
+			<a href="{:U('Shop/goodsOrder')}" class="checkout">结 算</a>
+		</div>
+	</div>
+<div style="clear: both"></div>
+	<!-- 主体部分 end -->
+<script type="text/javascript">
+//给购物车商品数量实现"增、减、修改"操作
+//flag:red/mod/add
+function modify_number(flag,goods_id){
+    //获得当前被修改商品的数量
+    var num = $('#goods_number_'+goods_id).val();
+
+    if(flag=='red'){
+        if(num==1){
+            alert('单件商品的购买数量不能少于1个，或直接删除');
+            return false;
+        }
+        num--;
+    }else if(flag=='mod'){
+        //修改的数量就是1-20之间的数字
+        var reg = /^([1-9]|1\d|20)$/;//严格匹配1-20之间的数字
+
+        if(num.match(reg)===null){
+            alert('修改的数量参数不合法，要求是1-20之间的数字');
+            window.location.href=window.location.href;//页面刷新
+            return false;
+        }
+    }else if(flag=='add'){
+        num++;
+    }else{
+        alert('参数不合法');
+        return false;
+    }
+
+    //Ajax方式修改服务器端购物车数量数量
+    $.ajax({
+        url:'/index.php/Home/Shop/changeNumber',
+        data:{'goods_id':goods_id,'num':num},
+        dataType:'json',
+        type:'post',
+        success:function(msg){
+            //使得数量、小计价格、总价格得到更新
+            $('#goods_number_'+goods_id).val(num);
+            $('#goods_xiaoji_'+goods_id).html(msg.xiaoji_price);
+            $('#total').html(msg.total_price);
+        }
+    });
+}
+
+
+//删除购物车商品
+function del_goods(goods_id){
+    //Ajax方式删除
+    $.ajax({
+        url:'/index.php/Home/Shop/delCartGoods',
+        data:{'goods_id':goods_id},
+        dataType:'json',
+        type:'post',
+        success:function(msg){
+            //msg: {price:xxx,number:xxx}
+            //删除页面商品对应的tr元素
+            $('#goods_xiaoji_'+goods_id).parent().parent().remove();
+            //更新购物车商品总金额
+            $('#total').html(msg.price);
+            window.location.reload();
+        }
+    });
+}
+</script>

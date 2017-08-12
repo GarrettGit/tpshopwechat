@@ -1,0 +1,543 @@
+[ 2017-06-04T16:24:14+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-06-04T16:24:14+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-06-04T16:24:14+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-06-04T16:24:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-06-04T16:24:26+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-06-04T16:24:27+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2017-06-04T16:24:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-06-04T16:24:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-06-04T16:24:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-06-04T16:24:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-04T16:24:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-06-04T16:24:36+08:00 ] 127.0.0.1 /index.php/Admin/Type/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-06-04T16:24:42+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist/type_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-06-04T16:24:43+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0212s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0104s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0009s ]
+
+[ 2017-06-04T16:26:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-06-04T16:26:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-06-04T16:26:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+
+[ 2017-06-04T16:26:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/xiugai/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-06-04T16:26:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/xiugai/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-06-04T16:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-06-04T16:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001932s ]
+
+[ 2017-06-04T16:27:57+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0087s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0003s ]
+
+[ 2017-06-04T16:28:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-06-04T16:28:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-06-04T16:40:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-06-04T16:40:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-06-04T16:40:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-06-04T16:40:45+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0102s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0076s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0003s ]
+
+[ 2017-06-04T16:41:54+08:00 ] 127.0.0.1 /index.php/Admin/Type/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-06-04T16:41:58+08:00 ] 127.0.0.1 /index.php/Admin/Type/updType/type_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-06-04T16:41:58+08:00 ] 127.0.0.1 /index.php/Admin/Type/updType/type_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-06-04T16:42:03+08:00 ] 127.0.0.1 /index.php/Admin/Type/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-06-04T16:42:05+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist/type_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-06-04T16:42:06+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0101s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0082s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0004s ]
+
+[ 2017-06-04T16:42:12+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-06-04T16:42:12+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-06-04T16:42:30+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-06-04T16:42:33+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist/type_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2017-06-04T16:42:34+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0173s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0089s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0004s ]
+
+[ 2017-06-04T16:42:41+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-06-04T16:42:41+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-06-04T16:43:01+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-06-04T16:43:04+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist/type_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-06-04T16:43:05+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0109s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0084s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0003s ]
+
+[ 2017-06-04T16:43:08+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-06-04T16:43:08+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-06-04T16:43:13+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-06-04T16:43:16+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist/type_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-06-04T16:43:17+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0003s ]
+
+[ 2017-06-04T16:43:20+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/addAttr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-06-04T16:43:20+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-06-04T16:43:35+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/addAttr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-06-04T16:43:38+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-06-04T16:43:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-06-04T16:43:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-06-04T16:44:01+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0239s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0087s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0003s ]
+
+[ 2017-06-04T16:44:14+08:00 ] 127.0.0.1 /index.php/Admin/Type/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-04T16:44:18+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist/type_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-04T16:44:19+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0193s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0087s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0003s ]
+
+[ 2017-06-04T16:44:22+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-04T16:44:22+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-06-04T16:44:25+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0180s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0102s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0004s ]
+
+[ 2017-06-04T16:44:28+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-06-04T16:44:28+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-06-04T16:44:34+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-06-04T16:44:37+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist/type_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-06-04T16:44:38+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0087s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0004s ]
+
+[ 2017-06-04T16:44:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-06-04T16:44:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-06-04T16:44:49+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-04T16:44:52+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist/type_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-06-04T16:44:53+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0215s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0085s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0004s ]
+
+[ 2017-06-04T16:44:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-06-04T16:44:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-06-04T16:44:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-06-04T16:45:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-06-04T16:45:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001889s ]
+
+[ 2017-06-04T16:45:22+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrByTypeInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0155s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 27 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0088s ]
+SQL: SELECT attr.*,type.type_name FROM sp_attribute attr INNER JOIN sp_type as type on attr.type_id=type.type_id  WHERE `flag` = 0 AND type.type_id = '6'  [ RunTime:0.0003s ]
+
+[ 2017-06-04T16:46:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-06-04T16:46:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-06-04T16:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/xiugai/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-06-04T16:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/xiugai/goods_id/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-06-04T16:53:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+
+[ 2017-06-04T16:53:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+

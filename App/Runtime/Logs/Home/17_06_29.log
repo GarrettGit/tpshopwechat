@@ -1,0 +1,2698 @@
+[ 2017-06-29T08:49:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001697s ]
+
+[ 2017-06-29T08:49:15+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-06-29T08:49:17+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-06-29T08:49:50+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=76d4c43b9e86332e89fdc835998c757f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-06-29T08:49:52+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-06-29T08:50:26+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-06-29T08:50:55+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2017-06-29T08:51:03+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-06-29T08:52:16+08:00 ] 127.0.0.1 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-06-29T08:52:24+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-06-29T09:08:23+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=afc706182c88489f8023b35d2d4f4c3c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-06-29T09:08:25+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-06-29T09:10:20+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-06-29T09:10:20+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-06-29T09:10:25+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-06-29T09:10:49+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-06-29T09:10:56+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-06-29T09:11:01+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-06-29T09:48:01+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+
+[ 2017-06-29T09:48:08+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-06-29T09:49:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-06-29T09:49:18+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-06-29T09:52:25+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-06-29T09:53:37+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T09:53:49+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-06-29T09:53:59+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T09:54:01+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-06-29T09:54:04+08:00 ] 127.0.0.1 /index.php/Home/Shop/delCartGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T09:54:05+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001507s ]
+
+[ 2017-06-29T09:57:29+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-06-29T09:57:35+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-06-29T09:58:10+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-06-29T09:58:26+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T10:03:41+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T10:03:47+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T10:03:48+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-06-29T10:04:14+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T10:05:18+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-06-29T10:05:21+08:00 ] 127.0.0.1 /index.php/Home/Shop/delCartGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T10:05:22+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-06-29T10:14:41+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-06-29T10:14:46+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T10:15:27+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-06-29T10:15:31+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T10:15:43+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-06-29T10:15:50+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-06-29T10:15:53+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-06-29T10:15:57+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-06-29T10:16:08+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-06-29T10:16:16+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-06-29T10:16:23+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T10:16:27+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-06-29T10:16:34+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-06-29T10:16:34+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+
+[ 2017-06-29T10:16:42+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-06-29T10:16:43+08:00 ] 127.0.0.1 /index.php/Home/Shop/GoodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-06-29T10:16:56+08:00 ] 127.0.0.1 /index.php/Home/Shop/GoodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-06-29T10:22:26+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-06-29T10:22:28+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-06-29T10:22:30+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=7B456D8A499823B83B9C0865B68D3E5F&state=9300f987e247545068edfc38b4907a1d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-06-29T10:23:39+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-06-29T10:23:41+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-06-29T10:23:41+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-06-29T10:23:46+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-06-29T10:23:52+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-06-29T10:23:56+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=6E361C0180B18BC295BF6118D58AA9C7&state=89c1aee0b8c8bdd01598b1e557e71b17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-06-29T10:23:56+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-06-29T10:26:48+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-06-29T10:26:48+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-06-29T10:26:49+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-06-29T10:26:53+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=543373A4EA530083C89CE96E9D477CFB&state=0c5a96cdb554b86f4c4d873818e5ba11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-06-29T10:27:46+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-06-29T10:27:50+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=092117BFA78AF0F37EF5C840B474FE31&state=932f0af051c5943cef80f9e98b49bf05
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-06-29T10:29:33+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-06-29T10:29:34+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2017-06-29T10:29:36+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=F6C5D7EF1C13A4B704D4EFC1EEE950F2&state=208cd02898b90b4d56b1141027d8a112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-06-29T10:29:43+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-06-29T10:29:44+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-06-29T10:30:11+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-06-29T10:30:14+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=CAF194C40ED055345E7C090DBECEA236&state=ffa0adc22680a9867cadd533465b19eb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-06-29T10:30:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-06-29T10:30:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-06-29T10:30:49+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-06-29T10:30:49+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-06-29T10:30:51+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-06-29T10:30:55+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=D7E0A4DAA2114F556BC9D942BCAD9767&state=f3bc50574e3491fa78ecc47901a5504d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-06-29T10:31:55+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2017-06-29T10:32:12+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-06-29T10:32:14+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-06-29T10:32:18+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=498CB1B3235C992C9762FCE389257284&state=aa586a06b1b71af506f2852ed2b13fb9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-06-29T10:33:28+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-06-29T10:33:30+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-06-29T10:33:31+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-06-29T10:34:11+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-06-29T10:34:18+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=295821C2954A9B4E33113642B1DA0D22&state=0d0994eda3ee67ce190d8b967f213eee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-06-29T10:34:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-06-29T10:40:29+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-06-29T10:40:30+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-06-29T10:40:34+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=1194F96B9D84FA0817DEEE1099F4EF65&state=60b63e4cd488a66a75bf9d05a033606e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-06-29T10:40:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-06-29T10:44:32+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-06-29T10:44:35+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-06-29T10:44:39+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=75AD4EDDA8E40D5E9DEA14B4C6991736&state=da865af51983b1a2d5d96373c4d2272f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-06-29T10:44:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-06-29T10:55:53+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-29T10:55:55+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-06-29T10:56:01+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=A16B1BF9503B973804F9D36ED0CBE17D&state=b9b23089e9d03e1be15415542922227f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-06-29T10:56:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-06-29T10:57:25+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-06-29T10:57:25+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-06-29T10:57:27+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-06-29T10:57:31+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-06-29T10:57:33+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-06-29T10:57:37+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=B4F9E6372CF46C27AA141D15D8F3DF3D&state=0d823cf28b4bfec966f06b1089d16e66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-06-29T10:58:21+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-06-29T10:58:22+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-06-29T10:58:26+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=CF8320119F6D64733213C0294E1B989B&state=81d0002eff7d0e7989f732be71a768cb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-06-29T15:19:19+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-06-29T15:19:23+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=770B0959B40FAAE0AA3779E2607A1570&state=ad326ceb438199d76f3aafbec068e742
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-06-29T15:21:45+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+
+[ 2017-06-29T15:21:50+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=423281A9A3ADB22DF9CDA61FAA6197FD&state=a8bbcc292e87715a8c108bc20d305600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-29T15:21:52+08:00 ] 127.0.0.1 /index.php/Home/User/callback.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-06-29T15:23:15+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: syntax error, unexpected '}'
+
+[ 2017-06-29T15:23:23+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-06-29T15:23:25+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+
+[ 2017-06-29T15:23:29+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=712A9B3C868BA1BAE5C18FC048FA90CF&state=00ddd91d9216f2bd127d63c502c3f729
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-06-29T15:23:32+08:00 ] 127.0.0.1 /index.php/Home/User/callback.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-06-29T15:23:45+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-06-29T15:23:48+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-06-29T15:23:52+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=44BC3750D1ABA85900F795951D0B4D75&state=9df90768ad858704149d4a83c08156a2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-06-29T15:23:54+08:00 ] 127.0.0.1 /index.php/Home/User/callback.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-06-29T15:24:34+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-06-29T15:24:38+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=322793A5002400713632FA73738382B4&state=ed869cec7e043da9c11feb5548a61795
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-06-29T15:49:04+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-06-29T15:49:09+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=63C51CEC74C3C0123E5875D6045F2CFD&state=a4b3f872c0d9b927942e7363077b0ac3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-06-29T15:49:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-06-29T15:49:15+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-06-29T15:49:15+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-06-29T15:49:17+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-06-29T15:50:19+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=48067eedaedc0797339ddd5345b2c2b2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-06-29T15:50:21+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-06-29T15:50:30+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-06-29T15:50:30+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-06-29T15:51:32+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-29T15:51:32+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-06-29T15:51:34+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-06-29T15:51:34+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-06-29T15:52:40+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-06-29T15:52:44+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-06-29T15:52:48+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-06-29T15:52:54+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-06-29T15:53:22+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-06-29T15:53:34+08:00 ] 127.0.0.1 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-06-29T15:53:43+08:00 ] 127.0.0.1 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-06-29T15:54:32+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-29T15:54:35+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-06-29T16:32:22+08:00 ] 127.0.0.1 /index.php/Home/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 非法操作:index
+
+[ 2017-06-29T16:32:38+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-06-29T16:32:41+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+
+[ 2017-06-29T16:32:45+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-06-29T16:32:49+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T16:32:52+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-29T16:32:57+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-06-29T16:32:57+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-29T16:33:04+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-06-29T16:33:05+08:00 ] 127.0.0.1 /index.php/Home/Shop/GoodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-06-29T16:33:12+08:00 ] 127.0.0.1 /index.php/Home/Shop/GoodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-06-29T16:50:05+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-06-29T16:50:09+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-06-29T16:50:10+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-06-29T16:50:11+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-06-29T16:50:12+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-06-29T16:50:13+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-06-29T16:50:14+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-06-29T16:50:15+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-06-29T16:50:23+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-06-29T16:50:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-06-29T16:50:31+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T16:50:37+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-06-29T16:50:40+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2017-06-29T16:50:49+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T16:50:52+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-06-29T16:50:57+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-06-29T16:51:00+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-06-29T16:51:09+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-06-29T16:51:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-06-29T16:51:25+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-06-29T16:51:28+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-06-29T16:51:33+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-06-29T16:52:20+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T16:52:24+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-06-29T16:52:27+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-06-29T16:52:31+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-06-29T16:52:53+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-06-29T16:52:59+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-06-29T16:53:24+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-06-29T16:53:31+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T16:53:39+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-06-29T16:53:42+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-06-29T16:53:48+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T16:53:54+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-29T16:53:58+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-06-29T16:54:01+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-06-29T16:54:29+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-06-29T16:54:33+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-29T16:54:37+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-06-29T16:54:45+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-06-29T16:54:47+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-06-29T16:54:52+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-29T16:54:53+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-06-29T16:59:23+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-06-29T17:00:08+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-06-29T17:00:12+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 模板不存在:./App/Home/View/Order/showlist.html
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/view_list1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/view_list2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/view_list3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/view_list1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/view_list2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/view_list3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2017-06-29T17:00:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-06-29T17:03:37+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 模板不存在:./App/Home/View/Order/showlist.html
+
+[ 2017-06-29T17:03:52+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-06-29T17:03:53+08:00 ] 127.0.0.1 /index.php/Home/order/style/order.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003797s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:03:53+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-06-29T17:03:53+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-06-29T17:03:53+08:00 ] 127.0.0.1 /index.php/Home/order/images/xin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-06-29T17:03:53+08:00 ] 127.0.0.1 /index.php/Home/order/images/kexin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-06-29T17:03:53+08:00 ] 127.0.0.1 /index.php/Home/order/images/police.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-06-29T17:03:53+08:00 ] 127.0.0.1 /index.php/Home/order/images/beian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+
+[ 2017-06-29T17:03:53+08:00 ] 127.0.0.1 /index.php/Home/order/style/order.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:03:53+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-06-29T17:03:53+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-06-29T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-06-29T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-06-29T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-06-29T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/order/images/xin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-06-29T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/order/images/kexin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-06-29T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/order/images/police.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-06-29T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/order/images/beian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-06-29T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-06-29T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-06-29T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/order/images/xin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-06-29T17:05:22+08:00 ] 127.0.0.1 /index.php/Home/order/images/kexin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-06-29T17:06:47+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-06-29T17:06:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-06-29T17:06:47+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+
+[ 2017-06-29T17:06:48+08:00 ] 127.0.0.1 /index.php/Home/order/images/xin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-06-29T17:06:48+08:00 ] 127.0.0.1 /index.php/Home/order/images/kexin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+
+[ 2017-06-29T17:06:48+08:00 ] 127.0.0.1 /index.php/Home/order/images/police.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-06-29T17:06:48+08:00 ] 127.0.0.1 /index.php/Home/order/images/beian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-06-29T17:06:48+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-06-29T17:07:35+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-06-29T17:07:35+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+
+[ 2017-06-29T17:07:35+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004323s ]
+
+[ 2017-06-29T17:07:35+08:00 ] 127.0.0.1 /index.php/Home/order/images/xin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-06-29T17:07:35+08:00 ] 127.0.0.1 /index.php/Home/order/images/kexin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-06-29T17:07:35+08:00 ] 127.0.0.1 /index.php/Home/order/images/police.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-06-29T17:07:35+08:00 ] 127.0.0.1 /index.php/Home/order/images/beian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-06-29T17:07:35+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-06-29T17:07:35+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-06-29T17:09:50+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-06-29T17:09:50+08:00 ] 127.0.0.1 /index.php/Home/order/style/global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:09:50+08:00 ] 127.0.0.1 /index.php/Home/order/style/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:09:50+08:00 ] 127.0.0.1 /index.php/Home/order/style/home.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:09:50+08:00 ] 127.0.0.1 /index.php/Home/order/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:09:50+08:00 ] 127.0.0.1 /index.php/Home/order/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:09:50+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-06-29T17:09:50+08:00 ] 127.0.0.1 /index.php/Home/order/style/global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:09:50+08:00 ] 127.0.0.1 /index.php/Home/order/style/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:09:50+08:00 ] 127.0.0.1 /index.php/Home/order/style/home.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:09:50+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-06-29T17:10:00+08:00 ] 127.0.0.1 /index.php/Home/order/style/global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:00+08:00 ] 127.0.0.1 /index.php/Home/order/style/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:00+08:00 ] 127.0.0.1 /index.php/Home/order/style/home.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:00+08:00 ] 127.0.0.1 /index.php/Home/order/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:00+08:00 ] 127.0.0.1 /index.php/Home/order/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:03+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-06-29T17:10:03+08:00 ] 127.0.0.1 /index.php/Home/order/style/global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:03+08:00 ] 127.0.0.1 /index.php/Home/order/style/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:03+08:00 ] 127.0.0.1 /index.php/Home/order/style/home.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:03+08:00 ] 127.0.0.1 /index.php/Home/order/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:03+08:00 ] 127.0.0.1 /index.php/Home/order/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004194s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:03+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-06-29T17:10:03+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+
+[ 2017-06-29T17:10:12+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/style/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/style/home.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/style/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/style/home.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 非法操作:style
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-06-29T17:10:25+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-06-29T17:10:48+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-06-29T17:10:48+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-06-29T17:10:48+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-06-29T17:10:48+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-06-29T17:10:48+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-06-29T17:11:05+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-06-29T17:11:05+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004807s ]
+
+[ 2017-06-29T17:11:05+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-06-29T17:11:05+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-06-29T17:11:05+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-06-29T17:11:14+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-06-29T17:11:14+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-06-29T17:11:14+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-06-29T17:11:14+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-06-29T17:11:14+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-06-29T17:11:25+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-06-29T17:11:25+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-06-29T17:11:25+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-06-29T17:11:25+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-06-29T17:11:25+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-06-29T17:11:51+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-06-29T17:11:51+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-06-29T17:11:51+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-06-29T17:11:51+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-06-29T17:11:51+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-06-29T17:11:58+08:00 ] 127.0.0.1 /index.php/Home/user/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-06-29T17:12:03+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-06-29T17:12:03+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006513s ]
+
+[ 2017-06-29T17:12:03+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-06-29T17:12:03+08:00 ] 127.0.0.1 /index.php/Home/order/images/order1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-06-29T17:12:03+08:00 ] 127.0.0.1 /index.php/Home/order/images/order2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2017-06-29T17:14:55+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-06-29T17:15:43+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-06-29T17:15:56+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-06-29T17:15:59+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-29T17:16:09+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-06-29T17:16:15+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T17:16:18+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-06-29T17:16:21+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-06-29T17:16:24+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-06-29T17:16:28+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-06-29T17:16:43+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-06-29T17:16:43+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-29T17:16:46+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-06-29T17:16:51+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=622ADBB4D55D63622E7913904B442D65&state=c02683ef8be63b34b91b114d961db937
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-06-29T17:16:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-06-29T17:16:54+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-06-29T17:16:58+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-06-29T17:17:06+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T17:17:09+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-06-29T17:17:12+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-06-29T17:17:15+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-06-29T17:17:19+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-06-29T17:18:46+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-06-29T17:19:41+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-06-29T17:27:22+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-06-29T17:27:35+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-06-29T17:29:34+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-29T18:59:12+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-06-29T18:59:45+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+
+[ 2017-06-29T19:00:06+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-06-29T19:01:30+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-06-29T19:04:04+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-06-29T19:05:07+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-06-29T19:06:16+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-06-29T19:06:49+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-06-29T19:07:09+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-06-29T19:07:12+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-06-29T19:07:15+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-06-29T19:07:44+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-06-29T19:08:17+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-06-29T19:12:30+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-06-29T19:12:31+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-06-29T19:12:33+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-06-29T19:12:35+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-06-29T19:12:36+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-29T19:12:37+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-06-29T19:12:39+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-29T19:13:15+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-06-29T19:13:16+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-06-29T19:13:19+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-06-29T19:13:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-29T19:13:26+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T19:13:29+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-06-29T19:13:33+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-06-29T19:13:36+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-06-29T19:13:43+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-29T19:14:03+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-06-29T19:14:22+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-06-29T19:16:39+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN on goods order.goods_id = goods.goods_id  WHERE `user_id` = '57423' O' at line 1
+ [ SQL语句 ] : SELECT * FROM sp_order order INNER JOIN on goods order.goods_id = goods.goods_id  WHERE `user_id` = '57423' ORDER BY order_id DESC 
+
+[ 2017-06-29T19:17:48+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN goods on order.goods_id = goods.goods_id  WHERE `user_id` = '57423' O' at line 1
+ [ SQL语句 ] : SELECT * FROM sp_order order INNER JOIN goods on order.goods_id = goods.goods_id  WHERE `user_id` = '57423' ORDER BY order_id DESC 
+
+[ 2017-06-29T19:18:10+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN sp_goods on order.goods_id = goods.goods_id  WHERE `user_id` = '57423' at line 1
+ [ SQL语句 ] : SELECT * FROM sp_order order INNER JOIN sp_goods on order.goods_id = goods.goods_id  WHERE `user_id` = '57423' ORDER BY order_id DESC 
+
+[ 2017-06-29T19:21:11+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN sp_order_goods as og on order.order_id = og.order_id  WHERE `user_id`' at line 1
+ [ SQL语句 ] : SELECT * FROM sp_order order INNER JOIN sp_order_goods as og on order.order_id = og.order_id  WHERE `user_id` = '57423' ORDER BY order_id DESC 
+
+[ 2017-06-29T19:23:37+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-06-29T19:24:32+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 1054:Unknown column 'goods.godos_id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM sp_order ord INNER JOIN sp_order_goods as og on ord.order_id = og.order_id INNER JOIN sp_goods on og.goods_id = goods.godos_id  WHERE ord.user_id = '57423' ORDER BY ord.order_id DESC 
+
+[ 2017-06-29T19:25:13+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 1054:Unknown column 'goods.goods_id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM sp_order ord INNER JOIN sp_order_goods as og on ord.order_id = og.order_id INNER JOIN sp_goods on og.goods_id = goods.goods_id  WHERE ord.user_id = '57423' ORDER BY ord.order_id DESC 
+
+[ 2017-06-29T19:27:38+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-06-29T19:32:06+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-06-29T19:36:31+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-06-29T19:36:46+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-06-29T19:37:34+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-06-29T19:37:49+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-06-29T19:37:49+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-06-29T19:37:51+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-06-29T19:38:08+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=fe05fa6931039ec0f975cc9e943b1327
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-06-29T19:38:11+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-06-29T19:38:15+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-06-29T19:38:19+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-06-29T19:38:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2017-06-29T19:38:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-06-29T19:38:31+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T19:38:37+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-06-29T19:38:41+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-06-29T19:38:46+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T19:38:48+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001585s ]
+
+[ 2017-06-29T19:38:51+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-06-29T19:38:56+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-06-29T19:39:06+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-06-29T19:41:02+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-06-29T19:41:30+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-06-29T19:44:37+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-06-29T19:45:10+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-06-29T19:45:17+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-06-29T19:45:53+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-29T19:51:37+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 1054:Unknown column 'ord.user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_order` WHERE ord.user_id = '57426' ORDER BY ord.order_id DESC 
+
+[ 2017-06-29T19:51:58+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-06-29T19:52:07+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-06-29T19:52:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-29T19:53:24+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-06-29T20:01:04+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-06-29T20:01:46+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-06-29T20:03:57+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+
+[ 2017-06-29T20:04:09+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-06-29T20:05:56+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-06-29T20:07:40+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-06-29T20:08:08+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-06-29T20:08:08+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-06-29T20:08:10+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-06-29T20:08:15+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=591AC0DF6FC88FA5D0D74F5CBD3095C1&state=beb7ab02b8907b93fcac1e278d34a71e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-06-29T20:08:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-06-29T20:08:18+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-06-29T20:08:27+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-06-29T20:08:58+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-06-29T20:08:58+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-06-29T20:09:05+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-06-29T20:09:05+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-06-29T20:09:09+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-06-29T20:09:21+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-06-29T20:09:25+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-06-29T20:09:29+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T20:09:33+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-06-29T20:09:36+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-29T20:09:41+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 27 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T20:09:43+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-29T20:09:46+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-06-29T20:09:52+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-29T20:09:56+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-29T20:10:11+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-06-29T20:11:57+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 1054:Unknown column '$orderIds' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM sp_order_goods og INNER JOIN sp_goods as goods on og.goods_id = goods.goods_id  WHERE ( og.order_id IN($orderIds) ) 
+
+[ 2017-06-29T20:12:12+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-06-29T20:17:00+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-06-29T20:20:35+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2017-06-29T20:21:00+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-29T20:21:23+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-06-29T20:23:13+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2017-06-29T20:23:17+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2017-06-29T20:23:33+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-06-29T20:23:43+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-06-29T20:24:17+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-06-29T20:24:26+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-06-29T20:24:34+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-06-29T20:28:21+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-06-29T20:28:49+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-06-29T20:29:19+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-06-29T20:30:17+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-06-29T20:31:21+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-06-29T20:31:49+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-06-29T20:32:41+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-06-29T20:33:06+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-29T20:33:18+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-06-29T20:33:20+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-06-29T20:33:23+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 29 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-06-29T20:33:25+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-29T20:33:27+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-06-29T20:33:33+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-06-29T20:33:36+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-29T20:33:39+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-29T20:35:34+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-06-29T20:35:55+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-06-29T20:37:30+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-06-29T20:43:44+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-06-29T20:45:48+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-06-29T20:46:32+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-06-29T20:46:59+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-06-29T20:48:26+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-06-29T20:49:27+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-06-29T20:50:56+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+

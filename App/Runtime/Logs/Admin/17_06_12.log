@@ -1,0 +1,40 @@
+[ 2017-06-12T15:31:28+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-06-12T15:31:34+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-06-12T17:12:28+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-06-12T17:12:30+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-06-12T19:43:11+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001737s ]
+
+[ 2017-06-12T19:43:12+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-06-12T20:04:50+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-06-12T20:04:58+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+

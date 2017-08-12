@@ -1,0 +1,2725 @@
+Index: App/Home/Controller/OrderController.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Home/Controller/OrderController.class.php	(revision )
++++ App/Home/Controller/OrderController.class.php	(revision )
+@@ -0,0 +1,15 @@
++<?php
++namespace Home\Controller;
++
++use Think\Controller;
++
++class OrderController extends Controller{
++    /**
++     * 订单列表
++     * author Fox
++     */
++    public function showlist(){
++       $orderData =  M('Order')->order('order_id DESC')->select();
++        var_dump($orderData);
++    }
++}
+\ No newline at end of file
+Index: App/Home/View/layout.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Home/View/layout.html	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Home/View/layout.html	(revision )
+@@ -8,10 +8,12 @@
+     <link rel="stylesheet" href="__PUBLIC__/resources/home/style/header.css" type="text/css">
+     <link rel="stylesheet" href="__PUBLIC__/resources/home/style/index.css" type="text/css">
+     <link rel="stylesheet" href="__PUBLIC__/resources/home/style/bottomnav.css" type="text/css">
++    
+     <link rel="stylesheet" href="__PUBLIC__/resources/home/style/footer.css" type="text/css">
+     <link rel="stylesheet" href="__PUBLIC__/resources/home/style/login.css" type="text/css">
+ 
+     <script type="text/javascript" src="__PUBLIC__/resources/home/js/jquery-1.8.3.min.js"></script>
++     <script type="text/javascript" src="__PUBLIC__/resources/layer/layer.js"></script>
+     <script type="text/javascript" src="__PUBLIC__/resources/home/js/header.js"></script>
+     <script type="text/javascript" src="__PUBLIC__/resources/home/js/index.js"></script>
+ </head>
+@@ -23,7 +25,14 @@
+             </div>
+             <div class="topnav_right fr">
+                 <ul>
+-                    <li>您好 {$Think.session.userName}，欢迎来到京西！[<a href="{:U('User/login')}">登录</a>] [<a href="{:U('User/register')}">免费注册</a>] </li>
++                    <li>
++                      <if condition="$Think.session.userName eq '' ">
++                        [<a href="{:U('User/login')}">登录</a>]
++                      <else/>
++                        您好 {$Think.session.userName}，欢迎来到京西！
++                       [<a href="{:U('User/logout')}">退出登录</a>]
++                        </if>
++                        [<a href="{:U('User/register')}">免费注册</a>] </li>
+                     <li class="line">|</li>
+                     <li>我的订单</li>
+                     <li class="line">|</li>
+Index: App/Home/Model/UserModel.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Home/Model/UserModel.class.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Home/Model/UserModel.class.php	(revision )
+@@ -4,6 +4,20 @@
+ use Think\Model;
+ 
+ class  UserModel extends Model{
++
++
++    protected $patchValidate = true;
++    protected  $_validate = [
++        ['username','require','用户名必须填写'],
++        ['username','','用户名已经存在',0,'unique'],
++        ['password','require','密码必须填写'],
++        ['user_email','require','邮箱必须填写'],
++        ['user_email','email','邮箱格式不正确',2],
++        ['pwd','require','确认验证必须填写'],
++        ['password','pwd','确认密码不正确',0,'confirm'],
++        ['user_email','email','邮箱格式不正确',2],
++    ];
++
+     /**
+      * 用户登录校验
+      * @param array $param
+@@ -12,16 +26,44 @@
+      * author Fox
+      */
+     public function checkUserInfo(array $param){
+-       $result =  $this->where(['username'=>$param['username'],'password'=>md5($param['password'])])->find();
++        $preg ='/^1[34578]\d{9}$/';
++        if (preg_match($preg,$param['username'])){
++            $where=['user_tel'=>$param['username'],'password'=>md5($param['password'])];
++        }else{
++            $where=['username'=>$param['username'],'password'=>md5($param['password'])];
++        }
++
++       $result =  $this->where($where)->find();
+         if ($result === null){
+             $this->error='用户不存在或账户密码错误请';
+             return false;
+         }
+-
++        //判断是否激活
+        if ($result['is_active'] == '未激活'){
+            $this->error='该用户未激活,请前往'.$result['user_email'].'进行激活';
+            return false;
+        }
++       //判断账户状态
++       if ($result['flag'] == 0){
++           $this->error='该用户已被注销,请与网站管理员联系';
++           return false;
++       }elseif ($result['flag'] == 2){
++           //如果是冻结 判断冻结时间是否已过期 若没过去 提示冻结 过期 解冻允许登录
++           if($result['blocked_time']>time()){
++               $this->error='该用户已被冻结,解冻时间为'.date('Y-m-d H:i:s',$result['blocked_time']);
++               return false;
++           }else{
++               $this->where(['user_id'=>$result['user_id']])->save(['flag'=> 1]);
++               session('userId',$result['user_id']) ;
++               session('userName',$result['username']);
++               return true;
++           }
++
++       }elseif ($result['flag'] == 3){
++           $this->error='该用户已被永久冻结,请与网站管理员联系';
++        return false;
++       }
++       //允许登录
+         if($result !== null){
+             session('userId',$result['user_id']) ;
+             session('userName',$result['username']);
+@@ -33,4 +75,16 @@
+ 
+     }
+ 
++    /**
++     * 用户手机快速注册
++     * author Fox
++     */
++public function userTelRegiste( $param){
++    $user['user_tel'] = $param;
++    $user['password'] = md5(substr($param,3,8));
++    $user['is_active'] = '激活';
++    $user['username'] = substr(md5(time()),16,4).date('ymd').substr($param,6,4);
++    return $this->add($user);
++}
++
+ }
+\ No newline at end of file
+Index: App/Admin/Model/BaseModel.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Admin/Model/BaseModel.class.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Admin/Model/BaseModel.class.php	(revision )
+@@ -2,7 +2,7 @@
+ namespace Admin\Model;
+ use Think\Model;
+ class  BaseModel extends  Model{
+-    //获取一天数据公共方法
++    //获取一条数据公共方法
+     protected function getOneData($param){
+         if (!is_array($param)){
+             return $this->find($param);
+@@ -11,4 +11,8 @@
+         }
+ 
+     }
+-}
+\ No newline at end of file
++}
++
++
++
++
+Index: App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
+@@ -1,18 +0,0 @@
+-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+-<html xmlns="http://www.w3.org/1999/xhtml">
+-<head>
+-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+-<title>后台管理工作平台</title>
+-</head> 
+-<frameset rows="127,*,11" frameborder="no" border="0" framespacing="0">
+-	<frame src="<?php echo U('top');?>" name="topFrame" scrolling="No"
+-		noresize="noresize" id="topFrame" />
+-	<frame src="<?php echo U('center');?>" name="mainFrame" id="mainFrame" />
+-	<frame src="<?php echo U('down');?>" name="bottomFrame" scrolling="No"
+-		noresize="noresize" id="bottomFrame" />
+-</frameset>
+-<noframes>
+-<body>
+-</body>
+-</noframes>
+-</html>
+\ No newline at end of file
+Index: App/Home/View/flow3.html
+===================================================================
+--- App/Home/View/flow3.html	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Home/View/flow3.html	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
+@@ -1,93 +0,0 @@
+-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+-<head>
+-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+-	<title>成功提交订单</title>
+-	<link rel="stylesheet" href="style/base.css" type="text/css">
+-	<link rel="stylesheet" href="style/global.css" type="text/css">
+-	<link rel="stylesheet" href="style/header.css" type="text/css">
+-	<link rel="stylesheet" href="style/success.css" type="text/css">
+-	<link rel="stylesheet" href="style/footer.css" type="text/css">
+-</head>
+-<body>
+-	<!-- 顶部导航 start -->
+-	<div class="topnav">
+-		<div class="topnav_bd w990 bc">
+-			<div class="topnav_left">
+-				
+-			</div>
+-			<div class="topnav_right fr">
+-				<ul>
+-					<li>您好，欢迎来到京西！[<a href="User/login.html">登录</a>] [<a href="register.html">免费注册</a>] </li>
+-					<li class="line">|</li>
+-					<li>我的订单</li>
+-					<li class="line">|</li>
+-					<li>客户服务</li>
+-
+-				</ul>
+-			</div>
+-		</div>
+-	</div>
+-	<!-- 顶部导航 end -->
+-	
+-	<div style="clear:both;"></div>
+-	
+-	<!-- 页面头部 start -->
+-	<div class="header w990 bc mt15">
+-		<div class="logo w990">
+-			<h2 class="fl"><a href="index.html"><img src="images/logo.png" alt="京西商城"></a></h2>
+-			<div class="flow fr flow3">
+-				<ul>
+-					<li>1.我的购物车</li>
+-					<li>2.填写核对订单信息</li>
+-					<li class="cur">3.成功提交订单</li>
+-				</ul>
+-			</div>
+-		</div>
+-	</div>
+-	<!-- 页面头部 end -->
+-	
+-	<div style="clear:both;"></div>
+-
+-	<!-- 主体部分 start -->
+-	<div class="success w990 bc mt15">
+-		<div class="success_hd">
+-			<h2>订单提交成功</h2>
+-		</div>
+-		<div class="success_bd">
+-			<p><span></span>订单提交成功，我们将及时为您处理</p>
+-			
+-			<p class="message">完成支付后，你可以 <a href="">查看订单状态</a>  <a href="">继续购物</a> <a href="">问题反馈</a></p>
+-		</div>
+-	</div>
+-	<!-- 主体部分 end -->
+-
+-	<div style="clear:both;"></div>
+-	<!-- 底部版权 start -->
+-	<div class="footer w1210 bc mt15">
+-		<p class="links">
+-			<a href="">关于我们</a> |
+-			<a href="">联系我们</a> |
+-			<a href="">人才招聘</a> |
+-			<a href="">商家入驻</a> |
+-			<a href="">千寻网</a> |
+-			<a href="">奢侈品网</a> |
+-			<a href="">广告服务</a> |
+-			<a href="">移动终端</a> |
+-			<a href="">友情链接</a> |
+-			<a href="">销售联盟</a> |
+-			<a href="">京西论坛</a>
+-		</p>
+-		<p class="copyright">
+-			 © 2005-2013 京东网上商城 版权所有，并保留所有权利。  ICP备案证书号:京ICP证070359号 
+-		</p>
+-		<p class="auth">
+-			<a href=""><img src="images/xin.png" alt="" /></a>
+-			<a href=""><img src="images/kexin.jpg" alt="" /></a>
+-			<a href=""><img src="images/police.jpg" alt="" /></a>
+-			<a href=""><img src="images/beian.gif" alt="" /></a>
+-		</p>
+-	</div>
+-	<!-- 底部版权 end -->
+-</body>
+-</html>
+Index: App/Home/View/User/tel_register.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Home/View/User/tel_register.html	(revision )
++++ App/Home/View/User/tel_register.html	(revision )
+@@ -0,0 +1,120 @@
++{__NOLAYOUT__}
++<layout name="Pub/layout2" />
++ <script type="text/javascript" src="__PUBLIC__/resources/layer/layer.js"></script>
++<!-- 登录主体部分start -->
++<div class="login w990 bc mt10">
++	<div class="login_hd">
++		<h2>手机快速注册</h2>
++		<b></b>
++	</div>
++	<div class="login_bd">
++		<div class="login_form fl">
++			<form action="" method="post">
++				<ul>
++					<li>
++						<label for="">手机号：</label>
++						<input type="text" class="txt" name="tpl_number" id="tpl_number" style="width:200px;"/>
++						<input type="button" id="send_check_code" value="发送验证码">
++					</li>
++					<li>
++						<label for="">验证码：</label>
++						<input type="text" class="txt" name="tpl_checkCode" id="tpl_checkCode"/>
++						
++					</li>
++					<li>
++						<label for="">&nbsp;</label>
++						<input type="button" value="快速注册" class="reg_btn"  id="register_btn"/>
++					</li>
++				</ul>
++			</form>
++			
++		</div>
++		
++		<div class="guide fl">
++			<h3>还不是商城用户</h3>
++			<p>现在免费注册成为商城用户，便能立刻享受便宜又放心的购物乐趣，心动不如行动，赶紧加入吧!</p>
++
++			<p><a href="{:U('user/register')}" class="reg_btn">免费注册 >></a></p>
++		</div>
++
++	</div>
++</div>
++<!-- 登录主体部分end -->
++<script type="text/javascript">
++  $(function(){
++      //手机验证码
++      // 绑定点击事件
++      $("#send_check_code").click(function () {
++          //获取手机号码
++          var tel =  $('#tpl_number').val();
++          //正则验证手机号码
++          if((/^1[34578]\d{9}$/.test(tel)))
++          {   //ajax发起请求,发送手机验证码
++              $.ajax({
++                  url:"{:U('sendCheckCode')}",
++                  data:'phone='+tel,
++                  type:'post',
++                  dataType:'json',
++                  success:function(msg){
++                      if(msg.code == 200){
++                          layer.msg(msg.info, {icon:6});
++                          getTime();
++                      }else if(msg.code == 202){
++                          layer.msg(msg.info, {icon:5});
++                      }
++                  }
++              })
++          }else{
++              layer.alert('请填写正确手机号', {
++                  skin: 'layui-layer-molv' //样式类名
++                  ,closeBtn: 0
++              })
++          }
++      })
++	  //注册
++      $("#register_btn").click(function () {
++          //获取手机号码
++          var tel =  $('#tpl_number').val();
++          var tpl_checkCode =  $('#tpl_checkCode').val();
++          //正则验证手机号码
++              $.ajax({
++                  url:"{:U('tel_register')}",
++                  data:'phone='+tel+'&codeNum='+tpl_checkCode,
++                  type:'post',
++                  dataType:'json',
++                  success:function(msg){
++                      if(msg.code == 200){
++                          layer.msg(msg.info, {icon:6});
++                          backUrl =msg.backUrl;
++                          setTimeout( "window.location.href=backUrl",3000);
++                      }else if(msg.code == 202){
++                          layer.msg(msg.info, {icon:5});
++                      }
++                  }
++              })
++          
++      })
++	  
++  })
++  var itime = 59;//定义一个变量，倒计时初始化，从59秒开始
++  function getTime(){
++      if(itime>=0){
++          if(itime==0){
++              //倒计时变成0时，
++              //要清除计时器
++              clearTimeout(act);
++              //设置按钮为初始状态
++              $("#send_check_code").val('重新发送');
++              $("#send_check_code").prop("disabled",false);
++              itime=59;
++          }else{
++              //延迟一秒中执行该函数。
++              var act =  setTimeout('getTime()',1000);
++              //把倒计时的秒显示到按钮中
++              $("#send_check_code").val('还剩'+itime+'秒');
++              itime=itime-1;
++              $("#send_check_code").prop("disabled",true);
++          }
++      }
++  }
++</script>
+\ No newline at end of file
+Index: App/Common/Common/function.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Common/Common/function.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Common/Common/function.php	(revision )
+@@ -50,4 +50,111 @@
+         }
+     }
+     return $arr;
+-}
+\ No newline at end of file
++}
++
++/**
++ * 发送模板短信
++ * @param to 手机号码集合,用英文逗号分开
++ * @param datas 内容数据 格式为数组 例如：array('Marry','Alon')，如不需替换请填 null
++ * @param $tempId 模板Id,测试应用和未上线应用使用测试模板请填写1，正式应用上线后填写已申请审核通过的模板ID
++ */
++function sendTemplateSMS($to,$datas,$tempId)
++{
++    //要生成手机验证码，并且存储到session里面
++    session_start();
++    //随机验证码
++    $mesNum = C('SHORTMES_NEM');
++    $code = rand($mesNum['BEGIN'],$mesNum['END']);
++
++    //主帐号,对应开官网发者主账号下的 ACCOUNT SID
++    $accountSid= C('ACCOUNT_SID');
++    //主帐号令牌,对应官网开发者主账号下的 AUTH TOKEN
++    $accountToken= C('AUTH_TOKEN');
++    //应用Id，在官网应用列表中点击应用，对应应用详情中的APP ID
++    //在开发调试的时候，可以使用官网自动为您分配的测试Demo的APP ID
++    $appId=C('APP_ID');
++    //请求地址
++    //沙盒环境（用于应用开发调试）：sandboxapp.cloopen.com
++    //生产环境（用户应用上线使用）：app.cloopen.com
++    $serverIP='sandboxapp.cloopen.com';
++    //请求端口，生产环境和沙盒环境一致
++    $serverPort='8883';
++    //REST版本号，在官网文档REST介绍中获得。
++    $softVersion='2013-12-26';
++    vendor('SendShortMes.CCPRestSmsSDK');
++    // 初始化REST SDK
++//        var_dump($accountSid,$accountToken,$appId,$serverIP,$serverPort,$softVersion);exit;
++//        global $accountSid,$accountToken,$appId,$serverIP,$serverPort,$softVersion;
++
++    $rest = new REST($serverIP,$serverPort,$softVersion);
++    $rest->setAccount($accountSid,$accountToken);
++    $rest->setAppId($appId);
++    // 发送模板短信
++    //aram to 手机号码集合,用英文逗号分开
++    //param datas 内容数据 格式为数组 例如：array('Marry','Alon')，如不需替换请填 null
++    //param $tempId 模板Id,测试应用和未上线应用使用测试模板请填写1，正式应用上线后填写已申请审核通过的模板ID
++    $result = $rest->sendTemplateSMS($to,array($code,1),$tempId);
++    if($result == NULL ) {
++        return false;
++    }
++    if($result->statusCode!=0) {
++        return false;
++
++    }else{
++        session($to.'code',$code);
++        return true;
++
++    }
++
++}
++
++//curl类
++function request($url, $https = true, $method = 'get', $data = null) {
++    $ch = curl_init($url);
++    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
++    if ($https === true) {
++        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
++        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
++    }
++    if ($method == 'post') {
++        curl_setopt($ch, CURLOPT_POST, true);
++        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
++    }
++    $str = curl_exec($ch);
++    curl_close($ch);
++    return $str;
++
++}
++//mail发送方法
++function sendMail($subject, $msghtml, $sendAddress) {
++    //引入发送类phpmailer.php
++    vendor('PHPMailer.phpmailer');
++    //实列化对象
++    $mail = new PHPMailer();
++    /*服务器相关信息*/
++    $mail->IsSMTP(); //设置使用SMTP服务器发送
++    $mail->SMTPAuth = true; //开启SMTP认证
++    $mail->Host = 'smtp.163.com'; //设置 SMTP 服务器,自己注册邮箱服务器地址
++    $mail->Username = 'phpztrtest'; //发信人的邮箱用户名
++    $mail->Password = 'ztr2012dl'; //发信人的邮箱密码
++    /*内容信息*/
++    $mail->IsHTML(true); //指定邮件内容格式为：html
++    $mail->CharSet = "UTF-8"; //编码
++    $mail->From = 'phpztrtest@163.com'; //发件人完整的邮箱名称
++    $mail->FromName = "php_ztr"; //发信人署名
++    $mail->Subject = $subject; //信的标题
++    $mail->MsgHTML($msghtml); //发信主体内容
++    // $mail->AddAttachment("fish.jpg");      //附件
++    /*发送邮件*/
++    $mail->AddAddress($sendAddress); //收件人地址
++    //使用send函数进行发送
++    if ($mail->Send()) {
++        //发送成功返回真
++        return true;
++        // echo '您的邮件已经发送成功！！！';
++    } else {
++        return $mail->ErrorInfo; //如果发送失败，则返回错误提示
++    }
++
++
++}
+Index: App/Home/Model/GoodsModel.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Home/Model/GoodsModel.class.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Home/Model/GoodsModel.class.php	(revision )
+@@ -47,7 +47,7 @@
+      * author Fox
+      */
+ 
+-    public function getCartInfo(){
++    public function getCartData(){
+         $cart = new Cart();
+         $cartInfo = $cart->getCartInfo();
+         //处理商品logo
+Index: App/Home/View/User/regist.html
+===================================================================
+--- App/Home/View/User/regist.html	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Home/View/User/register.html	(revision )
+@@ -15,22 +15,31 @@
+ 						<label for="">用户名：</label>
+ 						<input type="text" class="txt" name="username" />
+ 						<p>3-20位字符，可由中文、字母、数字和下划线组成</p>
++						 <span style="color:red;">{$errorinfo.username}</span>
++					</li>
++					<li>
++						<label for="">邮箱：</label>
++						<input type="text" class="txt" name="user_email" />
++						<p>3-20位字符,支持主流邮箱</p>
++						 <span style="color:red;">{$errorinfo.user_email}</span>
+ 					</li>
+ 					<li>
+ 						<label for="">密码：</label>
+ 						<input type="password" class="txt" name="password" />
+ 						<p>6-20位字符，可使用字母、数字和符号的组合，不建议使用纯数字、纯字母、纯符号</p>
++						 <span style="color:red;">{$errorinfo.password}</span>
+ 					</li>
+ 					<li>
+ 						<label for="">确认密码：</label>
+-						<input type="password" class="txt" name="password" />
++						<input type="password" class="txt" name="pwd" />
+ 						<p> <span>请再次输入密码</p>
++						<span style="color:red;">{$errorinfo.pwd}</span>
+ 					</li>
+ 					<li class="checkcode">
+ 						<label for="">验证码：</label>
+-						<input type="text"  name="checkcode" />
+-						<img src="{:C('IMG_URL')}checkcode1.jpg" alt="" />
+-						<span>看不清？<a href="">换一张</a></span>
++						<input type="text"  name="checkCode" />
++						<img src="{:U('verifyImg')}" alt="看不清？点击换一张" onclick="this.src='__CONTROLLER__/verifyImg/'+Math.random()" style="vertical-align: middle"/>
++						<span style="color:red;">{$checkVerifyErrorInfo}</span>
+ 					</li>
+ 					<li>
+ 						<label for="">&nbsp;</label>
+@@ -48,8 +57,8 @@
+ 		
+ 		<div class="mobile fl">
+ 			<h3>手机快速注册</h3>			
+-			<p>中国大陆手机用户，编辑短信 “<strong>XX</strong>”发送到：</p>
+-			<p><strong>1069099988</strong></p>
++			<p>
++			<a href="{:U('user/tel_register')}" class="reg_btn">手机快速登录 >></a></p>
+ 		</div>
+ 
+ 	</div>
+Index: App/Runtime/Cache/Admin/848eafa77f8e08e4cf38ecc1dd2f912f.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Runtime/Cache/Admin/848eafa77f8e08e4cf38ecc1dd2f912f.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Runtime/Cache/Admin/848eafa77f8e08e4cf38ecc1dd2f912f.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
+@@ -1,103 +0,0 @@
+-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+-<html xmlns="http://www.w3.org/1999/xhtml">
+-<head>
+-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+-<title>无标题文档</title>
+-<style type="text/css">
+-<!--
+-body {
+-	margin-left: 0px; 
+-	margin-top: 0px;
+-	margin-right: 0px;
+-	margin-bottom: 0px;
+-}
+-.STYLE1 {
+-	font-size: 12px;
+-	color: #000000;
+-}
+-.STYLE5 {font-size: 12}
+-.STYLE7 {font-size: 12px; color: #FFFFFF; }
+-.STYLE7 a{font-size: 12px; color: #FFFFFF; }
+-a img {
+-	border:none;
+-}
+--->
+-</style></head>
+-
+-<body>
+-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+-  <tr>
+-    <td height="57" background="/Public/resources/admin/images/main_03.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+-      <tr>
+-        <td width="378" height="57" background="/Public/resources/admin/images/main_01.gif">&nbsp;</td>
+-        <td>&nbsp;</td>
+-        <td width="281" valign="bottom"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+-          <tr>
+-            <td width="33" height="27"><img src="/Public/resources/admin/images/main_05.gif" width="33" height="27" /></td>
+-            <td width="248" background="/Public/resources/admin/images/main_06.gif"><table width="225" border="0" align="center" cellpadding="0" cellspacing="0">
+-              <tr>
+-                <td height="17"><div align="right"><a href="pwd.php" target="rightFrame"><img src="/Public/resources/admin/images/pass.gif" width="69" height="17" /></a></div></td>
+-                <td><div align="right"><a href="user.php" target="rightFrame"><img src="/Public/resources/admin/images/user.gif" width="69" height="17" /></a></div></td>
+-                <td><div align="right">
+-<a href="<?php echo U('manager/logout');?>" target="_top" onclick="if(!confirm('确定退出系统')){return false;}"><img src="/Public/resources/admin/images/quit.gif" alt=" " width="69" height="17" /> </a></div></td>
+-              </tr>
+-            </table></td>
+-          </tr>
+-        </table></td>
+-      </tr>
+-    </table></td>
+-  </tr>
+-  <tr>
+-    <td height="40" background="/Public/resources/admin/images/main_10.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+-      <tr>
+-        <td width="194" height="40" background="/Public/resources/admin/images/main_07.gif">&nbsp;</td>
+-        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+-          <tr>
+-            <td width="21"><img src="/Public/resources/admin/images/main_13.gif" width="19" height="14" /></td>
+-            <td width="35" class="STYLE7"><div align="center"><a href="main.html" target="rightFrame">首页</a></div></td>
+-            <td width="21" class="STYLE7"><img src="/Public/resources/admin/images/main_15.gif" width="19" height="14" /></td>
+-            <td width="35" class="STYLE7"><div align="center"><a href="javascript:history.go(-1);">后退</a></div></td>
+-            <td width="21" class="STYLE7"><img src="/Public/resources/admin/images/main_17.gif" width="19" height="14" /></td>
+-            <td width="35" class="STYLE7"><div align="center"><a href="javascript:history.go(1);">前进</a></div></td>
+-            <td width="21" class="STYLE7"><img src="/Public/resources/admin/images/main_19.gif" width="19" height="14" /></td>
+-            <td width="35" class="STYLE7"><div align="center"><a href="javascript:window.parent.location.reload();">刷新</a></div></td>
+-            <td width="21" class="STYLE7"><img src="/Public/resources/admin/images/main_21.gif" width="19" height="14" /></td>
+-            <td width="35" class="STYLE7"><div align="center"><a href="http://www.865171.cn" target="_parent">帮助</a></div></td>
+-            <td>&nbsp;</td>
+-          </tr>
+-        </table></td>
+-        <td width="248" background="/Public/resources/admin/images/main_11.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+-          <tr>
+-            <td width="16%"><span class="STYLE5"></span></td>
+-            <td width="75%"><div align="center"><span class="STYLE7">By Jessica (<a href="http://Www.865171.cn" target="_blank">Www.865171.cn</a>)</span></div></td>
+-            <td width="9%">&nbsp;</td>
+-          </tr>
+-        </table></td>
+-      </tr>
+-    </table></td>
+-  </tr>
+-  <tr>
+-    <td height="30" background="/Public/resources/admin/images/main_31.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+-      <tr>
+-        <td width="8" height="30"><img src="/Public/resources/admin/images/main_28.gif" width="8" height="30" /></td>
+-        <td width="147" background="/Public/resources/admin/images/main_29.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+-          <tr>
+-            <td width="24%">&nbsp;</td>
+-            <td width="43%" height="20" valign="bottom" class="STYLE1">管理菜单</td>
+-            <td width="33%">&nbsp;</td>
+-          </tr>
+-        </table></td>
+-        <td width="39"><img src="/Public/resources/admin/images/main_30.gif" width="39" height="30" /></td>
+-        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+-          <tr>
+-            <td height="20" valign="bottom"><span class="STYLE1">当前登录用户：<?php echo (session('adminName')); ?>&nbsp;用户角色：管理员</span></td>
+-            <td valign="bottom" class="STYLE1"><div align="right"></div></td>
+-          </tr>
+-        </table></td>
+-        <td width="17"><img src="/Public/resources/admin/images/main_32.gif" width="17" height="30" /></td>
+-      </tr>
+-    </table></td>
+-  </tr>
+-</table>
+-</body>
+-</html>
+\ No newline at end of file
+Index: App/Admin/Controller/UserController.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Admin/Controller/UserController.class.php	(revision )
++++ App/Admin/Controller/UserController.class.php	(revision )
+@@ -0,0 +1,27 @@
++<?php
++namespace Admin\Controller;
++
++use Admin\Common\AdminController;
++
++class UserController extends AdminController{
++    /**
++     *用户列表
++     * author Fox
++     */
++    public  function showlist(){
++       $userInfo = D('user')-> getAllData();
++       $this->assign('userInfo',$userInfo['list']);
++//       var_dump($userInfo['list']);
++       $this->assign('page',$userInfo['page']);
++       $this->display();
++    }
++
++    /**
++     * 账户冻结
++     * author Fox
++     */
++    public function  blocked(){
++        $userBlockState =  D('user')->userBlocked(I('post.'));
++        exit($userBlockState);
++    }
++}
+\ No newline at end of file
+Index: App/Home/View/User/login.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Home/View/User/login.html	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Home/View/User/login.html	(revision )
+@@ -58,7 +58,8 @@
+ 			<h3>还不是商城用户</h3>
+ 			<p>现在免费注册成为商城用户，便能立刻享受便宜又放心的购物乐趣，心动不如行动，赶紧加入吧!</p>
+ 
+-			<a href="regist.html" class="reg_btn">免费注册 >></a>
++			<p><a href="{:U('user/register')}" class="reg_btn">免费注册 >></a></p>
++			<p><a href="{:U('user/tel_register')}" class="reg_btn">手机快速登录 >></a></p>
+ 		</div>
+ 
+ 	</div>
+Index: App/Home/Controller/UserController.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Home/Controller/UserController.class.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Home/Controller/UserController.class.php	(revision )
+@@ -6,7 +6,22 @@
+      * 用户注册
+      * author Fox
+      */
+-    public  function  regist(){
++    public  function  register(){
++        if(IS_POST && !empty($_POST)){
++            $verifyCode = I('post.checkCode');
++            $verifyCheck = new \Think\Verify();
++            if ($verifyCheck->check($verifyCode)){
++                $user =D('User');
++                var_dump($user->create());
++                var_dump($user->getError());
++                if (!$user->create()){
++                    $this -> assign('errorinfo',$user->getError());
++
++                }
++            }else{
++                $this -> assign('checkVerifyErrorInfo',"验证码不正确");
++            }
++        }
+         $this->display();
+     }
+ 
+@@ -22,7 +37,7 @@
+                $backUrl = session('callBack');
+                if(!empty($backUrl)){
+                    session('callBack',null);
+-                   $this->redirect('$backUrl');
++                   $this->redirect($backUrl);
+                }
+                $this->redirect('Index/index');
+            }
+@@ -56,4 +71,72 @@
+         print_r($qc->get_user_info());
+ 
+     }
++    /**验证码
++     * author Fox
++     */
++    public function  verifyImg(){
++        $config =[
++            'useImgBg'  =>  false,           // 使用背景图片
++            'useCurve'  =>  false,            // 是否画混淆曲线
++            'useNoise'  =>  false,            // 是否添加杂点
++            'fontSize'=> 19,
++            'imageH'  => 45,
++            'imageW'  => 130,
++            'length'  => 4,
++            'fontttf' => '4.ttf'
++        ];
++        $verify = new \Think\Verify($config);
++        $verify->entry();
++    }
++    /**
++     * 手机快速注册
++     *
++     */
++    public  function  tel_register(){
++        if (IS_AJAX && IS_POST){
++            $phone = I('post.phone');
++            if (session($phone.'code') == I('post.codeNum') && !empty($phone)){
++                session($phone.'code',null);
++               $reg_state = D('User')->userTelRegiste($phone);
++                if($reg_state){
++                    $errorCode['code']='200';
++                    $errorCode['info']='注册成功,默认密码为手机号后8位！';
++                    $errorCode['backUrl']=U('user/login');
++                    exit(json_encode($errorCode));
++                }else{
++                    $errorCode['code']='202';
++                    $errorCode['info']='发送失败,请稍候再试！';
++                }
++
++            }
++            $errorCode['code']='202';
++            $errorCode['info']='注册失败,请稍候再试！';
++            exit(json_encode($errorCode));
++        }
++        $this->display();
++    }
++
++    /**
++     *发送手机验证码
++     * @by rui
++     */
++    public  function  sendCheckCode(){
++        if (IS_AJAX && IS_POST){
++            //获取手机号码
++            $telphone = I('post.phone');
++            //设置错误信息代码 200成功
++            $errorCode =  array('code'=>200,'info'=>'发送失败!');
++            //手机号码，替换内容数组，模板ID
++            $res = sendTemplateSMS($telphone,'',"1");
++            if($res){
++                $errorCode['info']='发送成功！';
++            }else{
++                $errorCode['code']='202';
++                $errorCode['info']='发送失败,请稍候再试！';
++            }
++            echo json_encode($errorCode);
++        }
++    }
++
++
+ }
+\ No newline at end of file
+Index: App/Admin/Controller/AuthController.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Admin/Controller/AuthController.class.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Admin/Controller/AuthController.class.php	(revision )
+@@ -19,7 +19,7 @@
+ 
+         if (IS_AJAX && !empty(I('post.auth_name'))){
+             $authInfo = I('post.');
+-            $authInfo['auth_level'] = $authInfo['auth_pid'] == '0'?'0' :'1';
++            $authInfo['auth_level'] = $authInfo['auth_pid'] == '0' ? '0' :'1';
+             if (M('auth')->add($authInfo)){
+                 exit(json_encode(['status'=>200,'message'=>'权限添加成功']));
+             }
+Index: App/Runtime/Cache/Admin/1e8edb2834280460332adaccac6a4fce.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Runtime/Cache/Admin/1e8edb2834280460332adaccac6a4fce.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Runtime/Cache/Admin/1e8edb2834280460332adaccac6a4fce.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
+@@ -1,104 +0,0 @@
+-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+-<html xmlns="http://www.w3.org/1999/xhtml">
+-<head>
+-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+-<title>无标题文档</title>
+-<style type="text/css">
+-<!--
+-body { 
+-	margin-left: 3px;
+-	margin-top: 0px;
+-	margin-right: 3px;
+-	margin-bottom: 0px;
+-}
+-.STYLE1 {
+-	color: #e1e2e3;
+-	font-size: 12px;
+-}
+-.STYLE6 {color: #000000; font-size: 12; }
+-.STYLE10 {color: #000000; font-size: 12px; }
+-.STYLE19 {
+-	color: #344b50;
+-	font-size: 12px;
+-}
+-.STYLE21 {
+-	font-size: 12px;
+-	color: #3b6375;
+-}
+-.STYLE22 {
+-	font-size: 12px;
+-	color: #295568;
+-}
+-table{
+-    font-size:12px;
+-}
+--->
+-</style>
+-</head>
+-
+-<body>
+-<table cellspacing=0 cellpadding=0 width="100%" align=center border=0>
+-            <tr height=28>
+-                <td background="/Public/resources/admin/images/title_bg1.jpg" style="font-size:12px;">当前位置: </td></tr>
+-            <tr>
+-                <td bgcolor=#b1ceef height=1></td></tr>
+-            <tr height=20>
+-                <td background="/Public/resources/admin/images/shadow_bg.jpg"></td></tr></table>
+-        <table cellspacing=0 cellpadding=0 width="90%" align=center border=0>
+-            <tr height=100>
+-                <td align=middle width=100><img height=100 src="/Public/resources/admin/images/admin_p.gif" 
+-                                                width=90></td>
+-                <td width=60>&nbsp;</td>
+-                <td>
+-                    <table height=100 cellspacing=0 cellpadding=0 width="100%" border=0>
+-
+-                        <tr>
+-                            <td>当前时间：2008-12-27 17:03:55</td></tr>
+-                        <tr>
+-                            <td style="font-weight: bold; font-size: 16px">admin</td></tr>
+-                        <tr>
+-                            <td>欢迎进入网站管理中心！</td></tr></table></td></tr>
+-            <tr>
+-                <td colspan=3 height=10></td></tr></table>
+-        <table cellspacing=0 cellpadding=0 width="95%" align=center border=0>
+-            <tr height=20>
+-                <td></td></tr>
+-            <tr height=22>
+-                <td style="padding-left: 20px; font-weight: bold; color: #ffffff" 
+-                    align=middle background=/Public/resources/admin/images/title_bg2.jpg>您的相关信息</td></tr>
+-            <tr bgcolor=#ecf4fc height=12>
+-                <td></td></tr>
+-            <tr height=20>
+-                <td></td></tr></table>
+-        <table cellspacing=0 cellpadding=2 width="95%" align=center border=0>
+-            <tr>
+-                <td align=right width=100>登陆帐号：</td>
+-                <td style="color: #880000"><?php echo (session('adminName')); ?></td></tr>
+-            <tr>
+-                <td align=right>真实姓名：</td>
+-                <td style="color: #880000"><?php echo (session('adminName')); ?></td></tr>
+-            <tr>
+-                <td align=right>注册时间：</td>
+-                <td style="color: #880000"><?php echo ($think["date"]); ?></td></tr>
+-            <tr>
+-                <td align=right>登陆次数：</td>
+-                <td style="color: #880000">58</td></tr>
+-            <tr>
+-                <td align=right>上线时间：</td>
+-                <td style="color: #880000">2008-12-27 17:02:54</td></tr>
+-            <tr>
+-                <td align=right>ip地址：</td>
+-                <td style="color: #880000">222.240.172.117</td></tr>
+-            <tr>
+-                <td align=right>身份过期：</td>
+-                <td style="color: #880000">30 分钟</td></tr>
+-            <tr>
+-                <td align=right>网站开发qq：</td>
+-                <td style="color: #880000">215288671</td></tr>
+-            <tr>
+-                <td align=right>免费模板网：</td>
+-                <td style="color: #880000"><a href="http://www.sshok.cn">www.sshok.cn</a></td>
+-            </tr>
+-        </table>
+-</body>
+-</html>
+\ No newline at end of file
+Index: App/Runtime/Cache/Admin/930d1e2407120db43e441be442deba48.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Runtime/Cache/Admin/930d1e2407120db43e441be442deba48.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Runtime/Cache/Admin/930d1e2407120db43e441be442deba48.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
+@@ -1,26 +0,0 @@
+-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+-<html xmlns="http://www.w3.org/1999/xhtml">
+-<head>
+-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+-<title>无标题文档</title>
+-<style type="text/css">
+-<!--
+-body {
+-	margin-left: 0px; 
+-	margin-top: 0px;
+-	margin-right: 0px;
+-	margin-bottom: 0px;
+-}
+--->
+-</style></head>
+-
+-<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+-  <tr>
+-    <td background="/Public/resources/admin/images/main_71.gif"  style="line-height:11px; table-layout:fixed" width="165">&nbsp;</td>
+-    <td background="/Public/resources/admin/images/main_72.gif"  style="line-height:11px; table-layout:fixed">&nbsp;</td>
+-    <td background="/Public/resources/admin/images/main_74.gif"  style="line-height:11px; table-layout:fixed" width="17">&nbsp;</td>
+-  </tr>
+-</table>
+-</body>
+-</html>
+\ No newline at end of file
+Index: App/Common/Conf/config.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Common/Conf/config.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Common/Conf/config.php	(revision )
+@@ -17,4 +17,21 @@
+     'DB_DEBUG'  			=>  TRUE, // 数据库调试模式 开启后可以记录SQL日志
+     'DB_FIELDS_CACHE'       =>  true,        // 启用字段缓存
+     'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
++
++
++    //短信验证码
++    'SHORTMES_NEM' => [
++        'BEGIN'  => '1000',
++        'END' => '9999',
++    ],
++    //短信主帐号,对应开官网发者主账号下的 ACCOUNT SID
++    'ACCOUNT_SID'=> '8aaf070857acf7a70157cb0a1a1a1b5d',
++    //主帐号令牌,对应官网开发者主账号下的 AUTH TOKEN
++    'AUTH_TOKEN'=> 'e94e91fc0da1445a9b79cb110d298679',
++    //应用Id，在官网应用列表中点击应用，对应应用详情中的APP ID
++    //在开发调试的时候，可以使用官网自动为您分配的测试Demo的APP ID
++    'APP_ID'=>'8aaf070857acf7a70157cb0a1c791b64',
++    //redis
++    'REDIS_HOST'=>'192.168.12.58',
++    'REDIS_PORT'=>6379,
+ );
+\ No newline at end of file
+Index: App/Admin/Controller/OrderController.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Admin/Controller/OrderController.class.php	(revision )
++++ App/Admin/Controller/OrderController.class.php	(revision )
+@@ -0,0 +1,14 @@
++<?php
++namespace Admin\Controller;
++
++use Admin\Common\AdminController;
++
++class OrderController extends AdminController{
++    /**
++     * 显示
++     * author Fox
++     */
++    public function showlist(){
++
++    }
++}
+\ No newline at end of file
+Index: App/Admin/View/Auth/addAuth.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Admin/View/Auth/addAuth.html	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Admin/View/Auth/addAuth.html	(revision )
+@@ -117,7 +117,7 @@
+         <td height="20" bgcolor="#FFFFFF" class="STYLE19">
+           <div align="left">
+         <select name="auth_pid" id="auth_pid">
+-          <option value="">上级名称</option>
++          <option value="0">上级名称</option>
+           <foreach name="pAuth" item="v">
+             <option value="{$v.auth_id}">{$v.auth_name}</option>
+           </foreach>
+Index: App/Admin/Model/UserModel.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Admin/Model/UserModel.class.php	(revision )
++++ App/Admin/Model/UserModel.class.php	(revision )
+@@ -0,0 +1,63 @@
++<?php
++namespace  Admin\Model;
++
++class UserModel extends BaseModel{
++    /**返回多条数据
++     * @param row 每页显示条数
++     * @return mixed
++     * author Fox
++     */
++    public function getAllData($param=[]){
++
++        $count      = $this->count();// 查询满足要求的总记录数
++        $Page       = new \Think\Page($count,15);// 实例化分页类 传入总记录数和每页显示的记录数(25)
++        $show       = $Page->show();// 分页显示输出
++// 进行分页数据查询 注意limit方法的参数要使用Page类的属性
++        $list = $this->order('user_id DESC')->limit($Page->firstRow.','.$Page->listRows)->select();
++        foreach($list as  $k=>$v){
++            if ($v['flag'] == 0){
++                $list[$k]['flag']='删除';
++            }elseif($v['flag'] == 1){
++                $list[$k]['flag']='正常';
++            }elseif($v['flag'] == 2){
++                $list[$k]['flag']='冻结';
++            }else{
++                $list[$k]['flag']='永久冻结';
++            }
++        }
++
++        return ['list'=>$list,'page'=>$show];
++    }
++
++    /**
++     * 用户冻结
++     * author Fox
++     */
++    public function  userBlocked(array $param){
++        if ($param['time'] == 'long'){
++            $blackedState = $this->where(['user_id'=>$param['user_id']])->save(['flag'=>3]);
++            if ($blackedState){
++                return json_encode(['state'=>200,'message'=>'冻结成功']);
++            }
++        }else{
++            $user =  parent::getOneData($param['user_id']);
++            //如果之前处于冻结状态,加上新的冻结时间
++            if ($user['flag'] ==2){
++                $user['blocked_time'] = $user['blocked_time']+(86400*$param['time']);
++            }else{
++                $user['blocked_time']=time()+86400*$param['time'];
++            }
++            $blackedState = $this->where(['user_id'=>$param['user_id']])->save(['flag'=>2,'blocked_time'=>$user['blocked_time']]);
++            if ($blackedState){
++                return json_encode(['state'=>200,'message'=>'冻结成功']);
++            }else{
++                return json_encode(['state'=>202,'message'=>'冻结成功']);
++            }
++
++        }
++
++
++    }
++
++
++}
+\ No newline at end of file
+Index: App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php	(revision )
+@@ -8,10 +8,12 @@
+     <link rel="stylesheet" href="/Public/resources/home/style/header.css" type="text/css">
+     <link rel="stylesheet" href="/Public/resources/home/style/index.css" type="text/css">
+     <link rel="stylesheet" href="/Public/resources/home/style/bottomnav.css" type="text/css">
++    
+     <link rel="stylesheet" href="/Public/resources/home/style/footer.css" type="text/css">
+     <link rel="stylesheet" href="/Public/resources/home/style/login.css" type="text/css">
+ 
+     <script type="text/javascript" src="/Public/resources/home/js/jquery-1.8.3.min.js"></script>
++     <script type="text/javascript" src="/Public/resources/layer/layer.js"></script>
+     <script type="text/javascript" src="/Public/resources/home/js/header.js"></script>
+     <script type="text/javascript" src="/Public/resources/home/js/index.js"></script>
+ </head>
+@@ -23,7 +25,12 @@
+             </div>
+             <div class="topnav_right fr">
+                 <ul>
+-                    <li>您好 <?php echo (session('userName')); ?>，欢迎来到京西！[<a href="<?php echo U('User/login');?>">登录</a>] [<a href="<?php echo U('User/register');?>">免费注册</a>] </li>
++                    <li>
++                      <?php if($_SESSION['userName']== '' ): ?>[<a href="<?php echo U('User/login');?>">登录</a>]
++                      <?php else: ?>
++                        您好 <?php echo (session('userName')); ?>，欢迎来到京西！
++                       [<a href="<?php echo U('User/logout');?>">退出登录</a>]<?php endif; ?>
++                        [<a href="<?php echo U('User/register');?>">免费注册</a>] </li>
+                     <li class="line">|</li>
+                     <li>我的订单</li>
+                     <li class="line">|</li>
+Index: App/Runtime/Cache/Admin/3051b9c221ca2842d126f73ccbe054d2.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Runtime/Cache/Admin/3051b9c221ca2842d126f73ccbe054d2.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Runtime/Cache/Admin/3051b9c221ca2842d126f73ccbe054d2.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
+@@ -1,28 +0,0 @@
+-<?php if (!defined('THINK_PATH')) exit();?><html xmlns="http://www.w3.org/1999/xhtml">
+-<head>
+-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+-<title>无标题文档</title>
+-<style type="text/css">
+-<!--
+-body {
+-	margin-left: 0px; 
+-	margin-top: 0px;
+-	margin-right: 0px;
+-	margin-bottom: 0px;
+-	overflow:hidden;
+-}
+--->
+-</style></head>
+-
+-<body>
+-<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+-  <tr>
+-    <td width="8" bgcolor="#353c44">&nbsp;</td>
+-    <td width="147" valign="top"><iframe height="100%" width="100%" border="0" frameborder="0" src="<?php echo U('left');?>" name="leftFrame" id="leftFrame" title="leftFrame"></iframe></td>
+-    <td width="10" bgcolor="#add2da">&nbsp;</td>
+-    <td valign="top"><iframe height="100%" width="100%" border="0" frameborder="0" src="<?php echo U('right');?>" name="rightFrame" id="rightFrame" title="rightFrame"></iframe></td>
+-    <td width="8" bgcolor="#353c44">&nbsp;</td>
+-  </tr>
+-</table>
+-</body>
+-</html>
+\ No newline at end of file
+Index: App/Home/Controller/ShopController.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Home/Controller/ShopController.class.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Home/Controller/ShopController.class.php	(revision )
+@@ -1,12 +1,12 @@
+ <?php
+ 
+ namespace  Home\Controller;
+-
+-use Home\Model\GoodsModel;
+ use Think\Controller;
+ use Home\Common\Cart;
+ 
+ class ShopController extends  Controller{
++
++
+     /**
+      * 添加商品到购物车
+      * author Fox
+@@ -34,7 +34,7 @@
+      * author Fox
+      */
+     public  function viewCart(){
+-        $cart = D('Goods')->getCartInfo();
++        $cart = D('Goods')->getCartData();
+         $this->assign('number_price',$cart['number_price']);
+         $this->assign('cartInfo',$cart['cartInfo']);
+         $this->display();
+@@ -73,15 +73,30 @@
+      * author Fox
+      */
+     public  function  goodsOrder(){
+-        //如果未登录 则跳转登录
+-        if (empty(session('userName'))){
+-            session('callBack','Shop/GoodsOrder');
+-            $this->redirect('User/login');
+-        }
+-        $cart = D('Goods')->getCartInfo();
+-        $this->assign('number_price',$cart['number_price']);
+-        $this->assign('cartInfo',$cart['cartInfo']);
+-        $this->display();
++        if (IS_POST){
++           $orderState =  D('Order')->createOrder(I('post.'));
++           if ($orderState){
++               $this->display('orderDetail');
++           }
++        }else{
++
++            //如果未登录 则跳转登录
++            if (empty(session('userName'))){
++                session('callBack','Shop/GoodsOrder');
++                $this->redirect('User/login');
++            }
++            $cart = D('Goods')->getCartData();
++            //判断用户是否购买商品
++            if (empty($cart['cartInfo'])){
++                $this->error('您还未购买任何商品,请先购买',U('Goods/showlist'),2);
++            }
++            $this->assign('number_price',$cart['number_price']);
++            $this->assign('cartInfo',$cart['cartInfo']);
++            $this->display();
++        }
++
++
++
+ 
+     }
+ 
+Index: App/Home/Model/OrderModel.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Home/Model/OrderModel.class.php	(revision )
++++ App/Home/Model/OrderModel.class.php	(revision )
+@@ -0,0 +1,52 @@
++<?php
++namespace Home\Model;
++
++use Home\Common\Cart;
++use Think\Model;
++class OrderModel extends Model{
++    /**
++     * 显示订单
++     * author Fox
++     */
++    public  function showlist(){
++        $orderInfo = M('Order')->order('order_id desc')->select();
++        $this->assign('orderInfo',$orderInfo);
++        $this->display();
++    }
++    /**
++     * 生成订单
++     * @param array $data
++     *
++     * @return bool
++     * author Fox
++     */
++    public  function createOrder(array $data){
++
++        $cart = D('goods')->getCartData();
++        $data['user_id'] =session('userId');
++        $data['order_number'] ='tpshop'.$cart['goods_name'].substr(md5(time()),10,16);
++        $data['order_price'] =$cart['number_price'];
++        $data['addtime'] = $data['upd_time']=time();
++        $orderId = $this->add($data);
++        if ($orderId){
++            $info=[];
++            //计算购物车商品种类数量
++            $goodsNumber =  count($cart['cartInfo']);
++            $writeGoodsInfo=0;
++            foreach ($cart['cartInfo'] as $k =>$v){
++                $info['order_id'] = $orderId;
++                $info['goods_id'] = $k;
++                $info['goods_price'] = $v['goods_price'];
++                $info['goods_number'] = $v['goods_buy_number'];
++                $info['goods_total_price'] = $v['goods_total_price'];
++                M('OrderGoods')->add($info);
++                $writeGoodsInfo+=1;
++            }
++            if ($goodsNumber ==$writeGoodsInfo && (new Cart())->delAll()){
++                return true;
++            }
++        }
++
++
++    }
++}
+\ No newline at end of file
+Index: App/Runtime/Cache/Admin/6a50c6d503dcfec33a87262cae7a0f6e.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Runtime/Cache/Admin/6a50c6d503dcfec33a87262cae7a0f6e.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Runtime/Cache/Admin/6a50c6d503dcfec33a87262cae7a0f6e.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
+@@ -1,83 +0,0 @@
+-<?php if (!defined('THINK_PATH')) exit();?>﻿<html xmlns="http://www.w3.org/1999/xhtml">
+-<head>
+-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+-<title>无标题文档</title>
+-<script type="text/javascript" src="/Public/resources/admin/js/jquery.js"></script>
+-<script type="text/javascript" src="/Public/resources/admin/js/chili-1.7.pack.js"></script>
+-<script type="text/javascript" src="/Public/resources/admin/js/jquery.easing.js"></script>
+-<script type="text/javascript" src="/Public/resources/admin/js/jquery.dimensions.js"></script>
+-<script type="text/javascript" src="/Public/resources/admin/js/jquery.accordion.js"></script>
+-<script language="javascript">
+-	jQuery().ready(function(){ 
+-		jQuery('#navigation').accordion({
+-			header: '.head',
+-			navigation1: true, 
+-			event: 'click',
+-			fillSpace: true,
+-			animated: 'bounceslide'
+-		});
+-	});
+-</script>
+-<style type="text/css">
+-<!--
+-body {
+-	margin:0px;
+-	padding:0px;
+-	font-size: 12px;
+-}
+-#navigation {
+-	margin:0px;
+-	padding:0px;
+-	width:147px;
+-}
+-#navigation a.head {
+-	cursor:pointer;
+-	background:url(/Public/resources/admin/images/main_34.gif) no-repeat scroll;
+-	display:block;
+-	font-weight:bold;
+-	margin:0px;
+-	padding:5px 0 5px;
+-	text-align:center;
+-	font-size:12px;
+-	text-decoration:none;
+-}
+-#navigation ul {
+-	border-width:0px;
+-	margin:0px;
+-	padding:0px;
+-	text-indent:0px;
+-}
+-#navigation li {
+-	list-style:none; display:inline;
+-}
+-#navigation li li a {
+-	display:block;
+-	font-size:12px;
+-	text-decoration: none;
+-	text-align:center;
+-	padding:3px;
+-}
+-#navigation li li a:hover {
+-	background:url(/Public/resources/admin/images/tab_bg.gif) repeat-x;
+-		border:solid 1px #adb9c2;
+-}
+-a:link{
+-    color:#036;
+-}
+--->
+-</style>
+-</head>
+-<body>
+-<div  style="height:100%;">
+-  <ul id="navigation">
+-    <?php if(is_array($authInfoP)): foreach($authInfoP as $key=>$p): ?><li> <a class="head"><?php echo ($p["auth_name"]); ?></a>
+-      <ul>
+-          <?php if(is_array($authInfoS)): foreach($authInfoS as $key=>$s): if(($s["auth_pid"]) == $p["auth_id"]): ?><li>
+-            <a href="/index.php/Admin/<?php echo ($s["auth_c"]); ?>/<?php echo ($s["auth_a"]); ?>" target="rightFrame"><?php echo ($s["auth_name"]); ?></a>
+-          </li><?php endif; endforeach; endif; ?>
+-      </ul>
+-    </li><?php endforeach; endif; ?>
+-  </ul>
+-</div>
+-</body>
+-</html>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ .idea/workspace.xml	(revision )
+@@ -5,36 +5,35 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="25d44f72-8f79-490b-a3ed-291d06b63fcb" name="Default" comment="">
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Home/Common/Cart.class.php" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Home/Controller/ShopController.class.php" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Home/Model/GoodsModel.class.php" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Home/Model/UserModel.class.php" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Home/View/layout.html" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php" afterPath="" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Admin/Controller/OrderController.class.php" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Admin/Controller/UserController.class.php" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Admin/Model/UserModel.class.php" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Home/Controller/OrderController.class.php" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Home/Model/OrderModel.class.php" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Home/View/User/tel_register.html" />
++      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Home/View/flow3.html" afterPath="" />
++      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/1e8edb2834280460332adaccac6a4fce.php" afterPath="" />
++      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/3051b9c221ca2842d126f73ccbe054d2.php" afterPath="" />
++      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/6a50c6d503dcfec33a87262cae7a0f6e.php" afterPath="" />
++      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/848eafa77f8e08e4cf38ecc1dd2f912f.php" afterPath="" />
++      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/930d1e2407120db43e441be442deba48.php" afterPath="" />
++      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php" afterPath="" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/Conf/config.php" afterPath="$PROJECT_DIR$/App/Admin/Conf/config.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php" afterPath="$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php" afterPath="$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/View/Goods/tianjia.html" afterPath="$PROJECT_DIR$/App/Admin/View/Goods/tianjia.html" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/View/Index/right.html" afterPath="$PROJECT_DIR$/App/Admin/View/Index/right.html" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/Conf/config.php" afterPath="$PROJECT_DIR$/App/Home/Conf/config.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/Controller/GoodsController.class.php" afterPath="$PROJECT_DIR$/App/Home/Controller/GoodsController.class.php" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/Controller/AuthController.class.php" afterPath="$PROJECT_DIR$/App/Admin/Controller/AuthController.class.php" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/Model/BaseModel.class.php" afterPath="$PROJECT_DIR$/App/Admin/Model/BaseModel.class.php" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/View/Auth/addAuth.html" afterPath="$PROJECT_DIR$/App/Admin/View/Auth/addAuth.html" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Common/Common/function.php" afterPath="$PROJECT_DIR$/App/Common/Common/function.php" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Common/Conf/config.php" afterPath="$PROJECT_DIR$/App/Common/Conf/config.php" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/Common/Cart.class.php" afterPath="$PROJECT_DIR$/App/Home/Common/Cart.class.php" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/Controller/ShopController.class.php" afterPath="$PROJECT_DIR$/App/Home/Controller/ShopController.class.php" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/App/Home/Controller/UserController.class.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/View/Goods/detail.html" afterPath="$PROJECT_DIR$/App/Home/View/Goods/detail.html" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/View/Goods/showlist.html" afterPath="$PROJECT_DIR$/App/Home/View/Goods/showlist.html" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/View/Index/index.html" afterPath="$PROJECT_DIR$/App/Home/View/Index/index.html" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/Model/GoodsModel.class.php" afterPath="$PROJECT_DIR$/App/Home/Model/GoodsModel.class.php" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/Model/UserModel.class.php" afterPath="$PROJECT_DIR$/App/Home/Model/UserModel.class.php" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/View/User/login.html" afterPath="$PROJECT_DIR$/App/Home/View/User/login.html" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/View/User/regist.html" afterPath="$PROJECT_DIR$/App/Home/View/User/regist.html" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/View/index.html" afterPath="$PROJECT_DIR$/App/Home/View/index.html" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/09d1947ca78e76c88575effa0ca466ca.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Admin/09d1947ca78e76c88575effa0ca466ca.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/1e8edb2834280460332adaccac6a4fce.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Admin/1e8edb2834280460332adaccac6a4fce.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/3051b9c221ca2842d126f73ccbe054d2.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Admin/3051b9c221ca2842d126f73ccbe054d2.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/6a50c6d503dcfec33a87262cae7a0f6e.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Admin/6a50c6d503dcfec33a87262cae7a0f6e.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/848eafa77f8e08e4cf38ecc1dd2f912f.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Admin/848eafa77f8e08e4cf38ecc1dd2f912f.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/930d1e2407120db43e441be442deba48.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Admin/930d1e2407120db43e441be442deba48.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php" />
+-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/Home/View/flow1.html" afterPath="$PROJECT_DIR$/App/Home/View/Shop/viewCart.html" />
+-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/Home/View/flow2.html" afterPath="$PROJECT_DIR$/App/Home/View/Shop/goodsOrder.html" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Home/View/layout.html" afterPath="$PROJECT_DIR$/App/Home/View/layout.html" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/App/Home/View/User/regist.html" afterPath="$PROJECT_DIR$/App/Home/View/User/register.html" />
++      <change type="MOVED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/09d1947ca78e76c88575effa0ca466ca.php" afterPath="$PROJECT_DIR$/App/Admin/View/User/showlist.html" />
+     </list>
+     <ignored path=".idea/dataSources.local.xml" />
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+@@ -78,21 +77,29 @@
+       <file leaf-file-name="UserController.class.php" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/App/Home/Controller/UserController.class.php">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="1131">
+-              <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
++            <state relative-caret-position="1018">
++              <caret line="113" column="42" lean-forward="false" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="ShopController.class.php" pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/App/Home/Controller/ShopController.class.php">
++      <file leaf-file-name="UserModel.class.php" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/App/Home/Model/UserModel.class.php">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="1221">
+-              <caret line="81" column="35" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="35" />
+-              <folding>
+-                <element signature="e#36#62#0#PHP" expanded="true" />
+-              </folding>
++            <state relative-caret-position="2067">
++              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="UserModel.class.php" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/App/Admin/Model/UserModel.class.php">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="507">
++              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="46" />
++              <folding />
+             </state>
+           </provider>
+         </entry>
+@@ -101,10 +108,6 @@
+   </component>
+   <component name="FindInProjectRecents">
+     <findStrings>
+-      <find>chknumber_input</find>
+-      <find>center</find>
+-      <find>logout</find>
+-      <find>商品</find>
+       <find>$authData</find>
+       <find>distribute</find>
+       <find>role_id</find>
+@@ -131,6 +134,10 @@
+       <find>add_btn</find>
+       <find>cons</find>
+       <find>查看购物车</find>
++      <find>saveData</find>
++      <find>$data.senderid`</find>
++      <find>$name</find>
++      <find>$code</find>
+     </findStrings>
+     <replaceStrings>
+       <replace>images/</replace>
+@@ -161,26 +168,10 @@
+   <component name="IdeDocumentHistory">
+     <option name="CHANGED_PATHS">
+       <list>
+-        <option value="$PROJECT_DIR$/App/Admin/View/Role/distribute.html" />
+-        <option value="$PROJECT_DIR$/App/Admin/View/Role/addRole.html" />
+-        <option value="$PROJECT_DIR$/App/Admin/Controller/RoleController.class.php" />
+-        <option value="$PROJECT_DIR$/App/Common/Plugin/Ueditor/third-party/jquery-1.10.2.js" />
+-        <option value="$PROJECT_DIR$/App/WeChat/Conf/config.php" />
+-        <option value="$PROJECT_DIR$/App/WeChat/Controller/IndexController.class.php" />
+-        <option value="$PROJECT_DIR$/App/Admin/View/Role/showlist.html" />
+-        <option value="$PROJECT_DIR$/App/Admin/View/Auth/addAuth.html" />
+-        <option value="$PROJECT_DIR$/App/Admin/Controller/AuthController.class.php" />
+-        <option value="$PROJECT_DIR$/App/Common/Conf/config.php" />
+-        <option value="$PROJECT_DIR$/App/Admin/Common/AdminController.class.php" />
+-        <option value="$PROJECT_DIR$/App/Admin/Controller/ManagerController.class.php" />
+-        <option value="$PROJECT_DIR$/App/Admin/View/Manager/login.html" />
+-        <option value="$PROJECT_DIR$/App/Admin/View/Type/addType.html" />
+-        <option value="$PROJECT_DIR$/App/Admin/View/Auth/showlist.html" />
+         <option value="$PROJECT_DIR$/App/Admin/View/Type/showlist.html" />
+         <option value="$PROJECT_DIR$/App/Admin/View/Attribute/addAttr.html" />
+         <option value="$PROJECT_DIR$/App/Admin/Common/CommomModel.class.php" />
+         <option value="$PROJECT_DIR$/App/Admin/Common/CommonModel.class.php" />
+-        <option value="$PROJECT_DIR$/App/Admin/Model/BaseModel.class.php" />
+         <option value="$PROJECT_DIR$/App/Admin/View/Type/updType.html" />
+         <option value="$PROJECT_DIR$/App/Admin/Model/TypeModel.class.php" />
+         <option value="$PROJECT_DIR$/App/Admin/Controller/TypeController.class.php" />
+@@ -192,7 +183,6 @@
+         <option value="$PROJECT_DIR$/App/Home/View/Index/index.html" />
+         <option value="$PROJECT_DIR$/App/Common/Plugin/QQAPI/example/oauth/index.php" />
+         <option value="$PROJECT_DIR$/App/Common/Plugin/QQAPI/API/comm/inc.php" />
+-        <option value="$PROJECT_DIR$/App/Home/View/User/login.html" />
+         <option value="$PROJECT_DIR$/App/Admin/View/Index/right.html" />
+         <option value="$PROJECT_DIR$/App/Home/View/Goods/showlist.html" />
+         <option value="$PROJECT_DIR$/App/Admin/View/Goods/tianjia.html" />
+@@ -203,15 +193,32 @@
+         <option value="$PROJECT_DIR$/App/Home/Controller/GoodsController.class.php" />
+         <option value="$PROJECT_DIR$/App/Home/Common/cart.class.php" />
+         <option value="$PROJECT_DIR$/App/Home/View/Goods/detail.html" />
+-        <option value="$PROJECT_DIR$/App/Home/View/layout.html" />
+         <option value="$PROJECT_DIR$/App/Home/View/Shop/viewCart.html" />
++        <option value="$PROJECT_DIR$/App/Home/Model/ShopModel.class.php" />
++        <option value="$PROJECT_DIR$/App/Home/View/Shop/goodsOrder.html" />
++        <option value="$PROJECT_DIR$/App/Home/Model/GoodsModel.class.php" />
++        <option value="$PROJECT_DIR$/App/Home/Common/Cart.class.php" />
++        <option value="$PROJECT_DIR$/App/Home/Controller/ShopController.class.php" />
++        <option value="$PROJECT_DIR$/App/Home/Model/OrderModel.class.php" />
++        <option value="$PROJECT_DIR$/App/Admin/Controller/OrderController.class.php" />
++        <option value="$PROJECT_DIR$/App/Home/Controller/OrderController.classs.php" />
++        <option value="$PROJECT_DIR$/App/Home/View/Shop/orderDetail.html" />
++        <option value="$PROJECT_DIR$/App/Admin/Controller/IndexController.class.php" />
++        <option value="$PROJECT_DIR$/App/Admin/View/Auth/addAuth.html" />
++        <option value="$PROJECT_DIR$/App/Admin/Controller/AuthController.class.php" />
++        <option value="$PROJECT_DIR$/App/Admin/Model/BaseModel.class.php" />
++        <option value="$PROJECT_DIR$/App/Admin/Controller/UserController.class.php" />
++        <option value="$PROJECT_DIR$/App/Admin/View/User/showlist.html" />
++        <option value="$PROJECT_DIR$/App/Common/Conf/config.php" />
++        <option value="$PROJECT_DIR$/App/Home/View/User/register.html" />
++        <option value="$PROJECT_DIR$/App/Home/View/User/login.html" />
++        <option value="$PROJECT_DIR$/App/Home/View/layout.html" />
+         <option value="$PROJECT_DIR$/App/Home/View/Pub/layout2.html" />
++        <option value="$PROJECT_DIR$/App/Common/Common/function.php" />
+         <option value="$PROJECT_DIR$/App/Home/Model/UserModel.class.php" />
++        <option value="$PROJECT_DIR$/App/Home/View/User/tel_register.html" />
+         <option value="$PROJECT_DIR$/App/Home/Controller/UserController.class.php" />
+-        <option value="$PROJECT_DIR$/App/Home/Model/GoodsModel.class.php" />
+-        <option value="$PROJECT_DIR$/App/Home/Model/ShopModel.class.php" />
+-        <option value="$PROJECT_DIR$/App/Home/Controller/ShopController.class.php" />
+-        <option value="$PROJECT_DIR$/App/Home/View/Shop/goodsOrder.html" />
++        <option value="$PROJECT_DIR$/App/Admin/Model/UserModel.class.php" />
+       </list>
+     </option>
+   </component>
+@@ -228,8 +235,8 @@
+   <component name="ProjectFrameBounds">
+     <option name="x" value="-13" />
+     <option name="y" value="-13" />
+-    <option name="width" value="2906" />
+-    <option name="height" value="1886" />
++    <option name="width" value="2586" />
++    <option name="height" value="1566" />
+   </component>
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectView">
+@@ -310,7 +317,7 @@
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="View" />
++              <option name="myItemId" value="Model" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+           </PATH>
+@@ -332,11 +339,25 @@
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="View" />
++              <option name="myItemId" value="Controller" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
++          </PATH>
++          <PATH>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="Shop" />
++              <option name="myItemId" value="tpshop" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="tpshop" />
++              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="App" />
++              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="Common" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+           </PATH>
+@@ -354,15 +375,33 @@
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="Home" />
++              <option name="myItemId" value="Common" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="View" />
++              <option name="myItemId" value="Conf" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
++          </PATH>
++          <PATH>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="Pub" />
++              <option name="myItemId" value="tpshop" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="tpshop" />
++              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="App" />
++              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="Common" />
++              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="Common" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+           </PATH>
+@@ -380,15 +419,29 @@
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="Home" />
++              <option name="myItemId" value="Admin" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
++          </PATH>
++          <PATH>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="View" />
++              <option name="myItemId" value="tpshop" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="tpshop" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="Goods" />
++              <option name="myItemId" value="App" />
++              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="Admin" />
++              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="View" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+           </PATH>
+@@ -406,11 +459,15 @@
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="Home" />
++              <option name="myItemId" value="Admin" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="Model" />
++              <option name="myItemId" value="View" />
++              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="Auth" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+           </PATH>
+@@ -428,11 +485,11 @@
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="Home" />
++              <option name="myItemId" value="Admin" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="Controller" />
++              <option name="myItemId" value="Model" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+           </PATH>
+@@ -450,11 +507,11 @@
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="Home" />
++              <option name="myItemId" value="Admin" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
+-              <option name="myItemId" value="Common" />
++              <option name="myItemId" value="Controller" />
+               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+             </PATH_ELEMENT>
+           </PATH>
+@@ -472,11 +529,11 @@
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="D:\web\tpshop\App\Home\View\User" />
++      <recent name="D:\web\tpshop\App\Admin\View\User" />
+       <recent name="D:\web\tpshop\ThinkPHP\Library\Vendor\QQAPI" />
+       <recent name="D:\web\tpshop\App\Admin\View\Attribute" />
+       <recent name="D:\web\tpshop\App\Admin\View\Type" />
+-      <recent name="$PROJECT_DIR$/App/" />
+-      <recent name="$PROJECT_DIR$/App/Admin/Controller" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="D:\web\tpshop\App\Home\View\Shop" />
+@@ -593,7 +650,11 @@
+       <workItem from="1496713990395" duration="9787000" />
+       <workItem from="1496738963451" duration="10578000" />
+       <workItem from="1496800238941" duration="594000" />
+-      <workItem from="1496820270026" duration="8885000" />
++      <workItem from="1496820270026" duration="15536000" />
++      <workItem from="1496886823584" duration="7992000" />
++      <workItem from="1496911222772" duration="2010000" />
++      <workItem from="1496971244021" duration="5563000" />
++      <workItem from="1496993364541" duration="13054000" />
+     </task>
+     <task id="LOCAL-00001" summary="更新">
+       <created>1493100442256</created>
+@@ -749,17 +810,24 @@
+       <option name="project" value="LOCAL" />
+       <updated>1495959088589</updated>
+     </task>
+-    <option name="localTasksCounter" value="23" />
++    <task id="LOCAL-00023" summary="goodsOrder">
++      <created>1496834897768</created>
++      <option name="number" value="00023" />
++      <option name="presentableId" value="LOCAL-00023" />
++      <option name="project" value="LOCAL" />
++      <updated>1496834897768</updated>
++    </task>
++    <option name="localTasksCounter" value="24" />
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="231496000" />
++    <option name="totallyTimeSpent" value="266766000" />
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="-13" y="-13" width="2906" height="1886" extended-state="6" />
++    <frame x="-13" y="-13" width="2586" height="1566" extended-state="6" />
+     <editor active="true" />
+     <layout>
+-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21438797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24009702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32166973" sideWeight="0.5030257" order="8" side_tool="true" content_ui="tabs" />
+       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+@@ -789,7 +857,7 @@
+       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21438797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24009702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+@@ -824,7 +892,8 @@
+     <MESSAGE value="wechat" />
+     <MESSAGE value="后台" />
+     <MESSAGE value="后台attribute" />
+-    <option name="LAST_COMMIT_MESSAGE" value="后台attribute" />
++    <MESSAGE value="goodsOrder" />
++    <option name="LAST_COMMIT_MESSAGE" value="goodsOrder" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -833,386 +902,389 @@
+     <watches-manager />
+   </component>
+   <component name="editorHistoryManager">
+-    <entry file="dbDummy://dbtable:/3ba39420/34fec688-d774-4271-9852-7a021a6f2fdc/tpshop.sp_attribute">
+-      <provider editor-type-id="text-editor">
++    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/QQAPI/comm/utils.php">
++      <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+         </state>
+       </provider>
+-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+-        <state>
+-          <filtering enabled="true" />
+-        </state>
+-      </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/ManagerController.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Common/Plugin/QQAPI/example/oauth/callback.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="39">
+-          <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="46" />
++        <state relative-caret-position="78">
++          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Attribute/addAttr.html">
++    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/QQAPI/comm/inc.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-1587">
+-          <caret line="119" column="27" lean-forward="false" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
++        <state relative-caret-position="117">
++          <caret line="1" column="262" lean-forward="false" selection-start-line="1" selection-start-column="262" selection-end-line="1" selection-end-column="262" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="dbDummy://dbtable:/3ba39420/34fec688-d774-4271-9852-7a021a6f2fdc/tpshop.sp_goods">
+-      <provider editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-        </state>
+-      </provider>
+-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+-        <state>
+-          <filtering enabled="true" />
++    <entry file="file://$PROJECT_DIR$/App/Home/View/Index/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="491">
++          <caret line="137" column="31" lean-forward="false" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="31" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/App.class.php">
++    <entry file="file://$PROJECT_DIR$/App/WeChat/Controller/IndexController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        <state relative-caret-position="39">
++          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="33" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Type/showlist.html">
++    <entry file="file://$PROJECT_DIR$/App/Admin/View/Index/top.html">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="390">
+-          <caret line="81" column="75" lean-forward="false" selection-start-line="81" selection-start-column="75" selection-end-line="81" selection-end-column="75" />
++          <caret line="92" column="98" lean-forward="false" selection-start-line="92" selection-start-column="72" selection-end-line="92" selection-end-column="98" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Type/updType.html">
++    <entry file="file://$PROJECT_DIR$/App/Admin/View/Index/right.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="855">
+-          <caret line="85" column="80" lean-forward="false" selection-start-line="85" selection-start-column="80" selection-end-line="85" selection-end-column="80" />
++        <state relative-caret-position="3042">
++          <caret line="78" column="69" lean-forward="false" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/Model/BaseModel.class.php">
++    <entry file="file://$PROJECT_DIR$/Public/upload/logo/2017-06-03/593272d66813f.png">
++      <provider selected="true" editor-type-id="images">
++        <state />
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/App/Admin/View/Goods/tianjia.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="234">
+-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
++        <state relative-caret-position="491">
++          <caret line="220" column="33" lean-forward="false" selection-start-line="220" selection-start-column="33" selection-end-line="220" selection-end-column="33" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Attribute/updAttr.html">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1065">
+-          <caret line="151" column="81" lean-forward="false" selection-start-line="151" selection-start-column="81" selection-end-line="151" selection-end-column="81" />
++        <state relative-caret-position="195">
++          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Attribute/showlist.html">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1014">
+-          <caret line="174" column="153" lean-forward="false" selection-start-line="174" selection-start-column="153" selection-end-line="174" selection-end-column="153" />
++        <state relative-caret-position="-897">
++          <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/Model/AttributeModel.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/View/Goods/showlist.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="546">
+-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
++        <state relative-caret-position="39">
++          <caret line="1" column="64" lean-forward="false" selection-start-line="1" selection-start-column="64" selection-end-line="6" selection-end-column="31" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/Common/AdminController.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Conf/config.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="39">
+-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
++        <state relative-caret-position="117">
++          <caret line="3" column="28" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="28" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/Model/TypeModel.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/Conf/config.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="234">
+-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="31" />
++          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/AttributeController.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/Controller/GoodsController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1923">
+-          <caret line="89" column="1" lean-forward="true" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
++        <state relative-caret-position="936">
++          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Goods/xiugai.html">
++    <entry file="file://$PROJECT_DIR$/App/Home/Model/ShopModel.class.php" />
++    <entry file="file://$PROJECT_DIR$/App/Home/View/Goods/detail.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1569">
+-          <caret line="106" column="20" lean-forward="false" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
++        <state relative-caret-position="234">
++          <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="62" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/TypeController.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/Controller/IndexController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1065">
+-          <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
++        <state relative-caret-position="234">
++          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/View/User/regist.html">
++    <entry file="file://$PROJECT_DIR$/App/Home/View/Shop/goodsOrder.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="2301">
+-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
++        <state relative-caret-position="753">
++          <caret line="121" column="25" lean-forward="true" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Common/Plugin/QQAPI/example/index.html">
++    <entry file="file://$PROJECT_DIR$/App/Home/Common/Cart.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="468">
+-          <caret line="11" column="14" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="11" selection-end-column="14" />
++        <state relative-caret-position="585">
++          <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Common/Plugin/QQAPI/example/oauth/index.php">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/OrderController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="78">
+-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
++        <state relative-caret-position="507">
++          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/QQAPI/class/QC.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/Model/GoodsModel.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        <state relative-caret-position="2535">
++          <caret line="66" column="25" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="25" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/QQAPI/qqConnectAPI.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/Model/OrderModel.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        <state relative-caret-position="39">
++          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/QQAPI/comm/config.php">
++    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/standardSchemas/xhtml1-transitional.dtd">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        <state relative-caret-position="-8">
++          <caret line="632" column="31" lean-forward="true" selection-start-line="632" selection-start-column="31" selection-end-line="644" selection-end-column="29" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/QQAPI/comm/utils.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/View/Shop/viewCart.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        <state relative-caret-position="-191">
++          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="31" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Common/Plugin/QQAPI/example/oauth/callback.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/View/Shop/orderDetail.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="78">
+-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
++        <state relative-caret-position="585">
++          <caret line="15" column="107" lean-forward="false" selection-start-line="15" selection-start-column="107" selection-end-line="15" selection-end-column="107" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/QQAPI/comm/inc.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/Controller/ShopController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="117">
+-          <caret line="1" column="262" lean-forward="false" selection-start-line="1" selection-start-column="262" selection-end-line="1" selection-end-column="262" />
++        <state relative-caret-position="3237">
++          <caret line="84" column="33" lean-forward="false" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="33" />
++          <folding>
++            <element signature="e#35#56#0#PHP" expanded="false" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/View/Index/index.html">
++    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Model.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="491">
+-          <caret line="137" column="31" lean-forward="false" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="31" />
++        <state relative-caret-position="385">
++          <caret line="71" column="37" lean-forward="false" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="37" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/WeChat/Controller/IndexController.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Common/AdminController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="39">
+-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="33" />
++          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/IndexController.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/AuthController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="585">
+-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="40" />
++        <state relative-caret-position="780">
++          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Index/top.html">
++    <entry file="file://$PROJECT_DIR$/App/Home/Controller/OrderController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="390">
+-          <caret line="92" column="98" lean-forward="false" selection-start-line="92" selection-start-column="72" selection-end-line="92" selection-end-column="98" />
++        <state relative-caret-position="468">
++          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Index/right.html">
++    <entry file="file://$PROJECT_DIR$/App/Admin/View/User/showlist.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="3042">
+-          <caret line="78" column="69" lean-forward="false" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
++        <state relative-caret-position="3939">
++          <caret line="101" column="7" lean-forward="false" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/Public/upload/logo/2017-06-03/593272d66813f.png">
+-      <provider selected="true" editor-type-id="images">
+-        <state />
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Goods/tianjia.html">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/IndexController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="491">
+-          <caret line="220" column="33" lean-forward="false" selection-start-line="220" selection-start-column="33" selection-end-line="220" selection-end-column="33" />
++        <state relative-caret-position="1120">
++          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Model/BaseModel.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="195">
+-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
++        <state relative-caret-position="702">
++          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/UserController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-897">
+-          <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
++        <state relative-caret-position="379">
++          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/View/Goods/showlist.html">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/ManagerController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="39">
+-          <caret line="1" column="64" lean-forward="false" selection-start-line="1" selection-start-column="64" selection-end-line="6" selection-end-column="31" />
++        <state relative-caret-position="1170">
++          <caret line="51" column="46" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="46" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Admin/Conf/config.php">
++    <entry file="file://$PROJECT_DIR$/App/Admin/View/Manager/login.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="117">
+-          <caret line="3" column="28" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="28" />
++        <state relative-caret-position="663">
++          <caret line="30" column="165" lean-forward="true" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="165" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/Conf/config.php">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Model/AttributeModel.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="234">
+-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
++        <state relative-caret-position="156">
++          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="6" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/Controller/GoodsController.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/View/User/register.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="936">
+-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
++        <state relative-caret-position="706">
++          <caret line="60" column="43" lean-forward="false" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="43" />
++          <folding>
++            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
++            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
++            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
++            <element signature="n#style#0;n#span#0;n#li#3;n#ul#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
++            <element signature="n#style#0;n#span#0;n#li#4;n#ul#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/Common/Cart.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/View/User/login.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1053">
+-          <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="24" />
++        <state relative-caret-position="819">
++          <caret line="61" column="35" lean-forward="false" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/View/Shop/viewCart.html">
++    <entry file="file://$PROJECT_DIR$/App/Admin/View/Auth/showlist.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1923">
+-          <caret line="66" column="30" lean-forward="false" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/View/layout.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-2106">
+-          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="55" />
++        <state relative-caret-position="195">
++          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="84" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/App/Home/View/Pub/layout2.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-78">
+-          <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
++        <state relative-caret-position="351">
++          <caret line="8" column="92" lean-forward="false" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/View/User/login.html">
++    <entry file="file://$PROJECT_DIR$/App/Home/View/layout.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="78">
+-          <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="64" />
++        <state relative-caret-position="702">
++          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="87" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/Model/ShopModel.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Admin/View/Index/index.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="312">
+-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/Model/UserModel.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="156">
+-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
++        <state relative-caret-position="628">
++          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="17" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/Controller/UserController.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Common/Common/function.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1131">
+-          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
++        <state relative-caret-position="897">
++          <caret line="103" column="26" lean-forward="false" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="26" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/Model/GoodsModel.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Admin/View/Auth/addAuth.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1104">
+-          <caret line="65" column="48" lean-forward="true" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
++        <state relative-caret-position="901">
++          <caret line="182" column="5" lean-forward="true" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/View/Goods/detail.html">
++    <entry file="file://$PROJECT_DIR$/App/Home/View/User/tel_register.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="234">
+-          <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="62" />
+-          <folding />
++        <state relative-caret-position="1564">
++          <caret line="88" column="68" lean-forward="false" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="68" />
++          <folding>
++            <element signature="n#style#0;n#input#0;n#li#0;n#ul#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/Controller/IndexController.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Home/Controller/UserController.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="234">
+-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
++        <state relative-caret-position="1018">
++          <caret line="113" column="42" lean-forward="false" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/View/Shop/goodsOrder.html">
++    <entry file="file://$PROJECT_DIR$/App/Home/Model/UserModel.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="753">
+-          <caret line="121" column="25" lean-forward="true" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+-          <folding>
+-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+-            <element signature="n#style#0;n#td#0;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#3;n#div#1;n#div#0;n#form#0;n#!!top" expanded="true" />
+-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+-          </folding>
++        <state relative-caret-position="2067">
++          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/App/Home/Controller/ShopController.class.php">
++    <entry file="file://$PROJECT_DIR$/App/Admin/Model/UserModel.class.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1221">
+-          <caret line="81" column="35" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="35" />
+-          <folding>
+-            <element signature="e#36#62#0#PHP" expanded="true" />
+-          </folding>
++        <state relative-caret-position="507">
++          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="46" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+Index: App/Runtime/Cache/Admin/09d1947ca78e76c88575effa0ca466ca.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Runtime/Cache/Admin/09d1947ca78e76c88575effa0ca466ca.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Admin/View/User/showlist.html	(revision )
+@@ -1,10 +1,10 @@
+-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
++<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+-  <script type="text/javascript" src="/Public/resources/jquery-1.8.2.min.js"></script>
+-  <script type="text/javascript" src="/Public/resources/layer/layer.js"></script>
++  <script type="text/javascript" src="__PUBLIC__/resources/jquery-1.8.2.min.js"></script>
++  <script type="text/javascript" src="__PUBLIC__/resources/layer/layer.js"></script>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+-  <title>角色列表</title>
++  <title>权限列表</title>
+   <style type="text/css">
+     <!--
+     body {
+@@ -38,6 +38,10 @@
+       color:#e1e2e3; text-decoration:none;
+     }
+     -->
++    /*分页样式*/
++    .Pagination a:hover,.current{background-color: #f54281;border: 1px solid #f54281;color: #ffffff; }
++    .Pagination{float: right;height: auto;_height: 45px; line-height: 20px;margin-right: 15px;_margin-right: 5px; color:#565656;margin-top: 10px;_margin-top: 20px; clear:both;}
++    .Pagination a,.Pagination span{ font-size: 14px;text-decoration: none;display: block;float: left;color: #565656;border: 1px solid #ccc;height: 34px;line-height: 34px;margin: 0 2px;width: 34px;text-align: center;}
+   </style>
+ </head>
+ 
+@@ -50,12 +54,12 @@
+           <tr>
+             <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+               <tr>
+-                <td width="6%" height="19" valign="bottom"><div align="center"><img src="/Public/resources/admin/images/tb.gif" width="14" height="14" /></div></td>
+-                <td width="94%" valign="bottom"><span class="STYLE1"> 角色管理 -> 角色列表</span></td>
++                <td width="6%" height="19" valign="bottom"><div align="center"><img src="__PUBLIC__/resources/admin/images/tb.gif" width="14" height="14" /></div></td>
++                <td width="94%" valign="bottom"><span class="STYLE1"> 用户管理 -> 用户列表</span></td>
+               </tr>
+             </table></td>
+             <td><div align="right"><span class="STYLE1">
+-              <a href="<?php echo U('addRole');?>"><img src="/Public/resources/admin/images/add.gif" width="10" height="10" /> 添加角色</a>   &nbsp;
++              <a href=""><img src="__PUBLIC__/resources/admin/images/add.gif" width="10" height="10" /> </a>   &nbsp;
+               </span>
+               <span class="STYLE1"> &nbsp;</span></div></td>
+           </tr>
+@@ -65,61 +69,49 @@
+   </tr>
+   <tr>
+     <td><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce">
+-      <tr>
+-
+-       </td>
+-        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">角色ID</span></div></td>
+-        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">角色名称</span></div></td>
+-        <td width="30%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">角色ids</span></div></td>
+-        <td width="30%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">角色ac</span></div></td>
++     </td>
++        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">用户ID</span></div></td>
++        <td width="15%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">用户名</span></div></td>
++        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">用户邮箱</span></div></td>
++        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">激活状态</span></div></td>
++      <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">账户状态</span></div></td>
++      <td width="15%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">手机号</span></div></td>
+         <td width="20%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">操作</span></div></td>
+-      </tr> <?php if(is_array($roleInfo)): foreach($roleInfo as $key=>$role): ?><tr>
+-        <td height="20" bgcolor="#FFFFFF" class="STYLE6"><div align="center"><span class="STYLE19" id="id"><?php echo ($role["role_id"]); ?></span></div></td>
+-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo ($role["role_name"]); ?></div></td>
+-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo ($role["role_auth_ids"]); ?></div></td>
+-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo ($role["role_auth_ac"]); ?></div></td>
++      </tr>
++      <foreach name="userInfo" item="user">
++
++      <tr>
++        <td height="20" bgcolor="#FFFFFF" class="STYLE6"><div align="center"><span class="STYLE19" id="id">{$user.user_id}</span></div></td>
++        
++        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">{$user.username}</div></td>
++        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">{$user.user_email}</div></td>
++        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">{$user.is_active}</div></td>
++        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">{$user.flag}</div></td>
++        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">{$user.user_tel}</div></td>
+         <td height="20" bgcolor="#FFFFFF">
+           <div align="center" class="STYLE21">
+ 
+-          <a class="delRole" "> <img src="/Public/resources/admin/images/del.gif" width="10" height="10" />删除</a>  | 查看 | <a  href="<?php echo U('distribute',[role_id=>$role['role_id']]);?>">  <img src="/Public/resources/admin/images/edit.gif" width="10" height="10" /> 分配权限</a></div></td>
+-      </tr><?php endforeach; endif; ?>
++          <a class="delAuth"> <img src="__PUBLIC__/resources/admin/images/del.gif" width="10" height="10" />删除</a>  | <a class="blocked">冻结</a></div></td>
++      </tr>
++    </foreach>
+     </table></td>
+   </tr>
+   <tr>
+-    <td height="30"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+-      <tr>
+-        <td width="33%"><div align="left"><span class="STYLE22">&nbsp;&nbsp;&nbsp;&nbsp;共有<strong> 243</strong> 条记录，当前第<strong> 1</strong> 页，共 <strong>10</strong> 页</span></div></td>
+-        <td width="67%"><table width="312" border="0" align="right" cellpadding="0" cellspacing="0">
+-          <tr>
+-            <td width="49"><div align="center"><img src="/Public/resources/admin/images/main_54.gif" width="40" height="15" /></div></td>
+-            <td width="49"><div align="center"><img src="/Public/resources/admin/images/main_56.gif" width="45" height="15" /></div></td>
+-            <td width="49"><div align="center"><img src="/Public/resources/admin/images/main_58.gif" width="45" height="15" /></div></td>
+-            <td width="49"><div align="center"><img src="/Public/resources/admin/images/main_60.gif" width="40" height="15" /></div></td>
+-            <td width="37" class="STYLE22"><div align="center">转到</div></td>
+-            <td width="22"><div align="center">
+-              <input type="text" name="textfield" id="textfield"  style="width:20px; height:12px; font-size:12px; border:solid 1px #7aaebd;"/>
+-            </div></td>
+-            <td width="22" class="STYLE22"><div align="center">页</div></td>
+-            <td width="35"><img src="/Public/resources/admin/images/main_62.gif" width="26" height="15" /></td>
+-          </tr>
+-        </table></td>
++    <td><div class="Pagination">{$page}</div></td>
+       </tr>
+-    </table></td>
+   </tr>
+ </table>
+ </body>
+ <script type="text/javascript">
+   $(function () {
+-//    function delRole(obj) {
+-//      console.log(obj);
+-    $('.delRole').click(function () {
+-      var roleId = $(this).parent().parent().parent().find("td:first span").html();
+-      layer.confirm('确定要删除该角色吗？', {
++    $('.delAuth').click(function () {
++      var authId = $(this).parent().parent().parent().find("td:first span").html();
++      layer.confirm('确定要删除该权限吗？', {
+         btn: ['确定删除','容我想想'] //按钮
+       }, function(){
+           $.ajax({
+-              url:"<?php echo U('delRole');?>",
+-              data:{'role_id':roleId},
++              url:"{:U('delAuth')}",
++              data:{'auth_id':authId},
+               dataType:'json',
+               type:'post',
+               success:function (msg) {
+@@ -138,6 +130,58 @@
+         });
+       });
+     })
++      
++      //冻结账户
++      $('.blocked').click(function (){
++    
++          var authId = $(this).parent().parent().parent().find("td:first span").html();
++          layer.confirm('确定要冻结该账户吗？', {
++              btn: ['确定冻结','容我想想'] //按钮
++          }, function(){
++              layer.confirm('请选择冻结状态？', {
++                      btn: ['自定义冻结','永久冻结']
++                  //按钮
++                  },function(index){
++                  layer.prompt({title: '请输入冻结天数'},function(val, index){
++//                      layer.msg("该账户将冻结"+val+"天");
++                      layer.close(index);
++                      blocked(authId,val);
++                  });
++                  layer.close(index);
++                  
++              },function () {
++                  blocked(authId);
++              })
++          }, function(){
++              layer.msg( {
++                  time: 1000,
++              });
++          });
++      })
++      
++          //冻结函数
++           function   blocked( user_id,time='long'){
++                $.ajax({
++                    url:"{:U('blocked')}",
++                    data:{'user_id':user_id,'time':time},
++                    dataType:'json',
++                    type:'post',
++                    success:function (msg) {
++                        if(msg.state == 200){
++                            layer.msg(msg.message);
++                            location.reload();
++                        }else if(msg.state == 202){
++                            layer.msg(msg.message);
++                        }
++                    }
++                })
++              }
++                    
++           
++      
++      
++      
+   })
+ </script>
+-</html>
+\ No newline at end of file
++</html>
++
+Index: App/Home/Common/Cart.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- App/Home/Common/Cart.class.php	(revision 172e9643939e1b6848f3f8dfa8bb4e63a7fc8deb)
++++ App/Home/Common/Cart.class.php	(revision )
+@@ -75,6 +75,10 @@
+     function delall(){
+         unset($this->cartInfo);
+         $this -> saveData();//将刷新的数据重新存入cookie
++        if (empty($this->cartInfo)){
++            return true;
++        }
++
+     }
+ 
+     /**

@@ -1,0 +1,1358 @@
+[ 2017-06-30T09:53:20+08:00 ] 127.0.0.1 /index.phpadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-06-30T09:53:21+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-06-30T09:53:21+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-06-30T09:53:30+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-06-30T09:53:31+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-06-30T09:53:32+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-06-30T09:53:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-06-30T09:53:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-06-30T09:53:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-06-30T09:53:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-06-30T09:53:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-06-30T09:53:42+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-06-30T09:53:45+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-06-30T09:53:46+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 非法操作:dayin
+
+[ 2017-06-30T09:53:48+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-06-30T10:14:39+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-06-30T10:14:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2017-06-30T10:14:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-06-30T10:14:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-06-30T10:14:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-06-30T10:14:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-06-30T10:14:48+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-06-30T10:23:42+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-06-30T10:24:41+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-06-30T10:24:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+
+[ 2017-06-30T10:24:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-06-30T10:24:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-06-30T10:24:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-06-30T10:24:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2017-06-30T10:24:47+08:00 ] 127.0.0.1 /index.php/Admin/Category/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-06-30T10:24:52+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-06-30T10:25:32+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-06-30T10:25:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-06-30T10:25:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-06-30T10:25:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-06-30T10:25:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-06-30T10:25:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-06-30T10:25:41+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-06-30T10:26:06+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-06-30T10:26:21+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-06-30T10:27:04+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-06-30T10:27:33+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-06-30T10:28:26+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-06-30T10:29:14+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2017-06-30T10:30:00+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-06-30T10:30:43+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-06-30T10:33:18+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-06-30T10:33:54+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-30T10:34:15+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-06-30T10:34:18+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-06-30T10:34:46+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-06-30T10:34:55+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-06-30T11:36:11+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-06-30T11:36:40+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-06-30T11:38:06+08:00 ] 127.0.0.1 /index.php/Admin/Order/blocked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0127s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+ERR: 非法操作:blocked
+
+[ 2017-06-30T11:38:08+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-06-30T11:41:15+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-06-30T12:13:52+08:00 ] 127.0.0.1 /index.php/Admin/Order/blocked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0169s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+ERR: 非法操作:blocked
+
+[ 2017-06-30T12:14:00+08:00 ] 127.0.0.1 /index.php/Admin/Order/blocked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+ERR: 非法操作:blocked
+
+[ 2017-06-30T12:14:21+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-06-30T12:14:28+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0047s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+ERR: Class 'Admin\Controller\PinYin' not found
+
+[ 2017-06-30T12:17:04+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0062s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 28 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2017-06-30T12:23:12+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-06-30T12:23:27+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0052s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for PinYin::getAllPY(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 28 and defined D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 52 行.
+NOTIC: [8] Undefined variable: chinese D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 53 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 30 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-06-30T12:30:03+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-06-30T12:30:16+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0069s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+ERR: Undefined constant 'u4e00'
+
+[ 2017-06-30T12:30:55+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0134s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given D:\web\tpshop\App\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [2] Missing argument 1 for PinYin::getAllPY(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 30 and defined D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 52 行.
+NOTIC: [8] Undefined variable: chinese D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 53 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 32 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-06-30T12:32:44+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-06-30T12:32:57+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0059s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given D:\web\tpshop\App\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [2] Missing argument 1 for PinYin::getAllPY(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 30 and defined D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 52 行.
+NOTIC: [8] Undefined variable: chinese D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 53 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 32 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-06-30T12:33:13+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0065s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given D:\web\tpshop\App\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [2] Missing argument 1 for PinYin::getAllPY(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 30 and defined D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 52 行.
+NOTIC: [8] Undefined variable: chinese D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 53 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 32 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-06-30T12:33:42+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0043s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] preg_grep() expects parameter 2 to be array, string given D:\web\tpshop\App\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [2] Missing argument 1 for PinYin::getAllPY(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 30 and defined D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 52 行.
+NOTIC: [8] Undefined variable: chinese D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 53 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 32 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-06-30T12:37:13+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0148s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for PinYin::getAllPY(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 35 and defined D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 52 行.
+NOTIC: [8] Undefined variable: chinese D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 53 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 37 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2017-06-30T12:37:24+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0042s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for PinYin::getAllPY(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 35 and defined D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 52 行.
+NOTIC: [8] Undefined variable: chinese D:\web\tpshop\ThinkPHP\Library\Org\Util\Pinyin.class.php 第 53 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 37 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-06-30T12:39:56+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0064s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 34 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-06-30T12:40:46+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0128s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 35 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-06-30T12:41:46+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0141s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 36 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2017-06-30T12:42:58+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0043s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 36 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-06-30T12:43:13+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-06-30T12:43:21+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0053s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+NOTIC: [2] Missing argument 1 for request(), called in D:\web\tpshop\App\Admin\Controller\OrderController.class.php on line 36 and defined D:\web\tpshop\App\Common\Common\function.php 第 112 行.
+NOTIC: [8] Undefined variable: url D:\web\tpshop\App\Common\Common\function.php 第 113 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-06-30T12:45:34+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0052s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2017-06-30T12:46:41+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0045s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2017-06-30T12:47:02+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0043s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2017-06-30T12:47:36+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0141s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-06-30T15:22:45+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+
+[ 2017-06-30T15:22:46+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-06-30T15:22:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-06-30T15:22:57+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-06-30T15:22:57+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-06-30T15:23:08+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-06-30T15:23:09+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-06-30T15:23:10+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-06-30T15:23:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-06-30T15:23:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-06-30T15:23:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-06-30T15:23:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-06-30T15:23:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-06-30T15:23:17+08:00 ] 127.0.0.1 /index.php/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-06-30T15:23:19+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-06-30T15:23:28+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2017-06-30T15:24:47+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-06-30T15:24:57+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-06-30T15:26:03+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-06-30T15:37:30+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+ERR: Think\Model:postBackageInfo方法不存在！
+
+[ 2017-06-30T15:38:19+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: Think\Model:postBackageInfo方法不存在！
+
+[ 2017-06-30T15:38:48+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-06-30T15:41:00+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: syntax error, unexpected '}'
+
+[ 2017-06-30T15:41:14+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-06-30T15:41:44+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-06-30T15:43:11+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-06-30T15:48:03+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: Think\Controller:find方法不存在！
+
+[ 2017-06-30T15:49:34+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-06-30T15:50:23+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-06-30T15:51:05+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-06-30T15:53:22+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-06-30T15:53:40+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0073s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0081s ]
+NOTIC: [2] Illegal offset type D:\web\tpshop\ThinkPHP\Library\Think\Model.class.php 第 722 行.
+ERR: 1062:Duplicate entry '40-885521950005566378' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`order_id`,`backage_state`,`backage_number`) VALUES ('40','2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378')
+ERR: 1062:Duplicate entry '40-885521950005566378' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`order_id`,`backage_state`,`backage_number`) VALUES ('40','2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378')
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Model\BackageModel.class.php:19) D:\web\tpshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Model\BackageModel.class.php:19) D:\web\tpshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-06-30T15:53:50+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0124s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0048s ]
+NOTIC: [2] Illegal offset type D:\web\tpshop\ThinkPHP\Library\Think\Model.class.php 第 722 行.
+ERR: 1062:Duplicate entry '40-885521950005566378' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`order_id`,`backage_state`,`backage_number`) VALUES ('40','2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378')
+ERR: 1062:Duplicate entry '40-885521950005566378' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`order_id`,`backage_state`,`backage_number`) VALUES ('40','2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378')
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Model\BackageModel.class.php:19) D:\web\tpshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\tpshop\App\Admin\Model\BackageModel.class.php:19) D:\web\tpshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-06-30T15:55:02+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0047s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0066s ]
+NOTIC: [2] Illegal offset type D:\web\tpshop\ThinkPHP\Library\Think\Model.class.php 第 722 行.
+SQL: INSERT INTO `sp_backage` (`order_id`,`backage_state`,`backage_number`) VALUES ('40','2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378') [ RunTime:0.0038s ]
+
+[ 2017-06-30T15:55:48+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0136s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0047s ]
+NOTIC: [2] Illegal offset type D:\web\tpshop\ThinkPHP\Library\Think\Model.class.php 第 722 行.
+ERR: 1062:Duplicate entry '40-885521950005566378' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`order_id`,`backage_state`,`backage_number`) VALUES ('40','2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378')
+ERR: 1062:Duplicate entry '40-885521950005566378' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`order_id`,`backage_state`,`backage_number`) VALUES ('40','2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378')
+
+[ 2017-06-30T15:56:09+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0047s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `sp_backage` WHERE `order_id` = 40 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sp_backage` SET `order_id`='40',`backage_state`='2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#',`backage_number`='885521950005566378' WHERE `order_id` = 40 [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry '40' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`order_id`,`backage_state`,`backage_number`) VALUES ('40','2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378')
+ERR: 1062:Duplicate entry '40' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`order_id`,`backage_state`,`backage_number`) VALUES ('40','2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378')
+
+[ 2017-06-30T15:57:09+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: 1062:Duplicate entry '40' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`order_id`,`backage_state`,`backage_number`) VALUES ('40','2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378')
+
+[ 2017-06-30T15:57:30+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 1062:Duplicate entry '40' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`order_id`,`backage_state`,`backage_number`) VALUES ('40','2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378')
+
+[ 2017-06-30T15:58:03+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+ERR: 1062:Duplicate entry '40' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`backage_state`,`backage_number`,`order_id`) VALUES ('2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378','40')
+
+[ 2017-06-30T15:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 1062:Duplicate entry '40' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sp_backage` (`backage_state`,`backage_number`,`order_id`) VALUES ('2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378','40')
+
+[ 2017-06-30T16:01:12+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-06-30T16:01:41+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0131s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `sp_backage` WHERE `order_id` = 40 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sp_backage` SET `backage_state`='2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#',`backage_number`='885521950005566378' WHERE `order_id` = 40 [ RunTime:0.0034s ]
+
+[ 2017-06-30T16:04:18+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0123s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `sp_backage` WHERE `order_id` = 40 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sp_backage` SET `backage_state`='',`backage_number`='' WHERE `order_id` = 40 [ RunTime:0.0042s ]
+
+[ 2017-06-30T16:04:19+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-06-30T16:04:23+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-06-30T16:05:45+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `sp_backage` WHERE `order_id` = 40 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `sp_backage` SET `backage_state`='2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#',`backage_number`='885521950005566378' WHERE `order_id` = 40 [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0072s ]
+SQL: UPDATE `sp_order` SET `is_send`='是' WHERE `order_id` = 40 [ RunTime:0.0039s ]
+
+[ 2017-06-30T16:05:46+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-06-30T16:06:40+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-06-30T16:06:47+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0118s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `sp_backage` WHERE `order_id` = 34 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `sp_backage` (`backage_state`,`backage_number`,`order_id`) VALUES ('2017-06-25 13:22:07-客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48-四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43-四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06-成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01-成都转运中心 已收入#2017-06-23 04:57:07-广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13-广州转运中心 已收入#2017-06-23 02:58:46-广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19-广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12-广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378','34') [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0044s ]
+SQL: UPDATE `sp_order` SET `is_send`='是' WHERE `order_id` = 34 [ RunTime:0.0039s ]
+
+[ 2017-06-30T16:06:48+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-06-30T16:07:18+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-06-30T16:10:07+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-06-30T16:45:08+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `sp_backage` WHERE `order_id` = 35 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sp_backage` SET `backage_state`='2017-06-25 13:22:07++客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48++四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43++四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06++成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01++成都转运中心 已收入#2017-06-23 04:57:07++广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13++广州转运中心 已收入#2017-06-23 02:58:46++广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19++广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19++广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12++广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#',`backage_number`='885521950005566378' WHERE `order_id` = 35 [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0087s ]
+SQL: UPDATE `sp_order` SET `is_send`='是' WHERE `order_id` = 35 [ RunTime:0.0045s ]
+
+[ 2017-06-30T16:45:09+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-06-30T19:38:36+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-06-30T19:38:47+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-06-30T19:59:57+08:00 ] 127.0.0.1 /index.php/Admin/User/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-06-30T19:59:57+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-06-30T19:59:57+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-06-30T20:00:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-06-30T20:00:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg/0.06515936743851358
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-06-30T20:00:13+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-06-30T20:00:13+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg/0.1736683958391716
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-06-30T20:00:14+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-06-30T20:00:14+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg/0.402979639489607
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-06-30T20:00:15+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-06-30T20:00:15+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg/0.9122837856735526
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-06-30T20:00:19+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-06-30T20:00:19+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-06-30T20:00:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-06-30T20:00:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg/0.4019941262659441
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-06-30T20:00:33+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-06-30T20:00:33+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg/0.5919244290558758
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-06-30T20:00:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-06-30T20:00:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg/0.008997430755956826
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-06-30T20:00:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-06-30T20:00:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/verifyImg/0.5429369041884295
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-06-30T20:01:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-06-30T20:01:04+08:00 ] 127.0.0.1 /index.php/admin/manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-06-30T20:01:05+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-06-30T20:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2017-06-30T20:01:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-06-30T20:01:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-06-30T20:01:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-06-30T20:01:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001805s ]
+
+[ 2017-06-30T20:01:20+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 非法操作:dayin
+
+[ 2017-06-30T20:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Order/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 非法操作:tianjia
+
+[ 2017-06-30T20:01:23+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-06-30T20:02:00+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0069s ]
+NOTIC: [8] Use of undefined constant man - assumed 'man' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 28 行.
+SQL: SELECT role.role_auth_ac FROM sp_manager man INNER JOIN sp_role as role on man.role_id = role.role_id  WHERE `mg_id` = '502' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant admin - assumed 'admin' D:\web\tpshop\App\Admin\Common\AdminController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_backage` WHERE `order_id` = 35 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `sp_backage` (`backage_state`,`backage_number`,`order_id`) VALUES ('2017-06-25 13:22:07++客户 签收人: 门卫 已签收  感谢使用圆通速递，期待再次为您服务#2017-06-25 07:12:48++四川省成都市双流县华阳公司(点击查询电话)李** 派件中 派件员电话13088061057#2017-06-24 21:31:43++四川省成都市双流县华阳公司 已收入#2017-06-24 16:27:06++成都转运中心 已发出,下一站 四川省成都市双流县华阳#2017-06-24 15:53:01++成都转运中心 已收入#2017-06-23 04:57:07++广州转运中心 已发出,下一站 成都转运中心#2017-06-23 04:53:13++广州转运中心 已收入#2017-06-23 02:58:46++广东省广州市白云区三元里分部六公司 已发出,下一站 广州转运中心#2017-06-23 02:51:19++广东省广州市白云区三元里分部六公司 已打包#2017-06-23 02:51:19++广东省广州市白云区三元里分部六公司(点击查询电话) 已揽收#2017-06-23 02:43:12++广东省广州市白云区三元里分部六公司 取件人: 屈洁 已收件#','885521950005566378','35') [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0042s ]
+SQL: UPDATE `sp_order` SET `is_send`='是' WHERE `order_id` = 35 [ RunTime:0.0034s ]
+
+[ 2017-06-30T20:05:17+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-06-30T20:06:22+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-06-30T20:06:24+08:00 ] 127.0.0.1 /index.php/Admin/manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-06-30T20:06:25+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-06-30T20:06:57+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+
+[ 2017-06-30T20:12:53+08:00 ] 127.0.0.1 /index.php/Admin/manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-06-30T20:12:53+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-06-30T20:13:15+08:00 ] 127.0.0.1 /index.php/Admin/manager/checkVerifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-06-30T20:13:15+08:00 ] 127.0.0.1 /index.php/Admin/manager/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-06-30T20:14:13+08:00 ] 127.0.0.1 /index.php/Admin/Order/packageNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+

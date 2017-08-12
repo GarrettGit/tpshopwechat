@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>京西商城微信管理后台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Novus Admin Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    }
+    </script>
+    <!-- Bootstrap Core CSS -->
+    <link href="__PUBLIC__/resources/wechat/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- Custom CSS -->
+    <link href="__PUBLIC__/resources/wechat/css/style.css" rel='stylesheet' type='text/css' />
+    <!-- font CSS -->
+    <!-- font-awesome icons -->
+    <link href="__PUBLIC__/resources/wechat/css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+    <!-- js-->
+    <script src="__PUBLIC__/resources/wechat/js/jquery-1.11.1.min.js"></script>
+    <script src="__PUBLIC__/resources/wechat/js/modernizr.custom.js"></script>
+    <!--webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet'
+        type='text/css'>
+    <!--//webfonts-->
+    <!--animate-->
+    <link href="__PUBLIC__/resources/wechat/css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="__PUBLIC__/resources/wechat/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--//end-animate-->
+    <!-- Metis Menu -->
+    <script src="__PUBLIC__/resources/wechat/js/metisMenu.min.js"></script>
+    <script src="__PUBLIC__/resources/wechat/js/custom.js"></script>
+    <link href="__PUBLIC__/resources/wechat/css/custom.css" rel="stylesheet">
+    <!--//Metis Menu -->
+</head>
+
+<body class="cbp-spmenu-push">
+    <div class="main-content">
+        <!--left-fixed -navigation-->
+        <include file="./App/WeChat/View/View/navi.html" />
+        <!--left-fixed -navigation-->
+        <!-- header-starts -->
+        <include file="./App/WeChat/View/View/header.html" />
+        <!-- //header-ends -->
+        <!-- main content start-->
+        <div id="page-wrapper">
+            <div class="main-page">
+                <div class="tables">
+
+                    <h3 class="title1">Tables</h3>
+                    <div class="panel-body widget-shadow">
+                        <a href="{:U('addSeckill')}"> <button type="button" class="btn btn-lg btn-success">点我前往添加商品</button></a>
+                        <br><br>
+                       
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>序号</th>
+                                    <th>名称</th>
+                                    <th>所属类型</th>
+                                    <th>商品简介</th>
+                                    <th>商品logo</th>
+                                    <th>基本操作</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody">
+                                <foreach name="info" item="v" key="k">
+                                    <tr>
+                                        <th scope="row">{$k+1}</th>
+                                        <td>{$v.goods_name}</td>
+                                        <td>{$v.type_name}</td>
+                                        <td>{$v.goods_introduce}</td>
+                                        <td><img src="{$v.goods_small_logo}" alt="没有上传logo"></td>
+                                        <td>
+                                            <a href="{:U('edit',array('id'=>$v['goods_id']))}">编辑</a> | <a href="">删除</a>丨
+                                            <button type="button" class="btn btn-sm btn-success" name="{$v['goods_id']}" onclick="static(this)">静态化</button>
+                                        </td>
+                                    </tr>
+                                </foreach>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <include file="./App/WeChat/View/View/footer.html" />
+        <!--//footer-->
+    </div>
+    <!-- Classie -->
+    <script src="__PUBLIC__/resources/wechat/js/classie.js"></script>
+    <script>
+        var menuLeft = document.getElementById('cbp-spmenu-s1'),
+            showLeftPush = document.getElementById('showLeftPush'),
+            body = document.body;
+
+        showLeftPush.onclick = function () {
+            classie.toggle(this, 'active');
+            classie.toggle(body, 'cbp-spmenu-push-toright');
+            classie.toggle(menuLeft, 'cbp-spmenu-open');
+            disableOther('showLeftPush');
+        };
+
+        function disableOther(button) {
+            if (button !== 'showLeftPush') {
+                classie.toggle(showLeftPush, 'disabled');
+            }
+        }
+    </script>
+    <!--scrolling js-->
+    <script src="__PUBLIC__/resources/wechat/js/jquery.nicescroll.js"></script>
+    <script src="__PUBLIC__/resources/wechat/js/scripts.js"></script>
+    <!--//scrolling js-->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="__PUBLIC__/resources/wechat/js/bootstrap.js"></script>
+</body>
+
+</html>
+
+<script>
+    function static(e) {
+    //    var index = layer.load(0, { shade: false }); //0代表加载的风格，支持0-2
+       var goods_id = $(e).attr("name");
+       console.log(goods_id);
+       $.ajax({
+           type: "post",
+           url: "{:U('Home/Goods/createStatic')}",
+           data: {"goods_id":goods_id},
+           dataType: "json",
+           success: function (msg) {
+               console.log(msg);
+           }
+       });
+    }
+</script>

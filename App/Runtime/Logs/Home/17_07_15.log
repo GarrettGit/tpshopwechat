@@ -1,0 +1,552 @@
+[ 2017-07-15T06:39:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-07-15T06:39:03+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: syntax error, unexpected 'ckCode' (T_STRING), expecting '('
+
+[ 2017-07-15T06:39:18+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-07-15T06:39:20+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-07-15T06:39:23+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=09105b18ef27b85e8e5d510c1fc57b84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-07-15T06:39:25+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-07-15T07:26:43+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-07-15T07:26:43+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-07-15T07:30:18+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-07-15T07:30:21+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=27fd6a81377e657345944095ec907730
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-07-15T07:30:23+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2017-07-15T09:01:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002902s ]
+
+[ 2017-07-15T09:01:05+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-07-15T09:01:09+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-07-15T09:12:38+08:00 ] 127.0.0.1 /index.php/home/user/callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+
+[ 2017-07-15T09:13:03+08:00 ] 127.0.0.1 /index.php/home/user/callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-07-15T09:17:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+
+[ 2017-07-15T09:17:58+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-07-15T09:18:00+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+
+[ 2017-07-15T09:18:31+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=2DD570FAA72FE4E812ACCF5854020AD0&state=3713155c3902668f6299edcfa6524fbc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-07-15T09:18:31+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-07-15T09:18:33+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-07-15T09:18:35+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+
+[ 2017-07-15T09:18:39+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=19C90827BEF71E3A030730D782409A9A&state=b99ab2a56d0d8dda6a69aa1990511f4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-07-15T09:18:59+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+
+[ 2017-07-15T09:19:03+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=54F9782404971B309867B0BB8208079D&state=fd44b0974415e89da1ca872732d3f72f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-07-15T09:21:15+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+
+[ 2017-07-15T09:21:21+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=A828C7CC7FD5C51472B2C8C131282BE8&state=444a0ab8edc3119a534f6489217df655
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+
+[ 2017-07-15T09:21:43+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+
+[ 2017-07-15T09:21:47+08:00 ] 127.0.0.1 /index.php/home/user/callback?code=CB8AADAFBF18A1546A0FC042FDB0716D&state=29c7e23c4e0a913c843eaad276d3066a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-07-15T10:53:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-07-15T10:53:12+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-07-15T10:53:14+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2017-07-15T10:53:31+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2017-07-15T11:11:02+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2017-07-15T11:11:17+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-07-15T11:11:21+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=5ddf686fddce6ec81af557b96430e398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-07-15T11:12:04+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=5ddf686fddce6ec81af557b96430e398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+ERR: get access token failed.invalid_grant
+
+[ 2017-07-15T11:12:20+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-07-15T11:12:22+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=0fe476324bf3bea5aa64847df824981d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-07-15T11:21:04+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2017-07-15T11:21:07+08:00 ] 127.0.0.1 /index.php/home/user/weiboLoginCallback?code=c6e306327bf7eda897695c767c0fcba8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-07-15T11:21:09+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-07-15T14:20:24+08:00 ] 127.0.0.1 /index.php/home/API/getWeather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载控制器:API
+
+[ 2017-07-15T14:20:59+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/chengdu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+
+[ 2017-07-15T14:21:23+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/chengdu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+ERR: syntax error, unexpected '}'
+
+[ 2017-07-15T14:21:35+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/chengdu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2017-07-15T14:21:49+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/chengdu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-07-15T14:21:57+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/chengdu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-07-15T14:22:03+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/%E6%88%90%E9%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+
+[ 2017-07-15T14:23:11+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/%E6%88%90%E9%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2017-07-15T14:24:15+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/%E6%88%90%E9%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-07-15T14:24:30+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/%E6%88%90%E9%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-07-15T14:25:14+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/%E6%88%90%E9%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+
+[ 2017-07-15T14:26:03+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/chengdu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-07-15T14:26:29+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/chengdu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-07-15T14:26:51+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/chengdu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-07-15T14:27:18+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/%E6%88%90%E9%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-07-15T14:29:35+08:00 ] 127.0.0.1 /index.php/home/api/getweather/city/%E6%88%90%E9%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-07-15T14:29:56+08:00 ] 127.0.0.1 /index.php/home/api/getPhone/phone/17600693893
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-07-15T14:30:12+08:00 ] 127.0.0.1 /index.php/home/api/getPhone/phone/17600693893
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2017-07-15T14:30:43+08:00 ] 127.0.0.1 /index.php/home/api/getPhone/phone/18888888888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-07-15T14:31:38+08:00 ] 127.0.0.1 /index.php/home/api/getPhone/phone/18888888888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-07-15T14:33:56+08:00 ] 127.0.0.1 /index.php/home/api/getPhone/phone/18888888888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2017-07-15T14:34:12+08:00 ] 127.0.0.1 /index.php/home/api/getPhone/phone/18888888888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2017-07-15T14:34:30+08:00 ] 127.0.0.1 /index.php/home/api/getPhone/phone/18888888888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2017-07-15T14:35:20+08:00 ] 127.0.0.1 /index.php/home/api/getPhone/phone/18888888888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+
+[ 2017-07-15T14:35:29+08:00 ] 127.0.0.1 /index.php/home/api/getPhone/phone/15966329888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-07-15T15:12:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-07-15T15:36:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-07-15T15:37:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-07-15T15:37:40+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-07-15T15:37:46+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-07-15T15:37:46+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-07-15T15:37:50+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-07-15T15:37:54+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-07-15T15:38:07+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+
+[ 2017-07-15T16:30:58+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+ERR: Call to undefined function Home\Controller\emtpy()
+
+[ 2017-07-15T16:32:04+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+ERR: Call to undefined method Home\Controller\ApiController::ajaxRtuen()
+
+[ 2017-07-15T16:32:39+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+ERR: Think\Controller:ajaxRtuen方法不存在！
+
+[ 2017-07-15T16:33:24+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:33:55+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:34:25+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:34:46+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:34:56+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:35:10+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:35:31+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:35:54+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:36:15+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:37:08+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:38:15+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:38:44+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+
+[ 2017-07-15T16:39:27+08:00 ] 127.0.0.1 /index.php/home/api/getUser/uid/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+NOTIC: D方法实例化没找到模型类admin\Model\UserModel
+ERR: Think\Model:getOneDate方法不存在！
+
+[ 2017-07-15T16:39:46+08:00 ] 127.0.0.1 /index.php/home/api/getUser/uid/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: Think\Model:getOneDate方法不存在！
+
+[ 2017-07-15T16:40:29+08:00 ] 127.0.0.1 /index.php/home/api/getUser/uid/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: Think\Model:getOneDate方法不存在！
+
+[ 2017-07-15T16:40:36+08:00 ] 127.0.0.1 /index.php/home/api/getUser/uid/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+ERR: Think\Model:getOneDate方法不存在！
+
+[ 2017-07-15T16:41:18+08:00 ] 127.0.0.1 /index.php/home/api/getUser/uid/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: Think\Model:getOneDate方法不存在！
+
+[ 2017-07-15T18:21:40+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-07-15T18:22:10+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-07-15T18:22:26+08:00 ] 127.0.0.1 /index.php/home/api/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-07-15T18:22:29+08:00 ] 127.0.0.1 /index.php/home/api/getUser/uid/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-07-15T18:22:38+08:00 ] 127.0.0.1 /index.php/home/api/getUser/uid/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-07-15T18:22:46+08:00 ] 127.0.0.1 /index.php/home/api/getUser/uid/231
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-07-15T19:52:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+

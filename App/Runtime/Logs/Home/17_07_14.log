@@ -1,0 +1,551 @@
+[ 2017-07-14T10:03:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+
+[ 2017-07-14T10:03:57+08:00 ] 127.0.0.1 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-07-14T11:25:36+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-07-14T11:25:54+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+
+[ 2017-07-14T11:25:56+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-07-14T11:26:02+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 66 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2017-07-14T11:26:19+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2017-07-14T11:26:30+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0032s ]
+
+[ 2017-07-14T11:26:39+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-07-14T11:26:42+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-14T11:26:43+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-14T11:26:44+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-14T11:26:47+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-07-14T11:26:51+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-07-14T11:27:16+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 66 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2017-07-14T11:27:27+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-07-14T11:27:33+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-07-14T11:28:25+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-07-14T11:29:19+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-07-14T14:02:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-07-14T14:02:06+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-07-14T14:02:07+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-07-14T14:02:31+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-07-14T14:07:10+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001834s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 69 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2017-07-14T14:07:32+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 69 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2017-07-14T14:07:32+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 69 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+
+[ 2017-07-14T14:07:32+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 69 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+
+[ 2017-07-14T14:10:07+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 69 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+
+[ 2017-07-14T14:11:22+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-07-14T14:11:32+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-07-14T14:11:51+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-07-14T14:11:59+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-07-14T14:13:48+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+
+[ 2017-07-14T14:13:56+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 69 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-07-14T14:14:05+08:00 ] 127.0.0.1 /index.php/Home/User/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: user_email D:\web\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1208 行.
+NOTIC: [8] Undefined index: user_email D:\web\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1208 行.
+
+[ 2017-07-14T14:14:45+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-07-14T14:14:48+08:00 ] 127.0.0.1 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-07-14T14:14:54+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-07-14T14:21:05+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-07-14T14:21:07+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-07-14T14:21:19+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-07-14T14:21:24+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 69 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2017-07-14T14:21:45+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-14T14:21:58+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-07-14T14:22:13+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+
+[ 2017-07-14T14:22:13+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+
+[ 2017-07-14T14:22:41+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-07-14T14:22:41+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-07-14T14:22:44+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+
+[ 2017-07-14T14:22:47+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 69 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-07-14T14:22:57+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-07-14T14:23:11+08:00 ] 127.0.0.1 /index.php/Home/user/updPwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+
+[ 2017-07-14T14:23:13+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-07-14T14:23:22+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-07-14T14:23:22+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-07-14T14:23:28+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-07-14T14:23:28+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-07-14T14:23:31+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-07-14T14:27:14+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+
+[ 2017-07-14T14:28:08+08:00 ] 127.0.0.1 /index.php/Home/user/tel_register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-07-14T14:28:11+08:00 ] 127.0.0.1 /index.php/Home/user/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-07-14T14:28:26+08:00 ] 127.0.0.1 /index.php/Home/User/sendCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Common\Common\function.php 第 69 行.
+NOTIC: [2] fopen(/Home/Public/mes/log.txt): failed to open stream: No such file or directory D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 34 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\web\tpshop\ThinkPHP\Library\Vendor\SendShortMes\CCPRestSmsSDK.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2017-07-14T14:28:37+08:00 ] 127.0.0.1 /index.php/Home/User/getBackPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_tel` = '15966329880' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-14T14:58:58+08:00 ] 127.0.0.1 /index.php/Home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+
+[ 2017-07-14T17:01:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001887s ]
+
+[ 2017-07-14T17:01:05+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-07-14T17:01:08+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-07-14T17:12:35+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+
+[ 2017-07-14T17:13:38+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-07-14T20:13:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+
+[ 2017-07-14T20:13:54+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-07-14T20:13:56+08:00 ] 127.0.0.1 /index.php/home/User/QQLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+
+[ 2017-07-14T20:13:59+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-07-14T20:14:24+08:00 ] 127.0.0.1 /index.php/Home/User/weibologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+

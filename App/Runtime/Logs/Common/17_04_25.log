@@ -1,0 +1,6 @@
+[ 2017-04-25T09:57:04+08:00 ] 127.0.0.1 /index.php/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Goods
+

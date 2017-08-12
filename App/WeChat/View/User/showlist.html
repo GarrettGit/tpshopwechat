@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>秋名山车队后台管理系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Novus Admin Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    }
+    </script>
+    <!-- Bootstrap Core CSS -->
+    <link href="{:C('CSS_URL')}bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- Custom CSS -->
+    <link href="{:C('CSS_URL')}style.css" rel='stylesheet' type='text/css' />
+    <!-- font CSS -->
+    <!-- font-awesome icons -->
+    <link href="{:C('CSS_URL')}font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+    <!-- js-->
+    <script src="{:C('JS_URL')}jquery-1.11.1.min.js"></script>
+    <script src="{:C('JS_URL')}modernizr.custom.js"></script>
+    <!--webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet'
+        type='text/css'>
+    <!--//webfonts-->
+    <!--animate-->
+    <link href="{:C('CSS_URL')}animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="{:C('JS_URL')}wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--//end-animate-->
+    <!-- Metis Menu -->
+    <script src="{:C('JS_URL')}metisMenu.min.js"></script>
+    <script src="{:C('JS_URL')}custom.js"></script>
+    <link href="{:C('CSS_URL')}custom.css" rel="stylesheet">
+    <!--//Metis Menu -->
+    <link rel="stylesheet" type="text/css" href="{:C('CSS_URL')}page.css">
+
+    <style>
+        .form-control {
+            width: 200px;
+        }
+    </style>
+
+</head>
+
+<body class="cbp-spmenu-push">
+    <div class="main-content">
+        <!--left-fixed -navigation-->
+        <include file="./Application/Admin/View/View/navi.html" />
+        <!--left-fixed -navigation-->
+        <!-- header-starts -->
+        <include file="./Application/Admin/View/View/header.html" />
+        <!-- //header-ends -->
+        <!-- main content start-->
+
+        <div id="page-wrapper">
+
+            <div class="main-page">
+                <div class="tables">
+                    <div class="inline-form widget-shadow">
+                        <div class="form-title">
+                            <h4>这里可以条件搜索</h4>
+                        </div>
+                        <div class="form-body">
+                            <div data-example-id="simple-form-inline">
+                                <form class="form-inline" name="search" action="{:U('search')}" onsubmit="return refresh()" method="post">
+                                    <div class="form-group"> <input type="text" name="username" class="form-control" id="exampleInputEmail3" placeholder="账号"> </div>
+                                    
+                                    <select name="flag"  class="form-control" >
+                                        <option value="5">所有状态</option>
+                                        <option value="0">注销状态</option>
+                                        <option value="1">正常状态</option>
+                                        <option value="2">有期限封印</option>
+                                        <option value="3">无限期封印</option>
+                                    </select>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                    注册时间：
+                                    <input type="date" name="user_time_start" class="form-control" value="" title="注册时间">-
+                                    <input type="date" name="user_time_end" class="form-control" value="" title="注册时间">-
+                                    
+                                    <button type="submit" class="btn btn-success">GO!!!</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="title1">
+                    </h3>
+                    <div id="fresh" class="panel-body widget-shadow">
+                        <h4>用户列表:</h4>
+                        {$page}
+                        <br>
+                        <br>
+                        <br>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>序号</th>
+                                    <th>账号</th>
+                                    <th>邮箱</th>
+                                    <th>手机</th>
+                                    <th>性别</th>
+                                    <th>注册时间</th>
+                                    <th>当前状态</th>
+                                    <th>相关操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <foreach name="user" item="v" key="k">
+                                    <tr>
+                                        <th scope="row">{$k+1}</th>
+                                        <td>{$v.username}</td>
+                                        <td>{$v.user_email}</td>
+                                        <td>{$v.user_tel}</td>
+                                        <td>
+                                            <eq name="v['user_sex']" value="0">女</eq>
+                                            <eq name="v['user_sex']" value="1">男</eq>
+                                            <eq name="v['user_sex']" value="2">保密</eq>
+                                        </td>
+                                        <td>{$v.last_time|date="y-m-d H:i:s",###}</td>
+                                        <td>
+                                            <eq name="v['flag']" value="0">注销</eq>
+                                            <eq name="v['flag']" value="1">正常</eq>
+                                            <eq name="v['flag']" value="2">有期限封印</eq>
+                                            <eq name="v['flag']" value="3">无限期封印</eq>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-primary">查看</button>
+                                            <button type="button" id={$v[ 'user_id']} class="btn btn-sm btn-danger" onclick="cold(this)">封印</button>
+                                        </td>
+                                    </tr>
+                                </foreach>
+                            </tbody>
+                        </table>
+                        {$page}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <include file="./Application/Admin/View/View/footer.html" />
+        <!--//footer-->
+    </div>
+    <!-- Classie -->
+    <script src="{:C('JS_URL')}classie.js"></script>
+    <script>
+        var menuLeft = document.getElementById('cbp-spmenu-s1'),
+            showLeftPush = document.getElementById('showLeftPush'),
+            body = document.body;
+
+        showLeftPush.onclick = function () {
+            classie.toggle(this, 'active');
+            classie.toggle(body, 'cbp-spmenu-push-toright');
+            classie.toggle(menuLeft, 'cbp-spmenu-open');
+            disableOther('showLeftPush');
+        };
+
+        function disableOther(button) {
+            if (button !== 'showLeftPush') {
+                classie.toggle(showLeftPush, 'disabled');
+            }
+        }
+    </script>
+    <!--scrolling js-->
+    <script src="{:C('JS_URL')}jquery.nicescroll.js"></script>
+    <script src="{:C('JS_URL')}scripts.js"></script>
+    <!--//scrolling js-->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{:C('JS_URL')}bootstrap.js"></script>
+</body>
+
+</html>
+
+<!--冻结操作-->
+<script>
+        function cold(e) {
+            var id = $(e).attr("id");
+            layer.confirm('请选择冻结期限', {
+                btn: ['永久冻结', '自定义冻结'] //按钮
+            }, function () {
+                var index = layer.load(0, { shade: false }); //0代表加载的风格，支持0-2
+                var flag = 3;
+                $.ajax({
+                    type: "post",
+                    url: "{:U('coldUser')}",
+                    data: "user_id=" + id + "&flag=" + flag,
+                    dataType: "json",
+                    success: function (msg) {
+                        if (msg['status'] = 200) {
+                            layer.closeAll("loading");
+                            layer.msg('成功封印');
+                            $(e).parent().prev().html("<td>无限期封印</td>")
+                        }
+                    }
+                });
+            }, function () {
+                layer.prompt({ title: '输入需要封印的天数', formType: 3 }, function (val, index) {
+                    layer.close(index);
+                    var index = layer.load(0, { shade: false }); //0代表加载的风格，支持0-2
+
+                    var flag = 2;
+                    var date = val;
+                    $.ajax({
+                        type: "post",
+                        url: "{:U('coldUser')}",
+                        data: "user_id=" + id + "&flag=" + flag + "&date=" + date,
+                        dataType: "json",
+                        success: function (msg) {
+                            if (msg['status'] = 200) {
+                                layer.closeAll("loading");
+                                layer.msg('成功封印');
+                                $(e).parent().prev().html("<td>有期限封印</td>")
+                            }
+                        }
+                    });
+                });
+            });
+        }
+
+</script>
+
+
+<!--条件搜索无刷新-->
+<script>
+    function refresh() {
+        var index = layer.load(0, { shade: false }); //0代表加载的风格，支持0-2
+        var e = $(".form-inline").serialize();
+        $.ajax({
+            type: "post",
+            url: "{:U('search')}",
+            data: e,
+            dataType: "json",
+            success: function (msg) {
+                layer.closeAll("loading");
+                console.log(msg['msg']);
+                $("#fresh").empty().append(msg['msg']);
+            }
+        });
+        return false;
+    }
+</script>

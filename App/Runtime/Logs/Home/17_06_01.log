@@ -1,0 +1,20 @@
+[ 2017-06-01T19:37:49+08:00 ] 127.0.0.1 /index.php/home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001800s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001851s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008737s ]
+

@@ -1,0 +1,1678 @@
+[ 2017-07-10T08:19:04+08:00 ] 127.0.0.1 /index.php/Home/user/updmember/memberid/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+ERR: 非法操作:updmember
+
+[ 2017-07-10T08:19:27+08:00 ] 127.0.0.1 /index.php/Home/user/updmember/memberid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+ERR: 非法操作:updmember
+
+[ 2017-07-10T08:19:34+08:00 ] 127.0.0.1 /index.php/Home/user/updmember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+ERR: 非法操作:updmember
+
+[ 2017-07-10T08:20:03+08:00 ] 127.0.0.1 /index.php/Home/user/updMember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+ERR: 非法操作:updMember
+
+[ 2017-07-10T08:20:10+08:00 ] 127.0.0.1 /index.php/Home/user/updmember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+ERR: 非法操作:updmember
+
+[ 2017-07-10T08:21:06+08:00 ] 127.0.0.1 /index.php/Home/user/updMemberLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 非法操作:updMemberLevel
+
+[ 2017-07-10T08:21:23+08:00 ] 127.0.0.1 /index.php/Home/user/delmember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+ERR: 非法操作:delmember
+
+[ 2017-07-10T08:21:37+08:00 ] 127.0.0.1 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-07-10T08:22:04+08:00 ] 127.0.0.1 /index.php/Home/user/delmember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+ERR: 非法操作:delmember
+
+[ 2017-07-10T08:22:05+08:00 ] 127.0.0.1 /index.php/Home/user/updMemberLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+ERR: 非法操作:updMemberLevel
+
+[ 2017-07-10T08:22:05+08:00 ] 127.0.0.1 /index.php/Home/user/updmember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 非法操作:updmember
+
+[ 2017-07-10T08:22:06+08:00 ] 127.0.0.1 /index.php/Home/user/updmember/memberid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+ERR: 非法操作:updmember
+
+[ 2017-07-10T08:22:15+08:00 ] 127.0.0.1 /index.php/Home/admin/updMemberLevel/memberid/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-07-10T10:32:09+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-07-10T10:32:12+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-07-10T10:36:21+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-07-10T10:36:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-07-10T10:36:23+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-07-10T10:36:24+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-07-10T10:36:25+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-07-10T10:36:53+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2017-07-10T10:36:54+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+
+[ 2017-07-10T10:37:00+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-07-10T10:41:48+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+
+[ 2017-07-10T10:42:08+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'order clause'
+
+[ 2017-07-10T10:42:28+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-07-10T10:42:28+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 非法操作:
+
+[ 2017-07-10T10:42:28+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 非法操作:
+
+[ 2017-07-10T10:42:31+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-07-10T10:43:07+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-07-10T10:43:18+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-07-10T10:48:02+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-07-10T10:48:06+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-07-10T10:48:11+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-07-10T10:48:17+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-07-10T10:48:26+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-07-10T10:49:01+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2017-07-10T10:49:01+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-07-10T10:49:06+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-07-10T10:49:06+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+ERR: 非法操作:
+
+[ 2017-07-10T10:49:06+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 非法操作:
+
+[ 2017-07-10T10:57:14+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: syntax error, unexpected '}'
+
+[ 2017-07-10T10:57:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-07-10T10:57:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+ERR: 非法操作:
+
+[ 2017-07-10T10:57:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 非法操作:
+
+[ 2017-07-10T10:59:17+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-07-10T10:59:17+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+ERR: 非法操作:
+
+[ 2017-07-10T10:59:17+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 非法操作:
+
+[ 2017-07-10T11:00:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-07-10T11:00:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+ERR: 非法操作:
+
+[ 2017-07-10T11:00:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+ERR: 非法操作:
+
+[ 2017-07-10T11:02:27+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-07-10T11:27:47+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: syntax error, unexpected '*', expecting end of file
+
+[ 2017-07-10T11:28:17+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-07-10T11:28:17+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 非法操作:
+
+[ 2017-07-10T11:28:17+08:00 ] 127.0.0.1 /index.php/Home/Goods/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 非法操作:
+
+[ 2017-07-10T11:29:03+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+
+[ 2017-07-10T11:29:32+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-07-10T11:30:08+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-07-10T11:30:15+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-07-10T11:30:56+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-07-10T11:31:47+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-07-10T11:39:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goods_members_pricr' in 'field list'
+
+[ 2017-07-10T11:40:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+ERR: syntax error, unexpected 'return' (T_RETURN)
+
+[ 2017-07-10T11:40:37+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tpshop.sp_member' doesn't exist
+
+[ 2017-07-10T11:41:08+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-07-10T11:41:14+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-07-10T11:41:35+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-07-10T11:41:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-07-10T11:42:03+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-07-10T11:42:21+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-07-10T11:42:37+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-07-10T11:42:54+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-07-10T11:43:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-07-10T11:47:25+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-07-10T11:47:28+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-07-10T11:49:29+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-07-10T11:49:34+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-07-10T11:50:25+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: syntax error, unexpected '"', expecting ']'
+
+[ 2017-07-10T11:50:36+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2017-07-10T11:51:17+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-07-10T11:54:17+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: syntax error, unexpected 'cartBox' (T_STRING), expecting ']'
+
+[ 2017-07-10T11:54:48+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-07-10T11:55:06+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-07-10T11:55:51+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: syntax error, unexpected '：' (T_STRING)
+
+[ 2017-07-10T11:56:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: syntax error, unexpected 'values' (T_STRING), expecting ']'
+
+[ 2017-07-10T12:27:19+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+ERR: syntax error, unexpected 'values' (T_STRING), expecting ']'
+
+[ 2017-07-10T12:27:38+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: syntax error, unexpected 'cartBox' (T_STRING), expecting ']'
+
+[ 2017-07-10T12:29:32+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: syntax error, unexpected 'cartBox' (T_STRING), expecting ']'
+
+[ 2017-07-10T12:31:12+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-07-10T12:31:19+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-07-10T12:31:47+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-07-10T12:31:49+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2017-07-10T12:31:56+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2017-07-10T12:32:44+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-07-10T12:32:47+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-07-10T12:33:04+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-07-10T12:34:07+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-07-10T12:34:42+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-07-10T12:34:53+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-07-10T12:36:19+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-07-10T12:36:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2017-07-10T12:37:20+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-07-10T12:37:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-07-10T12:38:29+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-07-10T12:39:00+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+
+[ 2017-07-10T12:39:34+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-07-10T12:42:30+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-07-10T12:43:06+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-07-10T12:43:35+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2017-07-10T12:44:29+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-07-10T12:45:08+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-07-10T12:46:27+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-07-10T12:47:01+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+
+[ 2017-07-10T12:47:42+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-07-10T12:48:01+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-07-10T12:48:06+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2017-07-10T12:48:29+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-07-10T12:48:51+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-07-10T12:50:25+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-07-10T12:51:12+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-07-10T12:53:19+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-07-10T12:58:10+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-07-10T12:58:18+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-07-10T12:59:02+08:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-07-10T12:59:02+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-07-10T12:59:06+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-07-10T12:59:09+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-07-10T12:59:41+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-07-10T12:59:53+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-07-10T13:00:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-07-10T13:00:35+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-07-10T20:27:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-07-10T20:27:12+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-07-10T20:27:28+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-07-10T20:27:35+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2017-07-10T20:27:42+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-07-10T20:27:49+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+
+[ 2017-07-10T20:27:49+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-07-10T20:27:52+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-07-10T20:27:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-07-10T20:28:19+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-07-10T20:29:46+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-07-10T20:29:49+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:29:54+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-07-10T20:30:01+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:30:02+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:30:16+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-07-10T20:44:25+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0058s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0057s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0041s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-10T20:44:34+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0049s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0099s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0041s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-10T20:53:13+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0047s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0048s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0045s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:53:17+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-07-10T20:53:23+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0051s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0049s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0041s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:53:36+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-07-10T20:53:40+08:00 ] 127.0.0.1 /index.php/Home/Shop/delCartGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:53:41+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-07-10T20:54:08+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0045s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0050s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0045s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:55:04+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0103s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0068s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:55:48+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0045s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0044s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0043s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:56:00+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-07-10T20:56:09+08:00 ] 127.0.0.1 /index.php/Home/Shop/delCartGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:56:10+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-07-10T20:56:15+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0046s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0046s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0046s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:56:21+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0042s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0045s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0044s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0041s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:56:37+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-07-10T20:56:40+08:00 ] 127.0.0.1 /index.php/Home/Shop/delCartGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:56:41+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-07-10T20:56:50+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0082s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0064s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0085s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0046s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:57:22+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0042s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0052s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0041s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:57:33+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0046s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0046s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0102s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0046s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:57:49+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0135s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0066s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0069s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0042s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:57:52+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0077s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0044s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0058s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:57:53+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-07-10T20:57:56+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0118s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0045s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0053s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:57:59+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0052s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0046s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0044s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:58:06+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0044s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0042s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:58:08+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-07-10T20:58:11+08:00 ] 127.0.0.1 /index.php/Home/Shop/delCartGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T20:58:12+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2017-07-10T20:59:05+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0046s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0083s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0083s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:02:35+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0061s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0051s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:02:41+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-07-10T21:02:44+08:00 ] 127.0.0.1 /index.php/Home/Shop/delCartGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:02:45+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-07-10T21:02:50+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0061s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0044s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0049s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:02:56+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0044s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0045s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0045s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:07:08+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-07-10T21:07:10+08:00 ] 127.0.0.1 /index.php/Home/Shop/delCartGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:07:11+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-07-10T21:07:15+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0049s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0042s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0046s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0042s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:07:17+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0044s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0042s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0053s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:07:19+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0043s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0045s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0046s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0048s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:07:22+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-07-10T21:07:24+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:07:25+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:07:30+08:00 ] 127.0.0.1 /index.php/Home/Shop/delCartGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:07:31+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-07-10T21:07:39+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0056s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0081s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0041s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:08:04+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0046s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0047s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '50000' AND `jifen_top` >= '50000' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0039s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:08:07+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-07-10T21:08:11+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-07-10T21:08:19+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+
+[ 2017-07-10T21:12:02+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0052s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0053s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '0' AND `jifen_top` >= '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0042s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '8' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:12:07+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-07-10T21:12:10+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T21:12:13+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-07-10T21:12:55+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-07-10T21:39:28+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-07-10T22:02:24+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: syntax error, unexpected 'return' (T_RETURN)
+
+[ 2017-07-10T22:02:37+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-07-10T22:02:44+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-07-10T22:02:52+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-07-10T22:08:13+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: syntax error, unexpected ';'
+
+[ 2017-07-10T22:08:19+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: syntax error, unexpected ';'
+
+[ 2017-07-10T22:09:05+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+
+[ 2017-07-10T22:09:26+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+
+[ 2017-07-10T22:09:49+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-07-10T22:09:59+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-07-10T22:10:28+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-07-10T22:12:40+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-07-10T22:13:01+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-07-10T22:13:24+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-07-10T22:14:09+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-07-10T22:14:16+08:00 ] 127.0.0.1 /index.php/Home/Order/OrderDetail/order_id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-07-10T22:14:28+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-07-10T22:14:33+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-07-10T22:14:39+08:00 ] 127.0.0.1 /index.php/Home/shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-07-10T22:14:51+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0058s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0044s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '1996' AND `jifen_top` >= '1996' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0044s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '8' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T22:14:54+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0045s ]
+SQL: SELECT `goods_price`,`goods_members_price` FROM `sp_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0061s ]
+SQL: SELECT `jifen` FROM `sp_user` WHERE `user_id` = 224 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`level_rate` FROM `sp_member_level` WHERE `jifen_bottom` <= '1996' AND `jifen_top` >= '1996' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_price` [ RunTime:0.0064s ]
+SQL: SELECT `price` FROM `sp_member_price` WHERE `goods_id` = '46' AND `level_id` = '8' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\web\tpshop\App\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-10T22:14:55+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-07-10T22:15:01+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-07-10T22:15:04+08:00 ] 127.0.0.1 /index.php/Home/Shop/goodsOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-07-10T22:15:08+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-07-10T22:55:01+08:00 ] 127.0.0.1 /index.php/Home/order/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-07-10T22:55:18+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/goods_id/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+

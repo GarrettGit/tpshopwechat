@@ -1,0 +1,333 @@
+[ 2017-08-04T22:54:26+08:00 ] 127.0.0.1 /index.php/wechat/wechat.login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载控制器:Wechat.login
+
+[ 2017-08-04T22:54:31+08:00 ] 127.0.0.1 /index.php/wechat/wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载控制器:Wechat
+
+[ 2017-08-04T22:54:37+08:00 ] 127.0.0.1 /index.php/Wechat/wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载控制器:Wechat
+
+[ 2017-08-04T22:55:34+08:00 ] 127.0.0.1 /index.php/Wechat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+ERR: 无法加载控制器:Wechat
+
+[ 2017-08-04T22:57:06+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-08-04T22:57:39+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001571s ]
+
+[ 2017-08-04T22:57:42+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2017-08-04T22:59:26+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+ERR: Think\Controller:responseMsg方法不存在！
+
+[ 2017-08-04T23:02:10+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+ERR: Think\Controller:responseMsg方法不存在！
+
+[ 2017-08-04T23:04:19+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+ERR: Think\Controller:responseMsg方法不存在！
+
+[ 2017-08-04T23:04:22+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+ERR: Think\Controller:responseMsg方法不存在！
+
+[ 2017-08-04T23:06:14+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+ERR: syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-08-04T23:28:30+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\web\tpshop\App\WeChat\Controller\WechatBaseController.class.php 第 44 行.
+ERR: Class 'WeChat\Controller\Hook' not found
+
+[ 2017-08-04T23:28:50+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\web\tpshop\App\WeChat\Controller\WechatBaseController.class.php 第 44 行.
+ERR: Class 'Hook' not found
+
+[ 2017-08-04T23:29:10+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\web\tpshop\App\WeChat\Controller\WechatBaseController.class.php 第 44 行.
+INFO: [ wechat_msgType ] --START--
+ERR: Class 'WeChat/Wechat/MsgTypeBehavior' not found
+
+[ 2017-08-04T23:29:30+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\web\tpshop\App\WeChat\Controller\WechatBaseController.class.php 第 44 行.
+INFO: [ wechat_msgType ] --START--
+ERR: Class '\WeChat/Wechat/MsgTypeBehavior' not found
+
+[ 2017-08-04T23:31:02+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-08-04T23:31:41+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-08-04T23:33:21+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\web\tpshop\App\WeChat\Controller\WechatBaseController.class.php 第 44 行.
+INFO: [ wechat_msgType ] --START--
+ERR: Class 'WeChat/Wechat/MsgTypeBehavior' not found
+
+[ 2017-08-04T23:33:53+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\web\tpshop\App\WeChat\Controller\WechatBaseController.class.php 第 44 行.
+INFO: [ wechat_msgType ] --START--
+ERR: Class 'WeChat/Wechat/MsgTypeBehavior' not found
+
+[ 2017-08-04T23:34:28+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\web\tpshop\App\WeChat\Controller\WechatBaseController.class.php 第 44 行.
+INFO: [ wechat_msgType ] --START--
+ERR: Class 'WeChat/Behaviors/MsgTypeBehavior' not found
+
+[ 2017-08-04T23:35:51+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\web\tpshop\App\WeChat\Controller\WechatBaseController.class.php 第 44 行.
+INFO: [ wechat_msgType ] --START--
+ERR: Class 'WeChat/Behaviors/MsgTypeBehavior' not found
+
+[ 2017-08-04T23:36:48+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\web\tpshop\App\WeChat\Controller\WechatBaseController.class.php 第 44 行.
+INFO: [ wechat_msgType ] --START--
+ERR: Class 'WeChat/Behaviors/MsgTypeBehavior' not found
+
+[ 2017-08-04T23:37:29+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\web\tpshop\App\WeChat\Controller\WechatBaseController.class.php 第 44 行.
+INFO: [ wechat_msgType ] --START--
+INFO: Run WeChat\Behaviors\MsgTypeBehavior [ RunTime:0.001341s ]
+INFO: [ wechat_msgType ] --END-- [ RunTime:0.001432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-08-04T23:46:13+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+INFO: [ wechat_msgType ] --START--
+INFO: Run WeChat\Behaviors\MsgTypeBehavior [ RunTime:0.001223s ]
+INFO: [ wechat_msgType ] --END-- [ RunTime:0.001318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2017-08-04T23:52:15+08:00 ] 127.0.0.1 /index.php/WeChat/Wechat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ wechat_msgType ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found D:\web\tpshop\App\WeChat\Behaviors\MsgTypeBehavior.class.php 第 31 行.
+NOTIC: [2] simplexml_load_string(): name=admin&amp;Password=123456 D:\web\tpshop\App\WeChat\Behaviors\MsgTypeBehavior.class.php 第 31 行.
+NOTIC: [2] simplexml_load_string(): ^ D:\web\tpshop\App\WeChat\Behaviors\MsgTypeBehavior.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object D:\web\tpshop\App\WeChat\Behaviors\MsgTypeBehavior.class.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object D:\web\tpshop\App\WeChat\Behaviors\MsgTypeBehavior.class.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\web\tpshop\App\WeChat\Behaviors\MsgTypeBehavior.class.php 第 34 行.
+NOTIC: [8] Trying to get property of non-object D:\web\tpshop\App\WeChat\Behaviors\MsgTypeBehavior.class.php 第 36 行.
+INFO: Run WeChat\Behaviors\MsgTypeBehavior [ RunTime:0.010535s ]
+INFO: [ wechat_msgType ] --END-- [ RunTime:0.010775s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `sp_manager` WHERE `mg_name` = 'admin' LIMIT 1   [ RunTime:0.0052s ]
+
+[ 2017-08-04T23:52:15+08:00 ] 127.0.0.1 /index.php/WeChat/wechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+INFO: [ wechat_msgType ] --START--
+INFO: Run WeChat\Behaviors\MsgTypeBehavior [ RunTime:0.001318s ]
+INFO: [ wechat_msgType ] --END-- [ RunTime:0.001452s ]
+ERR: 非法操作:index
+

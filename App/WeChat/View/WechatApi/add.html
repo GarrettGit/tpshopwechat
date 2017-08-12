@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Tables</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Novus Admin Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    }
+    </script>
+    <!-- Bootstrap Core CSS -->
+    <link href="{:C('CSS_URL')}bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- Custom CSS -->
+    <link href="{:C('CSS_URL')}style.css" rel='stylesheet' type='text/css' />
+    <!-- font CSS -->
+    <!-- font-awesome icons -->
+    <link href="{:C('CSS_URL')}font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+    <!-- js-->
+    <script src="{:C('JS_URL')}jquery-1.11.1.min.js"></script>
+    <script src="{:C('JS_URL')}modernizr.custom.js"></script>
+    <!--webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet'
+        type='text/css'>
+    <!--//webfonts-->
+    <!--animate-->
+    <link href="{:C('CSS_URL')}animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="{:C('JS_URL')}wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--//end-animate-->
+    <!-- Metis Menu -->
+    <script src="{:C('JS_URL')}metisMenu.min.js"></script>
+    <script src="{:C('JS_URL')}custom.js"></script>
+    <link href="{:C('CSS_URL')}custom.css" rel="stylesheet">
+    <!--//Metis Menu -->
+</head>
+
+<body class="cbp-spmenu-push">
+    <div class="main-content">
+        <!--left-fixed -navigation-->
+        <include file="./Application/Admin/View/View/navi.html" />
+        <!--left-fixed -navigation-->
+        <!-- header-starts -->
+        <include file="./Application/Admin/View/View/header.html" />
+        <!-- //header-ends -->
+        <!-- main content start-->
+        <div id="page-wrapper">
+            <div class="main-page">
+                <div class="tables">
+                    <h3 class="title1">编辑管理员</h3>
+                    <div class="panel-body widget-shadow">
+                        <h4>{$info.mg_name}的信息:</h4>
+                        <form class="form-horizontal" action="" method="post" onsubmit="return isTrue()">
+                            <input type="hidden" name="mg_id" value="{$info['mg_id']}">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>键</th>
+                                        <th>值</th>
+                                        <th>备注</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">账号</th>
+                                        <td><input type="text" class="form-control1" id="focusedinput" name="mg_name" value="{$info.mg_name}">                                            </td>
+                                        <td id="focusedinput_td">用于登录的用户名</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">密码</th>
+                                        <td><input type="password" class="form-control1" id="inputPassword1" name="mg_pwd" placeholder="Password">                                            </td>
+                                        <td id="inputPassword_td1">暂时不开放平台修改密码功能</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">确认密码</th>
+                                        <td><input type="password" class="form-control1" id="inputPassword2" placeholder="Password"></td>
+                                        <td id="inputPassword_td2">暂时不开放平台修改密码功能</td>
+                                    </tr>
+                                    <neq name="info['role_id']" value="1">
+                                        <tr>
+                                            <th scope="row">管理组名称</th>
+                                            <td><select name="role_id" id="selector" class="form-control1">
+                                    <foreach name="role_info" item="v">
+                                        <!--<neq name="v['role_id']" value="1">-->
+										    <option value="{$v['role_id']}" <eq name="v['role_id']" value="$info['role_id']">selected</eq>>{$v.role_name}</option>
+                                        <!--</neq>-->
+                                        </foreach>
+									</select></td>
+                                            <td>管理组名称，不同管理组权限不同，具体可参见管理组列表或询问超级管理员</td>
+                                        </tr>
+                                    </neq>
+                                </tbody>
+                            </table>
+                            <button type="submit" class="btn btn-large btn-block btn-default">提交</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <include file="./Application/Admin/View/View/footer.html" />
+        <!--//footer-->
+    </div>
+    <!-- Classie -->
+    <script src="{:C('JS_URL')}classie.js"></script>
+    <script>
+        var menuLeft = document.getElementById('cbp-spmenu-s1'),
+            showLeftPush = document.getElementById('showLeftPush'),
+            body = document.body;
+
+        showLeftPush.onclick = function () {
+            classie.toggle(this, 'active');
+            classie.toggle(body, 'cbp-spmenu-push-toright');
+            classie.toggle(menuLeft, 'cbp-spmenu-open');
+            disableOther('showLeftPush');
+        };
+
+        function disableOther(button) {
+            if (button !== 'showLeftPush') {
+                classie.toggle(showLeftPush, 'disabled');
+            }
+        }
+    </script>
+    <!--scrolling js-->
+    <script src="{:C('JS_URL')}jquery.nicescroll.js"></script>
+    <script src="{:C('JS_URL')}scripts.js"></script>
+    <!--//scrolling js-->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{:C('JS_URL')}bootstrap.js"></script>
+</body>
+
+</html>
+
+
+<script>
+        var flag_name = true;
+        var flag_pwd = true;
+
+        // 用户名的判断，这里使用ajax请求去服务器判断是否存在
+        $("#focusedinput").blur(function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: "post",
+                url: "{:U('checkName')}",
+                data: "mg_name=" + $("#focusedinput").val(),
+                dataType: "json",
+                success: function (msg) {
+                    if (msg["status"] == 202) {
+                        $("#focusedinput_td").html("<font color='red'>该用户名已存在<font>");
+                        flag_name = false;
+                    }
+                    else {
+                        $("#focusedinput_td").html("<font color='blue'>该用户名可以使用<font>");
+                        flag_name = true;
+                    }
+                }
+            });
+        });
+
+        // 密码一致性判断
+        $("#inputPassword2").blur(function (e) {
+            e.preventDefault();
+            if ($("#inputPassword2").val() === $("#inputPassword1").val()) {
+                $("#inputPassword_td1").html("<font color='blue'>密码一致<font>");
+                $("#inputPassword_td2").html("<font color='blue'>密码一致<font>");
+                flag_pwd = true;
+            }
+            else {
+                $("#inputPassword_td1").html("<font color='red'>两次密码不一致<font>");
+                $("#inputPassword_td2").html("<font color='red'>两次密码不一致<font>");
+                flag_pwd = false;
+            }
+        });
+
+ 
+function isTrue() {
+    return flag_name && flag_pwd;
+}
+
+</script>
